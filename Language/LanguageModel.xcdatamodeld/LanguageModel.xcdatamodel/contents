@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="878" systemVersion="11C74" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="AnswerTally" representedClassName="AnswerTally" syncable="YES">
+        <attribute name="associatedWordID" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="correctlyAnswered" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="incorrectlyAnswered" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <entity name="Section" representedClassName="Section" syncable="YES">
+        <attribute name="specialIdentifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uniqueID" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="wordIDs" optional="YES" attributeType="Transformable" syncable="YES"/>
+    </entity>
+    <entity name="Word" representedClassName="Word" syncable="YES">
+        <attribute name="alternateSpecialIdentifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="examples" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="Transformable" storedInTruthFile="YES" syncable="YES"/>
+        <attribute name="language1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="language2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="language2supplemental" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="section" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="specialIdentifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uniqueID" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="AnswerTally" positionX="160" positionY="192" width="128" height="75"/>
+        <element name="Section" positionX="-20" positionY="-27" width="128" height="105"/>
+        <element name="Word" positionX="-299" positionY="-27" width="128" height="165"/>
+    </elements>
+</model>

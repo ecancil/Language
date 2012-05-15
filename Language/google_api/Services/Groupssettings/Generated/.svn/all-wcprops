@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/151/trunk/Source/Services/Groupssettings/Generated
+END
+GTLGroupssettingsConstants.m
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/96/trunk/Source/Services/Groupssettings/Generated/GTLGroupssettingsConstants.m
+END
+GTLGroupssettingsGroups.m
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/96/trunk/Source/Services/Groupssettings/Generated/GTLGroupssettingsGroups.m
+END
+GTLServiceGroupssettings.m
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/131/trunk/Source/Services/Groupssettings/Generated/GTLServiceGroupssettings.m
+END
+GTLQueryGroupssettings.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/151/trunk/Source/Services/Groupssettings/Generated/GTLQueryGroupssettings.h
+END
+GTLQueryGroupssettings.m
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/151/trunk/Source/Services/Groupssettings/Generated/GTLQueryGroupssettings.m
+END
+GTLGroupssettingsConstants.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/96/trunk/Source/Services/Groupssettings/Generated/GTLGroupssettingsConstants.h
+END
+GTLGroupssettings.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/96/trunk/Source/Services/Groupssettings/Generated/GTLGroupssettings.h
+END
+GTLGroupssettingsGroups.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/124/trunk/Source/Services/Groupssettings/Generated/GTLGroupssettingsGroups.h
+END
+GTLServiceGroupssettings.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/96/trunk/Source/Services/Groupssettings/Generated/GTLServiceGroupssettings.h
+END
