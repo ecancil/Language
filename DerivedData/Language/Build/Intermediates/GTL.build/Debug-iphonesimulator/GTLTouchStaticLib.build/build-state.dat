@@ -1,0 +1,1088 @@
+TGTLTouchStaticLib
+v4
+r1
+cCheck dependencies
+cPBXCp Utilities/GTLBase64.h /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTLBase64.h
+cPBXCp Objects/GTLBatchQuery.h /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTLBatchQuery.h
+cPBXCp Objects/GTLBatchResult.h /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTLBatchResult.h
+cPBXCp Objects/GTLDateTime.h /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTLDateTime.h
+cPBXCp GTLDefines.h /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTLDefines.h
+cPBXCp Objects/GTLErrorObject.h /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTLErrorObject.h
+cPBXCp Utilities/GTLFramework.h /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTLFramework.h
+cPBXCp Utilities/GTLJSONParser.h /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTLJSONParser.h
+cPBXCp Objects/GTLObject.h /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTLObject.h
+cPBXCp Objects/GTLQuery.h /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTLQuery.h
+cPBXCp Objects/GTLRuntimeCommon.h /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTLRuntimeCommon.h
+cPBXCp Objects/GTLService.h /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTLService.h
+cPBXCp Utilities/GTLTargetNamespace.h /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTLTargetNamespace.h
+cPBXCp Objects/GTLUploadParameters.h /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTLUploadParameters.h
+cPBXCp Utilities/GTLUtilities.h /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTLUtilities.h
+cPBXCp HTTPFetcher/GTMGatherInputStream.h /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTMGatherInputStream.h
+cPBXCp HTTPFetcher/GTMHTTPFetcher.h /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTMHTTPFetcher.h
+cPBXCp HTTPFetcher/GTMHTTPFetcherLogging.h /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTMHTTPFetcherLogging.h
+cPBXCp HTTPFetcher/GTMHTTPFetcherService.h /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTMHTTPFetcherService.h
+cPBXCp HTTPFetcher/GTMHTTPFetchHistory.h /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTMHTTPFetchHistory.h
+cPBXCp HTTPFetcher/GTMHTTPUploadFetcher.h /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTMHTTPUploadFetcher.h
+cPBXCp HTTPFetcher/GTMMIMEDocument.h /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTMMIMEDocument.h
+cPBXCp OAuth2/GTMOAuth2Authentication.h /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTMOAuth2Authentication.h
+cPBXCp OAuth2/GTMOAuth2SignIn.h /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTMOAuth2SignIn.h
+cPBXCp OAuth2/Touch/GTMOAuth2ViewControllerTouch.h /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTMOAuth2ViewControllerTouch.h
+cPBXCp OAuth2/Mac/GTMOAuth2WindowController.h /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTMOAuth2WindowController.h
+cPBXCp HTTPFetcher/GTMReadMonitorInputStream.h /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTMReadMonitorInputStream.h
+cCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMOAuth2SignIn.o /Users/ecancil/Desktop/Language/Language/google_api/OAuth2/GTMOAuth2SignIn.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMOAuth2Authentication.o /Users/ecancil/Desktop/Language/Language/google_api/OAuth2/GTMOAuth2Authentication.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMOAuth2ViewControllerTouch.o /Users/ecancil/Desktop/Language/Language/google_api/OAuth2/Touch/GTMOAuth2ViewControllerTouch.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMGatherInputStream.o /Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMGatherInputStream.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMHTTPFetcher.o /Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMHTTPFetcher.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMHTTPFetcherLogging.o /Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMHTTPFetcherLogging.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMHTTPFetchHistory.o /Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMHTTPFetchHistory.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMHTTPUploadFetcher.o /Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMHTTPUploadFetcher.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMMIMEDocument.o /Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMMIMEDocument.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMHTTPFetcherService.o /Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMHTTPFetcherService.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLFramework.o /Users/ecancil/Desktop/Language/Language/google_api/Utilities/GTLFramework.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLJSONParser.o /Users/ecancil/Desktop/Language/Language/google_api/Utilities/GTLJSONParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLUtilities.o /Users/ecancil/Desktop/Language/Language/google_api/Utilities/GTLUtilities.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLBatchQuery.o /Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLBatchQuery.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLBatchResult.o /Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLBatchResult.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLDateTime.o /Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLDateTime.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLErrorObject.o /Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLErrorObject.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLObject.o /Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLObject.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLQuery.o /Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLQuery.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLRuntimeCommon.o /Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLRuntimeCommon.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLService.o /Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLService.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLUploadParameters.o /Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLUploadParameters.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMReadMonitorInputStream.o /Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMReadMonitorInputStream.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLBase64.o /Users/ecancil/Desktop/Language/Language/google_api/Utilities/GTLBase64.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/SBJsonBase.o /Users/ecancil/Desktop/Language/Language/google_api/JSON/SBJsonBase.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/SBJsonParser.o /Users/ecancil/Desktop/Language/Language/google_api/JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/SBJsonWriter.o /Users/ecancil/Desktop/Language/Language/google_api/JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/libGTLTouchStaticLib.a normal i386
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk
+c000000004EEBE4720000000000000110
+t1324082290
+s272
+
+N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLBase64.o
+t2
+s0
+
+N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLBatchQuery.o
+t2
+s0
+
+N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLBatchResult.o
+t2
+s0
+
+N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLDateTime.o
+t2
+s0
+
+N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLErrorObject.o
+t2
+s0
+
+N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLFramework.o
+t2
+s0
+
+N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLJSONParser.o
+t2
+s0
+
+N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLObject.o
+t2
+s0
+
+N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLQuery.o
+t2
+s0
+
+N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLRuntimeCommon.o
+t2
+s0
+
+N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLService.o
+t2
+s0
+
+N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLTouchStaticLib.LinkFileList
+c000000004FA9491B00000000000011A7
+t1336494363
+s4519
+
+N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLUploadParameters.o
+t2
+s0
+
+N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLUtilities.o
+t2
+s0
+
+N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMGatherInputStream.o
+t2
+s0
+
+N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMHTTPFetchHistory.o
+t2
+s0
+
+N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMHTTPFetcher.o
+t2
+s0
+
+N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMHTTPFetcherLogging.o
+t2
+s0
+
+N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMHTTPFetcherService.o
+t2
+s0
+
+N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMHTTPUploadFetcher.o
+t2
+s0
+
+N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMMIMEDocument.o
+t2
+s0
+
+N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMOAuth2Authentication.o
+t2
+s0
+
+N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMOAuth2SignIn.o
+t2
+s0
+
+N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMOAuth2ViewControllerTouch.o
+t2
+s0
+
+N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMReadMonitorInputStream.o
+t2
+s0
+
+N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/SBJsonBase.o
+t2
+s0
+
+N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/SBJsonParser.o
+t2
+s0
+
+N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/SBJsonWriter.o
+t2
+s0
+
+N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTLBase64.h
+t1336493962
+s954
+
+N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTLBatchQuery.h
+t1336493962
+s1450
+
+N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTLBatchResult.h
+t1336493962
+s1841
+
+N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTLDateTime.h
+t1336493962
+s2059
+
+N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTLDefines.h
+t1336493962
+s4073
+
+N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTLErrorObject.h
+t1336493962
+s1414
+
+N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTLFramework.h
+t1336493962
+s1065
+
+N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTLJSONParser.h
+t1336493962
+s1284
+
+N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTLObject.h
+t1336493962
+s5468
+
+N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTLQuery.h
+t1336493962
+s4377
+
+N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTLRuntimeCommon.h
+t1336493962
+s1841
+
+N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTLService.h
+t1336493962
+s23478
+
+N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTLTargetNamespace.h
+t1336493962
+s2926
+
+N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTLUploadParameters.h
+t1336493962
+s1781
+
+N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTLUtilities.h
+t1336493962
+s3424
+
+N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTMGatherInputStream.h
+t1336493962
+s2548
+
+N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTMHTTPFetchHistory.h
+t1336493962
+s6512
+
+N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTMHTTPFetcher.h
+t1336493962
+s27506
+
+N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTMHTTPFetcherLogging.h
+t1336493962
+s2977
+
+N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTMHTTPFetcherService.h
+t1336493962
+s4360
+
+N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTMHTTPUploadFetcher.h
+t1336493962
+s5102
+
+N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTMMIMEDocument.h
+t1336493962
+s2047
+
+N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTMOAuth2Authentication.h
+t1336493962
+s12892
+
+N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTMOAuth2SignIn.h
+t1336493962
+s6123
+
+N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTMOAuth2ViewControllerTouch.h
+t1336493962
+s12782
+
+N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTMOAuth2WindowController.h
+t1336493962
+s12762
+
+N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTMReadMonitorInputStream.h
+t1336493962
+s2134
+
+N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/libGTLTouchStaticLib.a
+t2
+s0
+
+N/Users/ecancil/Desktop/Language/Language/google_api/GTLDefines.h
+c000000004FA947510000000000000FE9
+t1336493905
+s4073
+
+N/Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMGatherInputStream.h
+c000000004FA9475600000000000009F4
+t1336493910
+s2548
+
+N/Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMGatherInputStream.m
+c000000004FA9475600000000000013FC
+t1336493910
+s5116
+
+N/Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMHTTPFetchHistory.h
+c000000004FA947560000000000001970
+t1336493910
+s6512
+
+N/Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMHTTPFetchHistory.m
+c000000004FA947560000000000004305
+t1336493910
+s17157
+
+N/Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMHTTPFetcher.h
+c000000004FA947560000000000006B72
+t1336493910
+s27506
+
+N/Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMHTTPFetcher.m
+c000000004FA94756000000000000DEA3
+t1336493910
+s56995
+
+N/Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMHTTPFetcherLogging.h
+c000000004FA947560000000000000BA1
+t1336493910
+s2977
+
+N/Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMHTTPFetcherLogging.m
+c000000004FA94756000000000000961D
+t1336493910
+s38429
+
+N/Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMHTTPFetcherService.h
+c000000004FA947560000000000001108
+t1336493910
+s4360
+
+N/Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMHTTPFetcherService.m
+c000000004FA947560000000000003392
+t1336493910
+s13202
+
+N/Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMHTTPUploadFetcher.h
+c000000004FA9475600000000000013EE
+t1336493910
+s5102
+
+N/Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMHTTPUploadFetcher.m
+c000000004FA947560000000000007620
+t1336493910
+s30240
+
+N/Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMMIMEDocument.h
+c000000004FA9475600000000000007FF
+t1336493910
+s2047
+
+N/Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMMIMEDocument.m
+c000000004FA94756000000000000221E
+t1336493910
+s8734
+
+N/Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMReadMonitorInputStream.h
+c000000004FA947560000000000000856
+t1336493910
+s2134
+
+N/Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMReadMonitorInputStream.m
+c000000004FA9475600000000000014D5
+t1336493910
+s5333
+
+N/Users/ecancil/Desktop/Language/Language/google_api/JSON/SBJsonBase.m
+c000000004FA9475A0000000000000AC1
+t1336493914
+s2753
+
+N/Users/ecancil/Desktop/Language/Language/google_api/JSON/SBJsonParser.m
+c000000004FA9475A0000000000003B7A
+t1336493914
+s15226
+
+N/Users/ecancil/Desktop/Language/Language/google_api/JSON/SBJsonWriter.m
+c000000004FA9475A000000000000206D
+t1336493914
+s8301
+
+N/Users/ecancil/Desktop/Language/Language/google_api/OAuth2/GTMOAuth2Authentication.h
+c000000004FA94758000000000000325C
+t1336493912
+s12892
+
+N/Users/ecancil/Desktop/Language/Language/google_api/OAuth2/GTMOAuth2Authentication.m
+c000000004FA947580000000000009578
+t1336493912
+s38264
+i"GTMOAuth2Authentication.h"
+
+N/Users/ecancil/Desktop/Language/Language/google_api/OAuth2/GTMOAuth2SignIn.h
+c000000004FA9475800000000000017EB
+t1336493912
+s6123
+
+N/Users/ecancil/Desktop/Language/Language/google_api/OAuth2/GTMOAuth2SignIn.m
+c000000004FA947580000000000006D8C
+t1336493912
+s28044
+
+N/Users/ecancil/Desktop/Language/Language/google_api/OAuth2/Mac/GTMOAuth2WindowController.h
+c000000004FA9475800000000000031DA
+t1336493912
+s12762
+
+N/Users/ecancil/Desktop/Language/Language/google_api/OAuth2/Touch/GTMOAuth2ViewControllerTouch.h
+c000000004FA9475800000000000031EE
+t1336493912
+s12782
+
+N/Users/ecancil/Desktop/Language/Language/google_api/OAuth2/Touch/GTMOAuth2ViewControllerTouch.m
+c000000004FA94758000000000000882C
+t1336493912
+s34860
+
+N/Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLBatchQuery.h
+c000000004FA9475100000000000005AA
+t1336493905
+s1450
+
+N/Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLBatchQuery.m
+c000000004FA947510000000000000D6A
+t1336493905
+s3434
+
+N/Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLBatchResult.h
+c000000004FA947510000000000000731
+t1336493905
+s1841
+
+N/Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLBatchResult.m
+c000000004FA947510000000000000BAE
+t1336493905
+s2990
+
+N/Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLDateTime.h
+c000000004FA94751000000000000080B
+t1336493905
+s2059
+
+N/Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLDateTime.m
+c000000004FA947510000000000003446
+t1336493905
+s13382
+
+N/Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLErrorObject.h
+c000000004FA947510000000000000586
+t1336493905
+s1414
+
+N/Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLErrorObject.m
+c000000004FA94751000000000000092F
+t1336493905
+s2351
+
+N/Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLObject.h
+c000000004FA94751000000000000155C
+t1336493905
+s5468
+
+N/Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLObject.m
+c000000004FA94751000000000000535D
+t1336493905
+s21341
+
+N/Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLQuery.h
+c000000004FA947510000000000001119
+t1336493905
+s4377
+
+N/Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLQuery.m
+c000000004FA947510000000000001EE8
+t1336493905
+s7912
+
+N/Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLRuntimeCommon.h
+c000000004FA947510000000000000731
+t1336493905
+s1841
+
+N/Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLRuntimeCommon.m
+c000000004FA94751000000000000A1F8
+t1336493905
+s41464
+
+N/Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLService.h
+c000000004FA947510000000000005BB6
+t1336493905
+s23478
+
+N/Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLService.m
+c000000004FA947510000000000016905
+t1336493905
+s92421
+
+N/Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLUploadParameters.h
+c000000004FA9475100000000000006F5
+t1336493905
+s1781
+
+N/Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLUploadParameters.m
+c000000004FA947510000000000000C01
+t1336493905
+s3073
+
+N/Users/ecancil/Desktop/Language/Language/google_api/Utilities/GTLBase64.h
+c000000004FA9475100000000000003BA
+t1336493905
+s954
+
+N/Users/ecancil/Desktop/Language/Language/google_api/Utilities/GTLBase64.m
+c000000004FA947510000000000001200
+t1336493905
+s4608
+
+N/Users/ecancil/Desktop/Language/Language/google_api/Utilities/GTLFramework.h
+c000000004FA947510000000000000429
+t1336493905
+s1065
+
+N/Users/ecancil/Desktop/Language/Language/google_api/Utilities/GTLFramework.m
+c000000004FA94751000000000000053A
+t1336493905
+s1338
+
+N/Users/ecancil/Desktop/Language/Language/google_api/Utilities/GTLJSONParser.h
+c000000004FA947510000000000000504
+t1336493905
+s1284
+
+N/Users/ecancil/Desktop/Language/Language/google_api/Utilities/GTLJSONParser.m
+c000000004FA947510000000000001524
+t1336493905
+s5412
+
+N/Users/ecancil/Desktop/Language/Language/google_api/Utilities/GTLTargetNamespace.h
+c000000004FA947510000000000000B6E
+t1336493905
+s2926
+
+N/Users/ecancil/Desktop/Language/Language/google_api/Utilities/GTLUtilities.h
+c000000004FA947510000000000000D60
+t1336493905
+s3424
+
+N/Users/ecancil/Desktop/Language/Language/google_api/Utilities/GTLUtilities.m
+c000000004FA947510000000000003160
+t1336493905
+s12640
+
+CBuild AST from /Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMGatherInputStream.m
+r0
+
+CBuild AST from /Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMHTTPFetchHistory.m
+r0
+
+CBuild AST from /Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMHTTPFetcher.m
+r0
+
+CBuild AST from /Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMHTTPFetcherLogging.m
+r0
+
+CBuild AST from /Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMHTTPFetcherService.m
+r0
+
+CBuild AST from /Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMHTTPUploadFetcher.m
+r0
+
+CBuild AST from /Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMMIMEDocument.m
+r0
+
+CBuild AST from /Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMReadMonitorInputStream.m
+r0
+
+CBuild AST from /Users/ecancil/Desktop/Language/Language/google_api/JSON/SBJsonBase.m
+r0
+
+CBuild AST from /Users/ecancil/Desktop/Language/Language/google_api/JSON/SBJsonParser.m
+r0
+
+CBuild AST from /Users/ecancil/Desktop/Language/Language/google_api/JSON/SBJsonWriter.m
+r0
+
+CBuild AST from /Users/ecancil/Desktop/Language/Language/google_api/OAuth2/GTMOAuth2Authentication.m
+r0
+
+CBuild AST from /Users/ecancil/Desktop/Language/Language/google_api/OAuth2/GTMOAuth2SignIn.m
+r0
+
+CBuild AST from /Users/ecancil/Desktop/Language/Language/google_api/OAuth2/Touch/GTMOAuth2ViewControllerTouch.m
+r0
+
+CBuild AST from /Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLBatchQuery.m
+r0
+
+CBuild AST from /Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLBatchResult.m
+r0
+
+CBuild AST from /Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLDateTime.m
+r0
+
+CBuild AST from /Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLErrorObject.m
+r0
+
+CBuild AST from /Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLObject.m
+r0
+
+CBuild AST from /Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLQuery.m
+r0
+
+CBuild AST from /Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLRuntimeCommon.m
+r0
+
+CBuild AST from /Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLService.m
+r0
+
+CBuild AST from /Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLUploadParameters.m
+r0
+
+CBuild AST from /Users/ecancil/Desktop/Language/Language/google_api/Utilities/GTLBase64.m
+r0
+
+CBuild AST from /Users/ecancil/Desktop/Language/Language/google_api/Utilities/GTLFramework.m
+r0
+
+CBuild AST from /Users/ecancil/Desktop/Language/Language/google_api/Utilities/GTLJSONParser.m
+r0
+
+CBuild AST from /Users/ecancil/Desktop/Language/Language/google_api/Utilities/GTLUtilities.m
+r0
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies91480b9b8059b541^0344d59b8059b541^---0#1#0#--18"Check dependencies36"73EF5973-1287-4E32-9038-2589957E1517-
+
+CCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLBase64.o /Users/ecancil/Desktop/Language/Language/google_api/Utilities/GTLBase64.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s358187167.261210
+e358187167.510074
+r1
+xCompileC
+x/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLBase64.o
+x/Users/ecancil/Desktop/Language/Language/google_api/Utilities/GTLBase64.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/ecancil/Desktop/Language/Language/google_api/Utilities/GTLBase64.m3f1e469f8059b541^3694829f8059b541^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/ecancil/Desktop/Language/Language/google_api/Utilities/GTLBase64.m0000000000000000^2480"CompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLBase64.o Utilities/GTLBase64.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ecancil/Desktop/Language/Language/google_api    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/GTLTouchStaticLib.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/include -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/DerivedSources/i386 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/DerivedSources -Wall -Werror -Wendif-labels -Wnewline-eof -Wfloat-equal -Wundeclared-selector -F/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator -DDEBUG=1 -DGTL_IPHONE=1 -MMD -MT dependencies -MF /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLBase64.d -c /Users/ecancil/Desktop/Language/Language/google_api/Utilities/GTLBase64.m -o /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLBase64.o36"B38B5FD6-F675-43EB-B466-FF103D9E5341-
+
+CCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLBatchQuery.o /Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLBatchQuery.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s358187165.955324
+e358187166.285351
+r1
+xCompileC
+x/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLBatchQuery.o
+x/Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLBatchQuery.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLBatchQuery.m170df59d8059b541^7712499e8059b541^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLBatchQuery.m0000000000000000^2496"CompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLBatchQuery.o Objects/GTLBatchQuery.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ecancil/Desktop/Language/Language/google_api    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/GTLTouchStaticLib.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/include -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/DerivedSources/i386 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/DerivedSources -Wall -Werror -Wendif-labels -Wnewline-eof -Wfloat-equal -Wundeclared-selector -F/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator -DDEBUG=1 -DGTL_IPHONE=1 -MMD -MT dependencies -MF /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLBatchQuery.d -c /Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLBatchQuery.m -o /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLBatchQuery.o36"3A0C2641-8C71-4BD3-A108-D45CC83F054A-
+
+CCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLBatchResult.o /Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLBatchResult.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s358187165.955576
+e358187166.287629
+r1
+xCompileC
+x/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLBatchResult.o
+x/Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLBatchResult.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLBatchResult.m9626f59d8059b541^4e27499e8059b541^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLBatchResult.m0000000000000000^2501"CompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLBatchResult.o Objects/GTLBatchResult.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ecancil/Desktop/Language/Language/google_api    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/GTLTouchStaticLib.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/include -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/DerivedSources/i386 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/DerivedSources -Wall -Werror -Wendif-labels -Wnewline-eof -Wfloat-equal -Wundeclared-selector -F/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator -DDEBUG=1 -DGTL_IPHONE=1 -MMD -MT dependencies -MF /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLBatchResult.d -c /Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLBatchResult.m -o /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLBatchResult.o36"9CE541B2-727D-467E-AB54-9FB965C959B0-
+
+CCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLDateTime.o /Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLDateTime.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s358187166.149457
+e358187166.397809
+r1
+xCompileC
+x/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLDateTime.o
+x/Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLDateTime.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLDateTime.m826f269e8059b541^60e8659e8059b541^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLDateTime.m0000000000000000^2486"CompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLDateTime.o Objects/GTLDateTime.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ecancil/Desktop/Language/Language/google_api    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/GTLTouchStaticLib.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/include -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/DerivedSources/i386 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/DerivedSources -Wall -Werror -Wendif-labels -Wnewline-eof -Wfloat-equal -Wundeclared-selector -F/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator -DDEBUG=1 -DGTL_IPHONE=1 -MMD -MT dependencies -MF /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLDateTime.d -c /Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLDateTime.m -o /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLDateTime.o36"435B2FE1-F550-427C-9713-B54A35E478E6-
+
+CCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLErrorObject.o /Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLErrorObject.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s358187166.289001
+e358187166.483080
+r1
+xCompileC
+x/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLErrorObject.o
+x/Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLErrorObject.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLErrorObject.me8164a9e8059b541^e3a97b9e8059b541^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLErrorObject.m0000000000000000^2501"CompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLErrorObject.o Objects/GTLErrorObject.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ecancil/Desktop/Language/Language/google_api    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/GTLTouchStaticLib.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/include -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/DerivedSources/i386 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/DerivedSources -Wall -Werror -Wendif-labels -Wnewline-eof -Wfloat-equal -Wundeclared-selector -F/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator -DDEBUG=1 -DGTL_IPHONE=1 -MMD -MT dependencies -MF /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLErrorObject.d -c /Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLErrorObject.m -o /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLErrorObject.o36"8C434598-97BF-4706-9DAD-803C96EF7FA9-
+
+CCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLFramework.o /Users/ecancil/Desktop/Language/Language/google_api/Utilities/GTLFramework.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s358187165.682302
+e358187165.918608
+r1
+xCompileC
+x/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLFramework.o
+x/Users/ecancil/Desktop/Language/Language/google_api/Utilities/GTLFramework.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/ecancil/Desktop/Language/Language/google_api/Utilities/GTLFramework.m8dd5ae9d8059b541^d463eb9d8059b541^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/ecancil/Desktop/Language/Language/google_api/Utilities/GTLFramework.m0000000000000000^2495"CompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLFramework.o Utilities/GTLFramework.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ecancil/Desktop/Language/Language/google_api    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/GTLTouchStaticLib.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/include -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/DerivedSources/i386 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/DerivedSources -Wall -Werror -Wendif-labels -Wnewline-eof -Wfloat-equal -Wundeclared-selector -F/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator -DDEBUG=1 -DGTL_IPHONE=1 -MMD -MT dependencies -MF /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLFramework.d -c /Users/ecancil/Desktop/Language/Language/google_api/Utilities/GTLFramework.m -o /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLFramework.o36"9F3E18FB-6FCA-4573-A8A4-79A9B8284B98-
+
+CCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLJSONParser.o /Users/ecancil/Desktop/Language/Language/google_api/Utilities/GTLJSONParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s358187165.848666
+e358187166.148068
+r1
+xCompileC
+x/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLJSONParser.o
+x/Users/ecancil/Desktop/Language/Language/google_api/Utilities/GTLJSONParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/ecancil/Desktop/Language/Language/google_api/Utilities/GTLJSONParser.mb494dc9d8059b541^21e7259e8059b541^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/ecancil/Desktop/Language/Language/google_api/Utilities/GTLJSONParser.m0000000000000000^2500"CompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLJSONParser.o Utilities/GTLJSONParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ecancil/Desktop/Language/Language/google_api    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/GTLTouchStaticLib.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/include -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/DerivedSources/i386 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/DerivedSources -Wall -Werror -Wendif-labels -Wnewline-eof -Wfloat-equal -Wundeclared-selector -F/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator -DDEBUG=1 -DGTL_IPHONE=1 -MMD -MT dependencies -MF /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLJSONParser.d -c /Users/ecancil/Desktop/Language/Language/google_api/Utilities/GTLJSONParser.m -o /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLJSONParser.o36"A907E984-9C7F-480E-A714-D45EBF550531-
+
+CCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLObject.o /Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLObject.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s358187166.432089
+e358187166.706977
+r1
+xCompileC
+x/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLObject.o
+x/Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLObject.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLObject.m7190709e8059b541^98fbb49e8059b541^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLObject.m0000000000000000^2476"CompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLObject.o Objects/GTLObject.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ecancil/Desktop/Language/Language/google_api    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/GTLTouchStaticLib.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/include -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/DerivedSources/i386 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/DerivedSources -Wall -Werror -Wendif-labels -Wnewline-eof -Wfloat-equal -Wundeclared-selector -F/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator -DDEBUG=1 -DGTL_IPHONE=1 -MMD -MT dependencies -MF /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLObject.d -c /Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLObject.m -o /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLObject.o36"3ABED8E8-70D9-42D9-B3BE-A94891349C79-
+
+CCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLQuery.o /Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLQuery.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s358187166.484340
+e358187166.697004
+r1
+xCompileC
+x/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLQuery.o
+x/Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLQuery.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLQuery.me3197c9e8059b541^ca6eb29e8059b541^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLQuery.m0000000000000000^2471"CompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLQuery.o Objects/GTLQuery.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ecancil/Desktop/Language/Language/google_api    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/GTLTouchStaticLib.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/include -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/DerivedSources/i386 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/DerivedSources -Wall -Werror -Wendif-labels -Wnewline-eof -Wfloat-equal -Wundeclared-selector -F/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator -DDEBUG=1 -DGTL_IPHONE=1 -MMD -MT dependencies -MF /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLQuery.d -c /Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLQuery.m -o /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLQuery.o36"DEE674AC-8771-4427-BDF5-DB491DB5BB5A-
+
+CCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLRuntimeCommon.o /Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLRuntimeCommon.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s358187166.698313
+e358187166.961126
+r1
+xCompileC
+x/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLRuntimeCommon.o
+x/Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLRuntimeCommon.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLRuntimeCommon.mb9e2b29e8059b541^af7cf69e8059b541^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLRuntimeCommon.m0000000000000000^2511"CompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLRuntimeCommon.o Objects/GTLRuntimeCommon.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ecancil/Desktop/Language/Language/google_api    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/GTLTouchStaticLib.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/include -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/DerivedSources/i386 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/DerivedSources -Wall -Werror -Wendif-labels -Wnewline-eof -Wfloat-equal -Wundeclared-selector -F/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator -DDEBUG=1 -DGTL_IPHONE=1 -MMD -MT dependencies -MF /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLRuntimeCommon.d -c /Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLRuntimeCommon.m -o /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLRuntimeCommon.o36"B606D39F-30D2-492B-94C1-F3CACB9AAF03-
+
+CCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLService.o /Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLService.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s358187166.708363
+e358187167.237334
+r1
+xCompileC
+x/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLService.o
+x/Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLService.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLService.mae81b59e8059b541^5c013d9f8059b541^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLService.m0000000000000000^2481"CompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLService.o Objects/GTLService.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ecancil/Desktop/Language/Language/google_api    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/GTLTouchStaticLib.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/include -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/DerivedSources/i386 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/DerivedSources -Wall -Werror -Wendif-labels -Wnewline-eof -Wfloat-equal -Wundeclared-selector -F/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator -DDEBUG=1 -DGTL_IPHONE=1 -MMD -MT dependencies -MF /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLService.d -c /Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLService.m -o /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLService.o36"D90B6E6F-C143-48FC-9852-F3E875BA7689-
+
+CCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLUploadParameters.o /Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLUploadParameters.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s358187166.979445
+e358187167.176373
+r1
+xCompileC
+x/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLUploadParameters.o
+x/Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLUploadParameters.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLUploadParameters.m6af8fa9e8059b541^116f2d9f8059b541^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLUploadParameters.m0000000000000000^2526"CompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLUploadParameters.o Objects/GTLUploadParameters.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ecancil/Desktop/Language/Language/google_api    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/GTLTouchStaticLib.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/include -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/DerivedSources/i386 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/DerivedSources -Wall -Werror -Wendif-labels -Wnewline-eof -Wfloat-equal -Wundeclared-selector -F/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator -DDEBUG=1 -DGTL_IPHONE=1 -MMD -MT dependencies -MF /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLUploadParameters.d -c /Users/ecancil/Desktop/Language/Language/google_api/Objects/GTLUploadParameters.m -o /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLUploadParameters.o36"A4BB7CC2-1B8C-46BD-A1E0-B8E8677B6D9B-
+
+CCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLUtilities.o /Users/ecancil/Desktop/Language/Language/google_api/Utilities/GTLUtilities.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s358187165.908600
+e358187166.285713
+r1
+xCompileC
+x/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLUtilities.o
+x/Users/ecancil/Desktop/Language/Language/google_api/Utilities/GTLUtilities.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/ecancil/Desktop/Language/Language/google_api/Utilities/GTLUtilities.m81cee89d8059b541^b29b499e8059b541^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/ecancil/Desktop/Language/Language/google_api/Utilities/GTLUtilities.m0000000000000000^2495"CompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLUtilities.o Utilities/GTLUtilities.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ecancil/Desktop/Language/Language/google_api    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/GTLTouchStaticLib.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/include -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/DerivedSources/i386 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/DerivedSources -Wall -Werror -Wendif-labels -Wnewline-eof -Wfloat-equal -Wundeclared-selector -F/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator -DDEBUG=1 -DGTL_IPHONE=1 -MMD -MT dependencies -MF /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLUtilities.d -c /Users/ecancil/Desktop/Language/Language/google_api/Utilities/GTLUtilities.m -o /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLUtilities.o36"CCE245E1-07EA-4E8C-BC1C-AA846616D6FD-
+
+CCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMGatherInputStream.o /Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMGatherInputStream.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s358187163.997100
+e358187164.749434
+r1
+xCompileC
+x/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMGatherInputStream.o
+x/Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMGatherInputStream.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMGatherInputStream.m4e7eff9b8059b541^98ddbf9c8059b541^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMGatherInputStream.m0000000000000000^2539"CompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMGatherInputStream.o HTTPFetcher/GTMGatherInputStream.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ecancil/Desktop/Language/Language/google_api    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/GTLTouchStaticLib.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/include -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/DerivedSources/i386 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/DerivedSources -Wall -Werror -Wendif-labels -Wnewline-eof -Wfloat-equal -Wundeclared-selector -F/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator -DDEBUG=1 -DGTL_IPHONE=1 -MMD -MT dependencies -MF /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMGatherInputStream.d -c /Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMGatherInputStream.m -o /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMGatherInputStream.o36"02788B20-005A-4E0E-88BE-7D2F88D3A1B8-
+
+CCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMHTTPFetchHistory.o /Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMHTTPFetchHistory.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s358187164.860224
+e358187165.416258
+r1
+xCompileC
+x/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMHTTPFetchHistory.o
+x/Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMHTTPFetchHistory.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMHTTPFetchHistory.m9162dc9c8059b541^b29e6a9d8059b541^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMHTTPFetchHistory.m0000000000000000^2534"CompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMHTTPFetchHistory.o HTTPFetcher/GTMHTTPFetchHistory.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ecancil/Desktop/Language/Language/google_api    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/GTLTouchStaticLib.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/include -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/DerivedSources/i386 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/DerivedSources -Wall -Werror -Wendif-labels -Wnewline-eof -Wfloat-equal -Wundeclared-selector -F/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator -DDEBUG=1 -DGTL_IPHONE=1 -MMD -MT dependencies -MF /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMHTTPFetchHistory.d -c /Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMHTTPFetchHistory.m -o /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMHTTPFetchHistory.o36"947B3354-7DA0-4CFE-9A0F-5234B37FBFF1-
+
+CCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMHTTPFetcher.o /Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMHTTPFetcher.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s358187164.751277
+e358187165.906016
+r1
+xCompileC
+x/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMHTTPFetcher.o
+x/Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMHTTPFetcher.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMHTTPFetcher.m6b82c09c8059b541^ae63e89d8059b541^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMHTTPFetcher.m0000000000000000^2509"CompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMHTTPFetcher.o HTTPFetcher/GTMHTTPFetcher.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ecancil/Desktop/Language/Language/google_api    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/GTLTouchStaticLib.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/include -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/DerivedSources/i386 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/DerivedSources -Wall -Werror -Wendif-labels -Wnewline-eof -Wfloat-equal -Wundeclared-selector -F/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator -DDEBUG=1 -DGTL_IPHONE=1 -MMD -MT dependencies -MF /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMHTTPFetcher.d -c /Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMHTTPFetcher.m -o /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMHTTPFetcher.o36"085B083F-A41A-4EB7-8AB9-D89245243948-
+
+CCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMHTTPFetcherLogging.o /Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMHTTPFetcherLogging.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s358187164.788429
+e358187165.302243
+r1
+xCompileC
+x/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMHTTPFetcherLogging.o
+x/Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMHTTPFetcherLogging.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMHTTPFetcherLogging.m22fec99c8059b541^ab764d9d8059b541^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMHTTPFetcherLogging.m0000000000000000^2544"CompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMHTTPFetcherLogging.o HTTPFetcher/GTMHTTPFetcherLogging.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ecancil/Desktop/Language/Language/google_api    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/GTLTouchStaticLib.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/include -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/DerivedSources/i386 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/DerivedSources -Wall -Werror -Wendif-labels -Wnewline-eof -Wfloat-equal -Wundeclared-selector -F/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator -DDEBUG=1 -DGTL_IPHONE=1 -MMD -MT dependencies -MF /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMHTTPFetcherLogging.d -c /Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMHTTPFetcherLogging.m -o /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMHTTPFetcherLogging.o36"8F0F387D-1FCA-489E-872F-4162C7E87641-
+
+CCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMHTTPFetcherService.o /Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMHTTPFetcherService.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s358187165.417608
+e358187165.910487
+r1
+xCompileC
+x/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMHTTPFetcherService.o
+x/Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMHTTPFetcherService.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMHTTPFetcherService.m041f6b9d8059b541^2920e99d8059b541^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMHTTPFetcherService.m0000000000000000^2544"CompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMHTTPFetcherService.o HTTPFetcher/GTMHTTPFetcherService.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ecancil/Desktop/Language/Language/google_api    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/GTLTouchStaticLib.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/include -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/DerivedSources/i386 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/DerivedSources -Wall -Werror -Wendif-labels -Wnewline-eof -Wfloat-equal -Wundeclared-selector -F/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator -DDEBUG=1 -DGTL_IPHONE=1 -MMD -MT dependencies -MF /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMHTTPFetcherService.d -c /Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMHTTPFetcherService.m -o /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMHTTPFetcherService.o36"0DA7FDD6-8855-4105-95E8-E7B82E26AC7A-
+
+CCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMHTTPUploadFetcher.o /Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMHTTPUploadFetcher.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s358187165.304028
+e358187165.810112
+r1
+xCompileC
+x/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMHTTPUploadFetcher.o
+x/Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMHTTPUploadFetcher.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMHTTPUploadFetcher.m72164e9d8059b541^eca3cf9d8059b541^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMHTTPUploadFetcher.m0000000000000000^2539"CompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMHTTPUploadFetcher.o HTTPFetcher/GTMHTTPUploadFetcher.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ecancil/Desktop/Language/Language/google_api    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/GTLTouchStaticLib.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/include -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/DerivedSources/i386 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/DerivedSources -Wall -Werror -Wendif-labels -Wnewline-eof -Wfloat-equal -Wundeclared-selector -F/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator -DDEBUG=1 -DGTL_IPHONE=1 -MMD -MT dependencies -MF /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMHTTPUploadFetcher.d -c /Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMHTTPUploadFetcher.m -o /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMHTTPUploadFetcher.o36"9DE8217C-C7BD-414F-B387-C4A8A5455B79-
+
+CCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMMIMEDocument.o /Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMMIMEDocument.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s358187165.305443
+e358187165.677076
+r1
+xCompileC
+x/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMMIMEDocument.o
+x/Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMMIMEDocument.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMMIMEDocument.m425b4e9d8059b541^a0c2ad9d8059b541^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMMIMEDocument.m0000000000000000^2514"CompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMMIMEDocument.o HTTPFetcher/GTMMIMEDocument.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ecancil/Desktop/Language/Language/google_api    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/GTLTouchStaticLib.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/include -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/DerivedSources/i386 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/DerivedSources -Wall -Werror -Wendif-labels -Wnewline-eof -Wfloat-equal -Wundeclared-selector -F/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator -DDEBUG=1 -DGTL_IPHONE=1 -MMD -MT dependencies -MF /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMMIMEDocument.d -c /Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMMIMEDocument.m -o /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMMIMEDocument.o36"CBC10454-3EC4-434B-88F9-C603FD72BC1F-
+
+CCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMOAuth2Authentication.o /Users/ecancil/Desktop/Language/Language/google_api/OAuth2/GTMOAuth2Authentication.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s358187163.988514
+e358187164.854603
+r1
+xCompileC
+x/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMOAuth2Authentication.o
+x/Users/ecancil/Desktop/Language/Language/google_api/OAuth2/GTMOAuth2Authentication.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/ecancil/Desktop/Language/Language/google_api/OAuth2/GTMOAuth2Authentication.mef38fd9b8059b541^cfd9da9c8059b541^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/ecancil/Desktop/Language/Language/google_api/OAuth2/GTMOAuth2Authentication.m0000000000000000^2544"CompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMOAuth2Authentication.o OAuth2/GTMOAuth2Authentication.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ecancil/Desktop/Language/Language/google_api    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/GTLTouchStaticLib.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/include -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/DerivedSources/i386 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/DerivedSources -Wall -Werror -Wendif-labels -Wnewline-eof -Wfloat-equal -Wundeclared-selector -F/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator -DDEBUG=1 -DGTL_IPHONE=1 -MMD -MT dependencies -MF /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMOAuth2Authentication.d -c /Users/ecancil/Desktop/Language/Language/google_api/OAuth2/GTMOAuth2Authentication.m -o /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMOAuth2Authentication.o36"C96B0773-AB89-4519-AC65-D039BEABB874-
+
+CCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMOAuth2SignIn.o /Users/ecancil/Desktop/Language/Language/google_api/OAuth2/GTMOAuth2SignIn.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s358187163.988500
+e358187164.786952
+r1
+xCompileC
+x/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMOAuth2SignIn.o
+x/Users/ecancil/Desktop/Language/Language/google_api/OAuth2/GTMOAuth2SignIn.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/ecancil/Desktop/Language/Language/google_api/OAuth2/GTMOAuth2SignIn.m823afd9b8059b541^bd71ca9c8059b541^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/ecancil/Desktop/Language/Language/google_api/OAuth2/GTMOAuth2SignIn.m0000000000000000^2504"CompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMOAuth2SignIn.o OAuth2/GTMOAuth2SignIn.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ecancil/Desktop/Language/Language/google_api    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/GTLTouchStaticLib.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/include -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/DerivedSources/i386 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/DerivedSources -Wall -Werror -Wendif-labels -Wnewline-eof -Wfloat-equal -Wundeclared-selector -F/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator -DDEBUG=1 -DGTL_IPHONE=1 -MMD -MT dependencies -MF /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMOAuth2SignIn.d -c /Users/ecancil/Desktop/Language/Language/google_api/OAuth2/GTMOAuth2SignIn.m -o /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMOAuth2SignIn.o36"BADD2EB0-CF2D-459C-8DFE-9F95A46EBF2E-
+
+CCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMOAuth2ViewControllerTouch.o /Users/ecancil/Desktop/Language/Language/google_api/OAuth2/Touch/GTMOAuth2ViewControllerTouch.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s358187163.990144
+e358187165.300746
+r1
+xCompileC
+x/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMOAuth2ViewControllerTouch.o
+x/Users/ecancil/Desktop/Language/Language/google_api/OAuth2/Touch/GTMOAuth2ViewControllerTouch.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compile /Users/ecancil/Desktop/Language/Language/google_api/OAuth2/Touch/GTMOAuth2ViewControllerTouch.m0b44ff9b8059b541^1a6d4d9d8059b541^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/ecancil/Desktop/Language/Language/google_api/OAuth2/Touch/GTMOAuth2ViewControllerTouch.m0000000000000000^2581"CompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMOAuth2ViewControllerTouch.o OAuth2/Touch/GTMOAuth2ViewControllerTouch.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ecancil/Desktop/Language/Language/google_api    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/GTLTouchStaticLib.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/include -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/DerivedSources/i386 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/DerivedSources -Wall -Werror -Wendif-labels -Wnewline-eof -Wfloat-equal -Wundeclared-selector -F/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator -DDEBUG=1 -DGTL_IPHONE=1 -MMD -MT dependencies -MF /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMOAuth2ViewControllerTouch.d -c /Users/ecancil/Desktop/Language/Language/google_api/OAuth2/Touch/GTMOAuth2ViewControllerTouch.m -o /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMOAuth2ViewControllerTouch.o36"C6BCABAA-8BB0-446A-BAF1-998419C66EE7-
+
+CCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMReadMonitorInputStream.o /Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMReadMonitorInputStream.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s358187167.188691
+e358187167.424615
+r1
+xCompileC
+x/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMReadMonitorInputStream.o
+x/Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMReadMonitorInputStream.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMReadMonitorInputStream.ma2ee379f8059b541^18b46c9f8059b541^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMReadMonitorInputStream.m0000000000000000^2564"CompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMReadMonitorInputStream.o HTTPFetcher/GTMReadMonitorInputStream.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ecancil/Desktop/Language/Language/google_api    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/GTLTouchStaticLib.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/include -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/DerivedSources/i386 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/DerivedSources -Wall -Werror -Wendif-labels -Wnewline-eof -Wfloat-equal -Wundeclared-selector -F/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator -DDEBUG=1 -DGTL_IPHONE=1 -MMD -MT dependencies -MF /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMReadMonitorInputStream.d -c /Users/ecancil/Desktop/Language/Language/google_api/HTTPFetcher/GTMReadMonitorInputStream.m -o /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTMReadMonitorInputStream.o36"A576F856-46DE-47C9-BEC6-E27902350E01-
+
+CCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/SBJsonBase.o /Users/ecancil/Desktop/Language/Language/google_api/JSON/SBJsonBase.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s358187167.425971
+e358187167.628196
+r1
+xCompileC
+x/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/SBJsonBase.o
+x/Users/ecancil/Desktop/Language/Language/google_api/JSON/SBJsonBase.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/ecancil/Desktop/Language/Language/google_api/JSON/SBJsonBase.m823a6d9f8059b541^eeeba09f8059b541^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/ecancil/Desktop/Language/Language/google_api/JSON/SBJsonBase.m0000000000000000^2475"CompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/SBJsonBase.o JSON/SBJsonBase.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ecancil/Desktop/Language/Language/google_api    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/GTLTouchStaticLib.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/include -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/DerivedSources/i386 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/DerivedSources -Wall -Werror -Wendif-labels -Wnewline-eof -Wfloat-equal -Wundeclared-selector -F/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator -DDEBUG=1 -DGTL_IPHONE=1 -MMD -MT dependencies -MF /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/SBJsonBase.d -c /Users/ecancil/Desktop/Language/Language/google_api/JSON/SBJsonBase.m -o /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/SBJsonBase.o36"5B6274B8-A956-444B-855E-D799CCEA7C48-
+
+CCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/SBJsonParser.o /Users/ecancil/Desktop/Language/Language/google_api/JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s358187167.511453
+e358187167.816838
+r1
+xCompileC
+x/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/SBJsonParser.o
+x/Users/ecancil/Desktop/Language/Language/google_api/JSON/SBJsonParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/ecancil/Desktop/Language/Language/google_api/JSON/SBJsonParser.mb20e839f8059b541^9142d19f8059b541^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/ecancil/Desktop/Language/Language/google_api/JSON/SBJsonParser.m0000000000000000^2485"CompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/SBJsonParser.o JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ecancil/Desktop/Language/Language/google_api    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/GTLTouchStaticLib.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/include -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/DerivedSources/i386 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/DerivedSources -Wall -Werror -Wendif-labels -Wnewline-eof -Wfloat-equal -Wundeclared-selector -F/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator -DDEBUG=1 -DGTL_IPHONE=1 -MMD -MT dependencies -MF /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/SBJsonParser.d -c /Users/ecancil/Desktop/Language/Language/google_api/JSON/SBJsonParser.m -o /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/SBJsonParser.o36"A42214AE-528A-4D11-89A6-778C33F32087-
+
+CCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/SBJsonWriter.o /Users/ecancil/Desktop/Language/Language/google_api/JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s358187167.644270
+e358187167.919921
+r1
+xCompileC
+x/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/SBJsonWriter.o
+x/Users/ecancil/Desktop/Language/Language/google_api/JSON/SBJsonWriter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/ecancil/Desktop/Language/Language/google_api/JSON/SBJsonWriter.m7749a89f8059b541^3484eb9f8059b541^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/ecancil/Desktop/Language/Language/google_api/JSON/SBJsonWriter.m0000000000000000^2485"CompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/SBJsonWriter.o JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ecancil/Desktop/Language/Language/google_api    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/GTLTouchStaticLib.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/include -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/DerivedSources/i386 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/DerivedSources -Wall -Werror -Wendif-labels -Wnewline-eof -Wfloat-equal -Wundeclared-selector -F/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator -DDEBUG=1 -DGTL_IPHONE=1 -MMD -MT dependencies -MF /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/SBJsonWriter.d -c /Users/ecancil/Desktop/Language/Language/google_api/JSON/SBJsonWriter.m -o /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/SBJsonWriter.o36"B7BECC5F-5EA0-4006-A969-34F359355F8D-
+
+CLibtool /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/libGTLTouchStaticLib.a normal i386
+s358187167.926801
+e358187167.983161
+r1
+xLibtool
+x/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/libGTLTouchStaticLib.a
+xnormal
+xi386
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection132"Libtool /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/libGTLTouchStaticLib.a normal i3860c59ed9f8059b541^041dfd9f8059b541^---0#0#0#--958"Libtool /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/libGTLTouchStaticLib.a normal i386    cd /Users/ecancil/Desktop/Language/Language/google_api    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool -static -arch_only i386 -syslibroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -L/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator -filelist /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/GTL.build/Debug-iphonesimulator/GTLTouchStaticLib.build/Objects-normal/i386/GTLTouchStaticLib.LinkFileList -o /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/libGTLTouchStaticLib.a36"125698B7-3DB7-4380-BC23-62DF98493929-
+
+CPBXCp GTLDefines.h /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTLDefines.h
+r0
+
+CPBXCp HTTPFetcher/GTMGatherInputStream.h /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTMGatherInputStream.h
+r0
+
+CPBXCp HTTPFetcher/GTMHTTPFetchHistory.h /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTMHTTPFetchHistory.h
+r0
+
+CPBXCp HTTPFetcher/GTMHTTPFetcher.h /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTMHTTPFetcher.h
+r0
+
+CPBXCp HTTPFetcher/GTMHTTPFetcherLogging.h /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTMHTTPFetcherLogging.h
+r0
+
+CPBXCp HTTPFetcher/GTMHTTPFetcherService.h /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTMHTTPFetcherService.h
+r0
+
+CPBXCp HTTPFetcher/GTMHTTPUploadFetcher.h /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTMHTTPUploadFetcher.h
+r0
+
+CPBXCp HTTPFetcher/GTMMIMEDocument.h /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTMMIMEDocument.h
+r0
+
+CPBXCp HTTPFetcher/GTMReadMonitorInputStream.h /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTMReadMonitorInputStream.h
+r0
+
+CPBXCp OAuth2/GTMOAuth2Authentication.h /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTMOAuth2Authentication.h
+r0
+
+CPBXCp OAuth2/GTMOAuth2SignIn.h /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTMOAuth2SignIn.h
+r0
+
+CPBXCp OAuth2/Mac/GTMOAuth2WindowController.h /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTMOAuth2WindowController.h
+r0
+
+CPBXCp OAuth2/Touch/GTMOAuth2ViewControllerTouch.h /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTMOAuth2ViewControllerTouch.h
+r0
+
+CPBXCp Objects/GTLBatchQuery.h /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTLBatchQuery.h
+r0
+
+CPBXCp Objects/GTLBatchResult.h /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTLBatchResult.h
+r0
+
+CPBXCp Objects/GTLDateTime.h /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTLDateTime.h
+r0
+
+CPBXCp Objects/GTLErrorObject.h /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTLErrorObject.h
+r0
+
+CPBXCp Objects/GTLObject.h /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTLObject.h
+r0
+
+CPBXCp Objects/GTLQuery.h /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTLQuery.h
+r0
+
+CPBXCp Objects/GTLRuntimeCommon.h /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTLRuntimeCommon.h
+r0
+
+CPBXCp Objects/GTLService.h /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTLService.h
+r0
+
+CPBXCp Objects/GTLUploadParameters.h /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTLUploadParameters.h
+r0
+
+CPBXCp Utilities/GTLBase64.h /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTLBase64.h
+r0
+
+CPBXCp Utilities/GTLFramework.h /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTLFramework.h
+r0
+
+CPBXCp Utilities/GTLJSONParser.h /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTLJSONParser.h
+r0
+
+CPBXCp Utilities/GTLTargetNamespace.h /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTLTargetNamespace.h
+r0
+
+CPBXCp Utilities/GTLUtilities.h /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/Headers/GTLUtilities.h
+r0
+
