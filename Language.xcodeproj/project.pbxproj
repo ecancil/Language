@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3010ABB915630F890028E728 /* CreateGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 3010ABB815630F890028E728 /* CreateGroup.m */; };
 		302A4CFE1551F3640004AE7A /* _changelog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 302A4B6A1551F3630004AE7A /* _changelog.txt */; };
 		302A4CFF1551F3640004AE7A /* _readme_first.txt in Resources */ = {isa = PBXBuildFile; fileRef = 302A4B6B1551F3630004AE7A /* _readme_first.txt */; };
 		302A4D001551F3640004AE7A /* glyphicons_000_glass.png in Resources */ = {isa = PBXBuildFile; fileRef = 302A4B6E1551F3630004AE7A /* glyphicons_000_glass.png */; };
@@ -652,7 +653,6 @@
 		303E4976154B0AD6001F75A4 /* 97-puzzle.png in Resources */ = {isa = PBXBuildFile; fileRef = 303E48AD154B0AD6001F75A4 /* 97-puzzle.png */; };
 		303E4977154B0AD6001F75A4 /* 98-palette.png in Resources */ = {isa = PBXBuildFile; fileRef = 303E48AE154B0AD6001F75A4 /* 98-palette.png */; };
 		303E4978154B0AD6001F75A4 /* 99-umbrella.png in Resources */ = {isa = PBXBuildFile; fileRef = 303E48AF154B0AD6001F75A4 /* 99-umbrella.png */; };
-		303E4982154B1F2B001F75A4 /* CreateGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 303E4980154B1F2A001F75A4 /* CreateGroup.m */; };
 		303E4983154B1F2B001F75A4 /* CreateGroup.xib in Resources */ = {isa = PBXBuildFile; fileRef = 303E4981154B1F2A001F75A4 /* CreateGroup.xib */; };
 		303E4991154B28D2001F75A4 /* AddWordsToGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 303E498F154B28D2001F75A4 /* AddWordsToGroup.m */; };
 		303E4992154B28D2001F75A4 /* AddWordsToGroup.xib in Resources */ = {isa = PBXBuildFile; fileRef = 303E4990154B28D2001F75A4 /* AddWordsToGroup.xib */; };
@@ -802,6 +802,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3010ABB815630F890028E728 /* CreateGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateGroup.m; sourceTree = "<group>"; };
 		302A4B651551E7A90004AE7A /* SaveTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaveTypes.h; sourceTree = "<group>"; };
 		302A4B6A1551F3630004AE7A /* _changelog.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _changelog.txt; sourceTree = "<group>"; };
 		302A4B6B1551F3630004AE7A /* _readme_first.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _readme_first.txt; sourceTree = "<group>"; };
@@ -1482,7 +1483,6 @@
 		303E48AE154B0AD6001F75A4 /* 98-palette.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "98-palette.png"; sourceTree = "<group>"; };
 		303E48AF154B0AD6001F75A4 /* 99-umbrella.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "99-umbrella.png"; sourceTree = "<group>"; };
 		303E497F154B1F2A001F75A4 /* CreateGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CreateGroup.h; path = ../CreateGroup.h; sourceTree = "<group>"; };
-		303E4980154B1F2A001F75A4 /* CreateGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CreateGroup.m; path = ../CreateGroup.m; sourceTree = "<group>"; };
 		303E4981154B1F2A001F75A4 /* CreateGroup.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CreateGroup.xib; path = ../CreateGroup.xib; sourceTree = "<group>"; };
 		303E498E154B28D2001F75A4 /* AddWordsToGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddWordsToGroup.h; sourceTree = "<group>"; };
 		303E498F154B28D2001F75A4 /* AddWordsToGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddWordsToGroup.m; sourceTree = "<group>"; };
@@ -2487,9 +2487,9 @@
 		303E4979154B19E3001F75A4 /* creategroup */ = {
 			isa = PBXGroup;
 			children = (
+				3010ABB815630F890028E728 /* CreateGroup.m */,
 				303E4993154B52E2001F75A4 /* addedwordsdelegate */,
 				303E497F154B1F2A001F75A4 /* CreateGroup.h */,
-				303E4980154B1F2A001F75A4 /* CreateGroup.m */,
 				303E4981154B1F2A001F75A4 /* CreateGroup.xib */,
 				303E498E154B28D2001F75A4 /* AddWordsToGroup.h */,
 				303E498F154B28D2001F75A4 /* AddWordsToGroup.m */,
@@ -3659,7 +3659,6 @@
 				30754AF3154634C500D7CEBF /* Section+Section_Section_Initializer.m in Sources */,
 				30754B011546389400D7CEBF /* ManagedObjectsDao.m in Sources */,
 				303E47E3154B09EF001F75A4 /* ChooseCreateScreen.m in Sources */,
-				303E4982154B1F2B001F75A4 /* CreateGroup.m in Sources */,
 				303E4991154B28D2001F75A4 /* AddWordsToGroup.m in Sources */,
 				303E4996154B5324001F75A4 /* AddedWordsTableDelegate.m in Sources */,
 				303C11C1154C74F000D7422A /* AbstractActionSheetPicker.m in Sources */,
@@ -3715,6 +3714,7 @@
 				3036005F1561930100F0B2EC /* BaseViewController.m in Sources */,
 				303F270B1561F1B600349A46 /* FormsBaseViewController.m in Sources */,
 				303F270F1562B10F00349A46 /* FormsBaseDataSource.m in Sources */,
+				3010ABB915630F890028E728 /* CreateGroup.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
