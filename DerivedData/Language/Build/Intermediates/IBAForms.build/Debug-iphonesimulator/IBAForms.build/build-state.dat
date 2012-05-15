@@ -1,742 +1,0 @@
-TIBAForms
-v4
-r1
-cCheck dependencies
-cProcessPCH /Users/ecancil/Desktop/Language/DerivedData/Language/Build/PrecompiledHeaders/IBAForms_Prefix-gfwqomyzqomuscgretqkuvrjdglk/IBAForms_Prefix.pch.pth IBAForms_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAButtonFormField.o /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAButtonFormField.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAFormDataSource.o /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAFormDataSource.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBABooleanFormField.o /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBABooleanFormField.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBADateFormField.o /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBADateFormField.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAFormField.o /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAFormField.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAFormFieldStyle.o /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAFormFieldStyle.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAFormSection.o /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAFormSection.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAFormViewController.o /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAFormViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAInputRequestorFormField.o /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAInputRequestorFormField.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBALabelFormField.o /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBALabelFormField.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAPickListFormField.o /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAPickListFormField.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAReadOnlyTextFormField.o /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAReadOnlyTextFormField.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBATextFormField.o /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBATextFormField.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBABooleanSwitchCell.o /Users/ecancil/Desktop/Language/Language/library/src/forms/views/IBABooleanSwitchCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBADateFormFieldCell.o /Users/ecancil/Desktop/Language/Language/library/src/forms/views/IBADateFormFieldCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAFormFieldCell.o /Users/ecancil/Desktop/Language/Language/library/src/forms/views/IBAFormFieldCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBALabelFormCell.o /Users/ecancil/Desktop/Language/Language/library/src/forms/views/IBALabelFormCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBATextFormFieldCell.o /Users/ecancil/Desktop/Language/Language/library/src/forms/views/IBATextFormFieldCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBADateInputProvider.o /Users/ecancil/Desktop/Language/Language/library/src/input/controllers/IBADateInputProvider.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAInputManager.o /Users/ecancil/Desktop/Language/Language/library/src/input/controllers/IBAInputManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAMultiplePickListInputProvider.o /Users/ecancil/Desktop/Language/Language/library/src/input/controllers/IBAMultiplePickListInputProvider.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBASinglePickListInputProvider.o /Users/ecancil/Desktop/Language/Language/library/src/input/controllers/IBASinglePickListInputProvider.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBATextInputProvider.o /Users/ecancil/Desktop/Language/Language/library/src/input/controllers/IBATextInputProvider.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAInputNavigationToolbar.o /Users/ecancil/Desktop/Language/Language/library/src/input/views/IBAInputNavigationToolbar.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBATitleFormField.o /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBATitleFormField.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBATextFormField+Factory.o /Users/ecancil/Desktop/Language/Language/library/src/forms/categories/IBATextFormField+Factory.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLibtool /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/libIBAForms.a normal i386
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk
-c000000004EEBE4720000000000000110
-t1324082290
-s272
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004E72F2960000000000353830
-t1316156054
-s3487792
-
-N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBABooleanFormField.o
-t2
-s0
-
-N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBABooleanSwitchCell.o
-t2
-s0
-
-N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAButtonFormField.o
-t2
-s0
-
-N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBADateFormField.o
-t2
-s0
-
-N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBADateFormFieldCell.o
-t2
-s0
-
-N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBADateInputProvider.o
-t2
-s0
-
-N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAFormDataSource.o
-t2
-s0
-
-N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAFormField.o
-t2
-s0
-
-N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAFormFieldCell.o
-t2
-s0
-
-N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAFormFieldStyle.o
-t2
-s0
-
-N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAFormSection.o
-t2
-s0
-
-N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAFormViewController.o
-t2
-s0
-
-N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAForms.LinkFileList
-c000000004FA9491C0000000000001108
-t1336494364
-s4360
-
-N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAInputManager.o
-t2
-s0
-
-N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAInputNavigationToolbar.o
-t2
-s0
-
-N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAInputRequestorFormField.o
-t2
-s0
-
-N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBALabelFormCell.o
-t2
-s0
-
-N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBALabelFormField.o
-t2
-s0
-
-N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAMultiplePickListInputProvider.o
-t2
-s0
-
-N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAPickListFormField.o
-t2
-s0
-
-N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAReadOnlyTextFormField.o
-t2
-s0
-
-N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBASinglePickListInputProvider.o
-t2
-s0
-
-N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBATextFormField+Factory.o
-t2
-s0
-
-N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBATextFormField.o
-t2
-s0
-
-N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBATextFormFieldCell.o
-t2
-s0
-
-N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBATextInputProvider.o
-t2
-s0
-
-N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBATitleFormField.o
-t2
-s0
-
-N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/PrecompiledHeaders/IBAForms_Prefix-gfwqomyzqomuscgretqkuvrjdglk/IBAForms_Prefix.pch.pth
-t2
-s0
-
-N/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/libIBAForms.a
-t2
-s0
-
-N/Users/ecancil/Desktop/Language/Language/library/IBAForms_Prefix.pch
-c000000004F72409000000000000000F4
-t1332887696
-s244
-
-N/Users/ecancil/Desktop/Language/Language/library/src/forms/categories/IBATextFormField+Factory.m
-c000000004F72409000000000000007A6
-t1332887696
-s1958
-
-N/Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBABooleanFormField.m
-c000000004F7240900000000000000DCC
-t1332887696
-s3532
-
-N/Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAButtonFormField.m
-c000000004F7240900000000000000B92
-t1332887696
-s2962
-
-N/Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBADateFormField.m
-c000000004F7240900000000000000E52
-t1332887696
-s3666
-
-N/Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAFormDataSource.m
-c000000004F724090000000000000191D
-t1332887696
-s6429
-
-N/Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAFormField.m
-c000000004F7240900000000000001126
-t1332887696
-s4390
-
-N/Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAFormFieldStyle.m
-c000000004F7240900000000000000A04
-t1332887696
-s2564
-
-N/Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAFormSection.m
-c000000004F72409000000000000007D8
-t1332887696
-s2008
-
-N/Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAFormViewController.m
-c000000004F724090000000000000383D
-t1332887696
-s14397
-
-N/Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAInputRequestorFormField.m
-c000000004F7240900000000000000889
-t1332887696
-s2185
-
-N/Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBALabelFormField.m
-c000000004F7240900000000000000407
-t1332887696
-s1031
-
-N/Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAPickListFormField.m
-c000000004F7240900000000000001CEF
-t1332887696
-s7407
-
-N/Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAReadOnlyTextFormField.m
-c000000004F72409000000000000005D7
-t1332887696
-s1495
-
-N/Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBATextFormField.m
-c000000004F72409000000000000008A5
-t1332887696
-s2213
-
-N/Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBATitleFormField.m
-c000000004F7240900000000000000412
-t1332887696
-s1042
-
-N/Users/ecancil/Desktop/Language/Language/library/src/forms/views/IBABooleanSwitchCell.m
-c000000004F72409000000000000005F9
-t1332887696
-s1529
-
-N/Users/ecancil/Desktop/Language/Language/library/src/forms/views/IBADateFormFieldCell.m
-c000000004F7240900000000000000C41
-t1332887696
-s3137
-
-N/Users/ecancil/Desktop/Language/Language/library/src/forms/views/IBAFormFieldCell.m
-c000000004F72409000000000000012F5
-t1332887696
-s4853
-
-N/Users/ecancil/Desktop/Language/Language/library/src/forms/views/IBALabelFormCell.m
-c000000004F72409000000000000003C4
-t1332887696
-s964
-
-N/Users/ecancil/Desktop/Language/Language/library/src/forms/views/IBATextFormFieldCell.m
-c000000004F72409000000000000006DE
-t1332887696
-s1758
-
-N/Users/ecancil/Desktop/Language/Language/library/src/input/controllers/IBADateInputProvider.m
-c000000004F7240900000000000000B58
-t1332887696
-s2904
-
-N/Users/ecancil/Desktop/Language/Language/library/src/input/controllers/IBAInputManager.m
-c000000004F7240900000000000001F42
-t1332887696
-s8002
-
-N/Users/ecancil/Desktop/Language/Language/library/src/input/controllers/IBAMultiplePickListInputProvider.m
-c000000004F724090000000000000100F
-t1332887696
-s4111
-
-N/Users/ecancil/Desktop/Language/Language/library/src/input/controllers/IBASinglePickListInputProvider.m
-c000000004F7240900000000000001259
-t1332887696
-s4697
-
-N/Users/ecancil/Desktop/Language/Language/library/src/input/controllers/IBATextInputProvider.m
-c000000004F7240900000000000000311
-t1332887696
-s785
-
-N/Users/ecancil/Desktop/Language/Language/library/src/input/views/IBAInputNavigationToolbar.m
-c000000004F7240900000000000000B73
-t1332887696
-s2931
-
-CBuild AST from /Users/ecancil/Desktop/Language/Language/library/src/forms/categories/IBATextFormField+Factory.m
-r0
-
-CBuild AST from /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBABooleanFormField.m
-r0
-
-CBuild AST from /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAButtonFormField.m
-r0
-
-CBuild AST from /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBADateFormField.m
-r0
-
-CBuild AST from /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAFormDataSource.m
-r0
-
-CBuild AST from /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAFormField.m
-r0
-
-CBuild AST from /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAFormFieldStyle.m
-r0
-
-CBuild AST from /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAFormSection.m
-r0
-
-CBuild AST from /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAFormViewController.m
-r0
-
-CBuild AST from /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAInputRequestorFormField.m
-r0
-
-CBuild AST from /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBALabelFormField.m
-r0
-
-CBuild AST from /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAPickListFormField.m
-r0
-
-CBuild AST from /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAReadOnlyTextFormField.m
-r0
-
-CBuild AST from /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBATextFormField.m
-r0
-
-CBuild AST from /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBATitleFormField.m
-r0
-
-CBuild AST from /Users/ecancil/Desktop/Language/Language/library/src/forms/views/IBABooleanSwitchCell.m
-r0
-
-CBuild AST from /Users/ecancil/Desktop/Language/Language/library/src/forms/views/IBADateFormFieldCell.m
-r0
-
-CBuild AST from /Users/ecancil/Desktop/Language/Language/library/src/forms/views/IBAFormFieldCell.m
-r0
-
-CBuild AST from /Users/ecancil/Desktop/Language/Language/library/src/forms/views/IBALabelFormCell.m
-r0
-
-CBuild AST from /Users/ecancil/Desktop/Language/Language/library/src/forms/views/IBATextFormFieldCell.m
-r0
-
-CBuild AST from /Users/ecancil/Desktop/Language/Language/library/src/input/controllers/IBADateInputProvider.m
-r0
-
-CBuild AST from /Users/ecancil/Desktop/Language/Language/library/src/input/controllers/IBAInputManager.m
-r0
-
-CBuild AST from /Users/ecancil/Desktop/Language/Language/library/src/input/controllers/IBAMultiplePickListInputProvider.m
-r0
-
-CBuild AST from /Users/ecancil/Desktop/Language/Language/library/src/input/controllers/IBASinglePickListInputProvider.m
-r0
-
-CBuild AST from /Users/ecancil/Desktop/Language/Language/library/src/input/controllers/IBATextInputProvider.m
-r0
-
-CBuild AST from /Users/ecancil/Desktop/Language/Language/library/src/input/views/IBAInputNavigationToolbar.m
-r0
-
-CCheck dependencies
-r0
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesbf490b9b8059b541^24293d9c8059b541^---0#1#0#--18"Check dependencies36"693A996F-C206-4130-B5DC-BDD284A63D8E-
-
-CCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBABooleanFormField.o /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBABooleanFormField.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s358187168.287791
-e358187168.345275
-r1
-xCompileC
-x/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBABooleanFormField.o
-x/Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBABooleanFormField.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBABooleanFormField.mc1ca49a08059b541^246458a08059b541^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBABooleanFormField.m0000000000000000^3047"CompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBABooleanFormField.o src/forms/controllers/IBABooleanFormField.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ecancil/Desktop/Language/Language/library    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-generated-files.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-own-target-headers.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-all-target-headers.hmap -iquote /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-project-headers.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/include -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/DerivedSources/i386 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/DerivedSources -F/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator -include /Users/ecancil/Desktop/Language/DerivedData/Language/Build/PrecompiledHeaders/IBAForms_Prefix-gfwqomyzqomuscgretqkuvrjdglk/IBAForms_Prefix.pch -MMD -MT dependencies -MF /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBABooleanFormField.d -c /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBABooleanFormField.m -o /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBABooleanFormField.o36"C5001D09-4F2D-47A4-A7D3-652D4B464984-
-
-CCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBABooleanSwitchCell.o /Users/ecancil/Desktop/Language/Language/library/src/forms/views/IBABooleanSwitchCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s358187169.460329
-e358187169.524992
-r1
-xCompileC
-x/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBABooleanSwitchCell.o
-x/Users/ecancil/Desktop/Language/Language/library/src/forms/views/IBABooleanSwitchCell.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/ecancil/Desktop/Language/Language/library/src/forms/views/IBABooleanSwitchCell.m62f375a18059b541^02b786a18059b541^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/ecancil/Desktop/Language/Language/library/src/forms/views/IBABooleanSwitchCell.m0000000000000000^3040"CompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBABooleanSwitchCell.o src/forms/views/IBABooleanSwitchCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ecancil/Desktop/Language/Language/library    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-generated-files.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-own-target-headers.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-all-target-headers.hmap -iquote /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-project-headers.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/include -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/DerivedSources/i386 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/DerivedSources -F/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator -include /Users/ecancil/Desktop/Language/DerivedData/Language/Build/PrecompiledHeaders/IBAForms_Prefix-gfwqomyzqomuscgretqkuvrjdglk/IBAForms_Prefix.pch -MMD -MT dependencies -MF /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBABooleanSwitchCell.d -c /Users/ecancil/Desktop/Language/Language/library/src/forms/views/IBABooleanSwitchCell.m -o /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBABooleanSwitchCell.o36"84F11BC7-A2A4-4C08-90FB-33C570BE265B-
-
-CCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAButtonFormField.o /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAButtonFormField.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s358187168.212669
-e358187168.278505
-r1
-xCompileC
-x/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAButtonFormField.o
-x/Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAButtonFormField.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAButtonFormField.mf38f36a08059b541^e44c47a08059b541^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAButtonFormField.m0000000000000000^3042"CompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAButtonFormField.o src/forms/controllers/IBAButtonFormField.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ecancil/Desktop/Language/Language/library    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-generated-files.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-own-target-headers.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-all-target-headers.hmap -iquote /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-project-headers.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/include -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/DerivedSources/i386 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/DerivedSources -F/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator -include /Users/ecancil/Desktop/Language/DerivedData/Language/Build/PrecompiledHeaders/IBAForms_Prefix-gfwqomyzqomuscgretqkuvrjdglk/IBAForms_Prefix.pch -MMD -MT dependencies -MF /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAButtonFormField.d -c /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAButtonFormField.m -o /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAButtonFormField.o36"720A2831-964A-4923-8B18-D3D2E985F26E-
-
-CCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBADateFormField.o /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBADateFormField.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s358187168.346608
-e358187168.529695
-r1
-xCompileC
-x/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBADateFormField.o
-x/Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBADateFormField.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBADateFormField.m9cdb58a08059b541^c49987a08059b541^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBADateFormField.m0000000000000000^3032"CompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBADateFormField.o src/forms/controllers/IBADateFormField.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ecancil/Desktop/Language/Language/library    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-generated-files.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-own-target-headers.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-all-target-headers.hmap -iquote /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-project-headers.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/include -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/DerivedSources/i386 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/DerivedSources -F/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator -include /Users/ecancil/Desktop/Language/DerivedData/Language/Build/PrecompiledHeaders/IBAForms_Prefix-gfwqomyzqomuscgretqkuvrjdglk/IBAForms_Prefix.pch -MMD -MT dependencies -MF /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBADateFormField.d -c /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBADateFormField.m -o /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBADateFormField.o36"C476A659-87E9-4CF9-BE5C-8961E6B38C9E-
-
-CCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBADateFormFieldCell.o /Users/ecancil/Desktop/Language/Language/library/src/forms/views/IBADateFormFieldCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s358187169.556410
-e358187169.623206
-r1
-xCompileC
-x/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBADateFormFieldCell.o
-x/Users/ecancil/Desktop/Language/Language/library/src/forms/views/IBADateFormFieldCell.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/ecancil/Desktop/Language/Language/library/src/forms/views/IBADateFormFieldCell.m8ec98ea18059b541^3d0da0a18059b541^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/ecancil/Desktop/Language/Language/library/src/forms/views/IBADateFormFieldCell.m0000000000000000^3040"CompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBADateFormFieldCell.o src/forms/views/IBADateFormFieldCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ecancil/Desktop/Language/Language/library    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-generated-files.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-own-target-headers.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-all-target-headers.hmap -iquote /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-project-headers.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/include -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/DerivedSources/i386 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/DerivedSources -F/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator -include /Users/ecancil/Desktop/Language/DerivedData/Language/Build/PrecompiledHeaders/IBAForms_Prefix-gfwqomyzqomuscgretqkuvrjdglk/IBAForms_Prefix.pch -MMD -MT dependencies -MF /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBADateFormFieldCell.d -c /Users/ecancil/Desktop/Language/Language/library/src/forms/views/IBADateFormFieldCell.m -o /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBADateFormFieldCell.o36"E9A053E1-2023-4117-A75E-FF411768DE5F-
-
-CCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBADateInputProvider.o /Users/ecancil/Desktop/Language/Language/library/src/input/controllers/IBADateInputProvider.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s358187169.889090
-e358187169.978044
-r1
-xCompileC
-x/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBADateInputProvider.o
-x/Users/ecancil/Desktop/Language/Language/library/src/input/controllers/IBADateInputProvider.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Users/ecancil/Desktop/Language/Language/library/src/input/controllers/IBADateInputProvider.m63b7e3a18059b541^2063faa18059b541^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/ecancil/Desktop/Language/Language/library/src/input/controllers/IBADateInputProvider.m0000000000000000^3052"CompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBADateInputProvider.o src/input/controllers/IBADateInputProvider.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ecancil/Desktop/Language/Language/library    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-generated-files.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-own-target-headers.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-all-target-headers.hmap -iquote /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-project-headers.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/include -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/DerivedSources/i386 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/DerivedSources -F/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator -include /Users/ecancil/Desktop/Language/DerivedData/Language/Build/PrecompiledHeaders/IBAForms_Prefix-gfwqomyzqomuscgretqkuvrjdglk/IBAForms_Prefix.pch -MMD -MT dependencies -MF /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBADateInputProvider.d -c /Users/ecancil/Desktop/Language/Language/library/src/input/controllers/IBADateInputProvider.m -o /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBADateInputProvider.o36"8BC6D128-9AB0-4273-879A-10EFCFB96A4E-
-
-CCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAFormDataSource.o /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAFormDataSource.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s358187168.212673
-e358187168.286426
-r1
-xCompileC
-x/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAFormDataSource.o
-x/Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAFormDataSource.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAFormDataSource.m479036a08059b541^095249a08059b541^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAFormDataSource.m0000000000000000^3037"CompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAFormDataSource.o src/forms/controllers/IBAFormDataSource.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ecancil/Desktop/Language/Language/library    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-generated-files.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-own-target-headers.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-all-target-headers.hmap -iquote /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-project-headers.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/include -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/DerivedSources/i386 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/DerivedSources -F/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator -include /Users/ecancil/Desktop/Language/DerivedData/Language/Build/PrecompiledHeaders/IBAForms_Prefix-gfwqomyzqomuscgretqkuvrjdglk/IBAForms_Prefix.pch -MMD -MT dependencies -MF /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAFormDataSource.d -c /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAFormDataSource.m -o /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAFormDataSource.o36"10F7F997-DA07-4A0B-B99D-DC7B17C629BF-
-
-CCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAFormField.o /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAFormField.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s358187168.531026
-e358187168.624500
-r1
-xCompileC
-x/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAFormField.o
-x/Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAFormField.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAFormField.m670b88a08059b541^1adf9fa08059b541^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAFormField.m0000000000000000^3012"CompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAFormField.o src/forms/controllers/IBAFormField.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ecancil/Desktop/Language/Language/library    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-generated-files.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-own-target-headers.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-all-target-headers.hmap -iquote /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-project-headers.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/include -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/DerivedSources/i386 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/DerivedSources -F/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator -include /Users/ecancil/Desktop/Language/DerivedData/Language/Build/PrecompiledHeaders/IBAForms_Prefix-gfwqomyzqomuscgretqkuvrjdglk/IBAForms_Prefix.pch -MMD -MT dependencies -MF /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAFormField.d -c /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAFormField.m -o /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAFormField.o36"75318F03-5428-417D-AF7D-E8C10FB35586-
-
-CCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAFormFieldCell.o /Users/ecancil/Desktop/Language/Language/library/src/forms/views/IBAFormFieldCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s358187169.626588
-e358187169.772620
-r1
-xCompileC
-x/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAFormFieldCell.o
-x/Users/ecancil/Desktop/Language/Language/library/src/forms/views/IBAFormFieldCell.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/ecancil/Desktop/Language/Language/library/src/forms/views/IBAFormFieldCell.m0a31a3a18059b541^71c9c5a18059b541^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/ecancil/Desktop/Language/Language/library/src/forms/views/IBAFormFieldCell.m0000000000000000^3020"CompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAFormFieldCell.o src/forms/views/IBAFormFieldCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ecancil/Desktop/Language/Language/library    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-generated-files.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-own-target-headers.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-all-target-headers.hmap -iquote /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-project-headers.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/include -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/DerivedSources/i386 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/DerivedSources -F/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator -include /Users/ecancil/Desktop/Language/DerivedData/Language/Build/PrecompiledHeaders/IBAForms_Prefix-gfwqomyzqomuscgretqkuvrjdglk/IBAForms_Prefix.pch -MMD -MT dependencies -MF /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAFormFieldCell.d -c /Users/ecancil/Desktop/Language/Language/library/src/forms/views/IBAFormFieldCell.m -o /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAFormFieldCell.o36"32270CEE-F7BB-4262-AC93-F15E49F649AE-
-
-CCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAFormFieldStyle.o /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAFormFieldStyle.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s358187168.625810
-e358187168.666420
-r1
-xCompileC
-x/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAFormFieldStyle.o
-x/Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAFormFieldStyle.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAFormFieldStyle.m3750a0a08059b541^1c9aaaa08059b541^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAFormFieldStyle.m0000000000000000^3037"CompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAFormFieldStyle.o src/forms/controllers/IBAFormFieldStyle.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ecancil/Desktop/Language/Language/library    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-generated-files.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-own-target-headers.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-all-target-headers.hmap -iquote /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-project-headers.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/include -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/DerivedSources/i386 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/DerivedSources -F/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator -include /Users/ecancil/Desktop/Language/DerivedData/Language/Build/PrecompiledHeaders/IBAForms_Prefix-gfwqomyzqomuscgretqkuvrjdglk/IBAForms_Prefix.pch -MMD -MT dependencies -MF /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAFormFieldStyle.d -c /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAFormFieldStyle.m -o /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAFormFieldStyle.o36"67637C72-4E88-4B6C-BEF7-A304E9D48B13-
-
-CCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAFormSection.o /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAFormSection.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s358187168.689013
-e358187168.823523
-r1
-xCompileC
-x/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAFormSection.o
-x/Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAFormSection.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAFormSection.m7b4db3a08059b541^d8d3d2a08059b541^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAFormSection.m0000000000000000^3022"CompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAFormSection.o src/forms/controllers/IBAFormSection.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ecancil/Desktop/Language/Language/library    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-generated-files.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-own-target-headers.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-all-target-headers.hmap -iquote /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-project-headers.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/include -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/DerivedSources/i386 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/DerivedSources -F/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator -include /Users/ecancil/Desktop/Language/DerivedData/Language/Build/PrecompiledHeaders/IBAForms_Prefix-gfwqomyzqomuscgretqkuvrjdglk/IBAForms_Prefix.pch -MMD -MT dependencies -MF /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAFormSection.d -c /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAFormSection.m -o /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAFormSection.o36"E2859D77-B5C6-46B6-9461-28DE3CC4F2E1-
-
-CCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAFormViewController.o /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAFormViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s358187168.824881
-e358187168.987731
-r1
-xCompileC
-x/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAFormViewController.o
-x/Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAFormViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compile /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAFormViewController.m9d49d3a08059b541^38dbfca08059b541^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAFormViewController.m0000000000000000^3057"CompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAFormViewController.o src/forms/controllers/IBAFormViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ecancil/Desktop/Language/Language/library    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-generated-files.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-own-target-headers.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-all-target-headers.hmap -iquote /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-project-headers.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/include -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/DerivedSources/i386 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/DerivedSources -F/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator -include /Users/ecancil/Desktop/Language/DerivedData/Language/Build/PrecompiledHeaders/IBAForms_Prefix-gfwqomyzqomuscgretqkuvrjdglk/IBAForms_Prefix.pch -MMD -MT dependencies -MF /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAFormViewController.d -c /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAFormViewController.m -o /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAFormViewController.o36"AAA61FAA-2CEF-42F5-B079-D8F4BE7641C0-
-
-CCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAInputManager.o /Users/ecancil/Desktop/Language/Language/library/src/input/controllers/IBAInputManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s358187170.006926
-e358187170.099114
-r1
-xCompileC
-x/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAInputManager.o
-x/Users/ecancil/Desktop/Language/Language/library/src/input/controllers/IBAInputManager.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/ecancil/Desktop/Language/Language/library/src/input/controllers/IBAInputManager.m45f201a28059b541^245f19a28059b541^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/ecancil/Desktop/Language/Language/library/src/input/controllers/IBAInputManager.m0000000000000000^3027"CompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAInputManager.o src/input/controllers/IBAInputManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ecancil/Desktop/Language/Language/library    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-generated-files.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-own-target-headers.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-all-target-headers.hmap -iquote /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-project-headers.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/include -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/DerivedSources/i386 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/DerivedSources -F/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator -include /Users/ecancil/Desktop/Language/DerivedData/Language/Build/PrecompiledHeaders/IBAForms_Prefix-gfwqomyzqomuscgretqkuvrjdglk/IBAForms_Prefix.pch -MMD -MT dependencies -MF /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAInputManager.d -c /Users/ecancil/Desktop/Language/Language/library/src/input/controllers/IBAInputManager.m -o /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAInputManager.o36"4625198E-00E7-4313-81F5-B46FFDEA9952-
-
-CCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAInputNavigationToolbar.o /Users/ecancil/Desktop/Language/Language/library/src/input/views/IBAInputNavigationToolbar.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s358187170.456977
-e358187170.522506
-r1
-xCompileC
-x/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAInputNavigationToolbar.o
-x/Users/ecancil/Desktop/Language/Language/library/src/input/views/IBAInputNavigationToolbar.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/ecancil/Desktop/Language/Language/library/src/input/views/IBAInputNavigationToolbar.mb55175a28059b541^5f5c86a28059b541^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/ecancil/Desktop/Language/Language/library/src/input/views/IBAInputNavigationToolbar.m0000000000000000^3065"CompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAInputNavigationToolbar.o src/input/views/IBAInputNavigationToolbar.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ecancil/Desktop/Language/Language/library    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-generated-files.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-own-target-headers.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-all-target-headers.hmap -iquote /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-project-headers.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/include -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/DerivedSources/i386 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/DerivedSources -F/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator -include /Users/ecancil/Desktop/Language/DerivedData/Language/Build/PrecompiledHeaders/IBAForms_Prefix-gfwqomyzqomuscgretqkuvrjdglk/IBAForms_Prefix.pch -MMD -MT dependencies -MF /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAInputNavigationToolbar.d -c /Users/ecancil/Desktop/Language/Language/library/src/input/views/IBAInputNavigationToolbar.m -o /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAInputNavigationToolbar.o36"7DF44495-0E78-414C-965A-745C95EC063F-
-
-CCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAInputRequestorFormField.o /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAInputRequestorFormField.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s358187168.988989
-e358187169.032067
-r1
-xCompileC
-x/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAInputRequestorFormField.o
-x/Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAInputRequestorFormField.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Compile /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAInputRequestorFormField.m3c4afda08059b541^e33408a18059b541^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAInputRequestorFormField.m0000000000000000^3082"CompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAInputRequestorFormField.o src/forms/controllers/IBAInputRequestorFormField.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ecancil/Desktop/Language/Language/library    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-generated-files.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-own-target-headers.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-all-target-headers.hmap -iquote /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-project-headers.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/include -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/DerivedSources/i386 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/DerivedSources -F/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator -include /Users/ecancil/Desktop/Language/DerivedData/Language/Build/PrecompiledHeaders/IBAForms_Prefix-gfwqomyzqomuscgretqkuvrjdglk/IBAForms_Prefix.pch -MMD -MT dependencies -MF /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAInputRequestorFormField.d -c /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAInputRequestorFormField.m -o /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAInputRequestorFormField.o36"ED4B959F-66D2-49A1-B8CF-85B80DD6796E-
-
-CCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBALabelFormCell.o /Users/ecancil/Desktop/Language/Language/library/src/forms/views/IBALabelFormCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s358187169.773916
-e358187169.823507
-r1
-xCompileC
-x/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBALabelFormCell.o
-x/Users/ecancil/Desktop/Language/Language/library/src/forms/views/IBALabelFormCell.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/ecancil/Desktop/Language/Language/library/src/forms/views/IBALabelFormCell.mc938c6a18059b541^52d3d2a18059b541^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/ecancil/Desktop/Language/Language/library/src/forms/views/IBALabelFormCell.m0000000000000000^3020"CompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBALabelFormCell.o src/forms/views/IBALabelFormCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ecancil/Desktop/Language/Language/library    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-generated-files.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-own-target-headers.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-all-target-headers.hmap -iquote /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-project-headers.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/include -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/DerivedSources/i386 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/DerivedSources -F/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator -include /Users/ecancil/Desktop/Language/DerivedData/Language/Build/PrecompiledHeaders/IBAForms_Prefix-gfwqomyzqomuscgretqkuvrjdglk/IBAForms_Prefix.pch -MMD -MT dependencies -MF /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBALabelFormCell.d -c /Users/ecancil/Desktop/Language/Language/library/src/forms/views/IBALabelFormCell.m -o /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBALabelFormCell.o36"48C9BE53-26C2-441D-8EED-36AFC48C3AD2-
-
-CCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBALabelFormField.o /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBALabelFormField.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s358187169.037214
-e358187169.141986
-r1
-xCompileC
-x/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBALabelFormField.o
-x/Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBALabelFormField.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBALabelFormField.m6e6e0ca18059b541^e08525a18059b541^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBALabelFormField.m0000000000000000^3037"CompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBALabelFormField.o src/forms/controllers/IBALabelFormField.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ecancil/Desktop/Language/Language/library    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-generated-files.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-own-target-headers.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-all-target-headers.hmap -iquote /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-project-headers.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/include -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/DerivedSources/i386 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/DerivedSources -F/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator -include /Users/ecancil/Desktop/Language/DerivedData/Language/Build/PrecompiledHeaders/IBAForms_Prefix-gfwqomyzqomuscgretqkuvrjdglk/IBAForms_Prefix.pch -MMD -MT dependencies -MF /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBALabelFormField.d -c /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBALabelFormField.m -o /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBALabelFormField.o36"5D04CB21-15DF-4B72-B625-0DDAA42ECBDA-
-
-CCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAMultiplePickListInputProvider.o /Users/ecancil/Desktop/Language/Language/library/src/input/controllers/IBAMultiplePickListInputProvider.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s358187170.142277
-e358187170.201282
-r1
-xCompileC
-x/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAMultiplePickListInputProvider.o
-x/Users/ecancil/Desktop/Language/Language/library/src/input/controllers/IBAMultiplePickListInputProvider.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Compile /Users/ecancil/Desktop/Language/Language/library/src/input/controllers/IBAMultiplePickListInputProvider.m36c824a28059b541^d28e33a28059b541^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Users/ecancil/Desktop/Language/Language/library/src/input/controllers/IBAMultiplePickListInputProvider.m0000000000000000^3112"CompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAMultiplePickListInputProvider.o src/input/controllers/IBAMultiplePickListInputProvider.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ecancil/Desktop/Language/Language/library    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-generated-files.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-own-target-headers.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-all-target-headers.hmap -iquote /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-project-headers.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/include -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/DerivedSources/i386 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/DerivedSources -F/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator -include /Users/ecancil/Desktop/Language/DerivedData/Language/Build/PrecompiledHeaders/IBAForms_Prefix-gfwqomyzqomuscgretqkuvrjdglk/IBAForms_Prefix.pch -MMD -MT dependencies -MF /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAMultiplePickListInputProvider.d -c /Users/ecancil/Desktop/Language/Language/library/src/input/controllers/IBAMultiplePickListInputProvider.m -o /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAMultiplePickListInputProvider.o36"1B686E1D-45A8-4AD3-8998-4F588DAE7786-
-
-CCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAPickListFormField.o /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAPickListFormField.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s358187169.179247
-e358187169.275745
-r1
-xCompileC
-x/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAPickListFormField.o
-x/Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAPickListFormField.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAPickListFormField.mb83c2ea18059b541^a05447a18059b541^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAPickListFormField.m0000000000000000^3052"CompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAPickListFormField.o src/forms/controllers/IBAPickListFormField.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ecancil/Desktop/Language/Language/library    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-generated-files.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-own-target-headers.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-all-target-headers.hmap -iquote /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-project-headers.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/include -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/DerivedSources/i386 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/DerivedSources -F/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator -include /Users/ecancil/Desktop/Language/DerivedData/Language/Build/PrecompiledHeaders/IBAForms_Prefix-gfwqomyzqomuscgretqkuvrjdglk/IBAForms_Prefix.pch -MMD -MT dependencies -MF /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAPickListFormField.d -c /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAPickListFormField.m -o /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAPickListFormField.o36"E702A9A2-334D-4733-8A2D-61E0E77B8715-
-
-CCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAReadOnlyTextFormField.o /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAReadOnlyTextFormField.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s358187169.277307
-e358187169.339641
-r1
-xCompileC
-x/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAReadOnlyTextFormField.o
-x/Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAReadOnlyTextFormField.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compile /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAReadOnlyTextFormField.m971c47a18059b541^02d957a18059b541^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAReadOnlyTextFormField.m0000000000000000^3072"CompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAReadOnlyTextFormField.o src/forms/controllers/IBAReadOnlyTextFormField.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ecancil/Desktop/Language/Language/library    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-generated-files.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-own-target-headers.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-all-target-headers.hmap -iquote /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-project-headers.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/include -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/DerivedSources/i386 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/DerivedSources -F/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator -include /Users/ecancil/Desktop/Language/DerivedData/Language/Build/PrecompiledHeaders/IBAForms_Prefix-gfwqomyzqomuscgretqkuvrjdglk/IBAForms_Prefix.pch -MMD -MT dependencies -MF /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAReadOnlyTextFormField.d -c /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBAReadOnlyTextFormField.m -o /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAReadOnlyTextFormField.o36"F2D0AA12-7AB9-447C-AD65-D557EEAA210F-
-
-CCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBASinglePickListInputProvider.o /Users/ecancil/Desktop/Language/Language/library/src/input/controllers/IBASinglePickListInputProvider.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s358187170.222625
-e358187170.361747
-r1
-xCompileC
-x/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBASinglePickListInputProvider.o
-x/Users/ecancil/Desktop/Language/Language/library/src/input/controllers/IBASinglePickListInputProvider.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Compile /Users/ecancil/Desktop/Language/Language/library/src/input/controllers/IBASinglePickListInputProvider.mf2063ca28059b541^bf995ca28059b541^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/ecancil/Desktop/Language/Language/library/src/input/controllers/IBASinglePickListInputProvider.m0000000000000000^3102"CompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBASinglePickListInputProvider.o src/input/controllers/IBASinglePickListInputProvider.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ecancil/Desktop/Language/Language/library    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-generated-files.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-own-target-headers.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-all-target-headers.hmap -iquote /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-project-headers.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/include -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/DerivedSources/i386 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/DerivedSources -F/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator -include /Users/ecancil/Desktop/Language/DerivedData/Language/Build/PrecompiledHeaders/IBAForms_Prefix-gfwqomyzqomuscgretqkuvrjdglk/IBAForms_Prefix.pch -MMD -MT dependencies -MF /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBASinglePickListInputProvider.d -c /Users/ecancil/Desktop/Language/Language/library/src/input/controllers/IBASinglePickListInputProvider.m -o /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBASinglePickListInputProvider.o36"8A31329A-4604-4B98-9BD9-7FAC6E1E1F02-
-
-CCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBATextFormField+Factory.o /Users/ecancil/Desktop/Language/Language/library/src/forms/categories/IBATextFormField+Factory.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s358187170.656643
-e358187170.711746
-r1
-xCompileC
-x/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBATextFormField+Factory.o
-x/Users/ecancil/Desktop/Language/Language/library/src/forms/categories/IBATextFormField+Factory.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compile /Users/ecancil/Desktop/Language/Language/library/src/forms/categories/IBATextFormField+Factory.m6e34a8a28059b541^7634b6a28059b541^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/ecancil/Desktop/Language/Language/library/src/forms/categories/IBATextFormField+Factory.m0000000000000000^3070"CompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBATextFormField+Factory.o src/forms/categories/IBATextFormField+Factory.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ecancil/Desktop/Language/Language/library    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-generated-files.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-own-target-headers.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-all-target-headers.hmap -iquote /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-project-headers.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/include -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/DerivedSources/i386 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/DerivedSources -F/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator -include /Users/ecancil/Desktop/Language/DerivedData/Language/Build/PrecompiledHeaders/IBAForms_Prefix-gfwqomyzqomuscgretqkuvrjdglk/IBAForms_Prefix.pch -MMD -MT dependencies -MF /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBATextFormField+Factory.d -c /Users/ecancil/Desktop/Language/Language/library/src/forms/categories/IBATextFormField+Factory.m -o /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBATextFormField+Factory.o36"3B51D552-E558-4580-8121-13F47CD71B42-
-
-CCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBATextFormField.o /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBATextFormField.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s358187169.369457
-e358187169.458955
-r1
-xCompileC
-x/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBATextFormField.o
-x/Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBATextFormField.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBATextFormField.m56f15ea18059b541^d87f75a18059b541^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBATextFormField.m0000000000000000^3032"CompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBATextFormField.o src/forms/controllers/IBATextFormField.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ecancil/Desktop/Language/Language/library    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-generated-files.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-own-target-headers.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-all-target-headers.hmap -iquote /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-project-headers.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/include -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/DerivedSources/i386 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/DerivedSources -F/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator -include /Users/ecancil/Desktop/Language/DerivedData/Language/Build/PrecompiledHeaders/IBAForms_Prefix-gfwqomyzqomuscgretqkuvrjdglk/IBAForms_Prefix.pch -MMD -MT dependencies -MF /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBATextFormField.d -c /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBATextFormField.m -o /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBATextFormField.o36"8150FD8A-ED7C-445E-9881-EE48B4555A2D-
-
-CCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBATextFormFieldCell.o /Users/ecancil/Desktop/Language/Language/library/src/forms/views/IBATextFormFieldCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s358187169.828362
-e358187169.887730
-r1
-xCompileC
-x/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBATextFormFieldCell.o
-x/Users/ecancil/Desktop/Language/Language/library/src/forms/views/IBATextFormFieldCell.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/ecancil/Desktop/Language/Language/library/src/forms/views/IBATextFormFieldCell.mce39d4a18059b541^2442e3a18059b541^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/ecancil/Desktop/Language/Language/library/src/forms/views/IBATextFormFieldCell.m0000000000000000^3040"CompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBATextFormFieldCell.o src/forms/views/IBATextFormFieldCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ecancil/Desktop/Language/Language/library    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-generated-files.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-own-target-headers.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-all-target-headers.hmap -iquote /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-project-headers.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/include -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/DerivedSources/i386 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/DerivedSources -F/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator -include /Users/ecancil/Desktop/Language/DerivedData/Language/Build/PrecompiledHeaders/IBAForms_Prefix-gfwqomyzqomuscgretqkuvrjdglk/IBAForms_Prefix.pch -MMD -MT dependencies -MF /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBATextFormFieldCell.d -c /Users/ecancil/Desktop/Language/Language/library/src/forms/views/IBATextFormFieldCell.m -o /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBATextFormFieldCell.o36"E5878E79-09B0-4C61-B2B9-44CBF112FBCD-
-
-CCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBATextInputProvider.o /Users/ecancil/Desktop/Language/Language/library/src/input/controllers/IBATextInputProvider.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s358187170.363053
-e358187170.417437
-r1
-xCompileC
-x/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBATextInputProvider.o
-x/Users/ecancil/Desktop/Language/Language/library/src/input/controllers/IBATextInputProvider.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Users/ecancil/Desktop/Language/Language/library/src/input/controllers/IBATextInputProvider.m4e0c5da28059b541^a0dc6aa28059b541^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/ecancil/Desktop/Language/Language/library/src/input/controllers/IBATextInputProvider.m0000000000000000^3052"CompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBATextInputProvider.o src/input/controllers/IBATextInputProvider.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ecancil/Desktop/Language/Language/library    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-generated-files.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-own-target-headers.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-all-target-headers.hmap -iquote /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-project-headers.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/include -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/DerivedSources/i386 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/DerivedSources -F/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator -include /Users/ecancil/Desktop/Language/DerivedData/Language/Build/PrecompiledHeaders/IBAForms_Prefix-gfwqomyzqomuscgretqkuvrjdglk/IBAForms_Prefix.pch -MMD -MT dependencies -MF /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBATextInputProvider.d -c /Users/ecancil/Desktop/Language/Language/library/src/input/controllers/IBATextInputProvider.m -o /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBATextInputProvider.o36"FED590ED-0D74-46E9-8671-859036254ED8-
-
-CCompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBATitleFormField.o /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBATitleFormField.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s358187170.526345
-e358187170.655246
-r1
-xCompileC
-x/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBATitleFormField.o
-x/Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBATitleFormField.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBATitleFormField.m809f89a28059b541^e4c0a7a28059b541^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBATitleFormField.m0000000000000000^3037"CompileC /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBATitleFormField.o src/forms/controllers/IBATitleFormField.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ecancil/Desktop/Language/Language/library    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-generated-files.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-own-target-headers.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-all-target-headers.hmap -iquote /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-project-headers.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/include -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/DerivedSources/i386 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/DerivedSources -F/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator -include /Users/ecancil/Desktop/Language/DerivedData/Language/Build/PrecompiledHeaders/IBAForms_Prefix-gfwqomyzqomuscgretqkuvrjdglk/IBAForms_Prefix.pch -MMD -MT dependencies -MF /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBATitleFormField.d -c /Users/ecancil/Desktop/Language/Language/library/src/forms/controllers/IBATitleFormField.m -o /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBATitleFormField.o36"695ECC72-9436-4FDD-A5F1-AEC8535CD6C0-
-
-CLibtool /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/libIBAForms.a normal i386
-s358187170.749749
-e358187170.768384
-r1
-xLibtool
-x/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/libIBAForms.a
-xnormal
-xi386
-o/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Libtool /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/libIBAForms.a normal i386713bc0a28059b541^78b5c4a28059b541^---0#0#0#--952"Libtool /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/libIBAForms.a normal i386    cd /Users/ecancil/Desktop/Language/Language/library    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool -static -arch_only i386 -syslibroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -L/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator -filelist /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/Objects-normal/i386/IBAForms.LinkFileList -ObjC -framework Foundation -o /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/libIBAForms.a36"B0F4C1C8-43E1-48E2-BF8C-FE068D450121-
-
-CProcessPCH /Users/ecancil/Desktop/Language/DerivedData/Language/Build/PrecompiledHeaders/IBAForms_Prefix-gfwqomyzqomuscgretqkuvrjdglk/IBAForms_Prefix.pch.pth IBAForms_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s358187167.818546
-e358187168.205846
-r1
-xProcessPCH
-x/Users/ecancil/Desktop/Language/DerivedData/Language/Build/PrecompiledHeaders/IBAForms_Prefix-gfwqomyzqomuscgretqkuvrjdglk/IBAForms_Prefix.pch.pth
-xIBAForms_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection30"Precompile IBAForms_Prefix.pch73b9d19f8059b541^cdb134a08059b541^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/ecancil/Desktop/Language/Language/library/IBAForms_Prefix.pch0000000000000000^2794"ProcessPCH /Users/ecancil/Desktop/Language/DerivedData/Language/Build/PrecompiledHeaders/IBAForms_Prefix-gfwqomyzqomuscgretqkuvrjdglk/IBAForms_Prefix.pch.pth IBAForms_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ecancil/Desktop/Language/Language/library    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-generated-files.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-own-target-headers.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-all-target-headers.hmap -iquote /Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/IBAForms-project-headers.hmap -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator/include -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/DerivedSources/i386 -I/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Intermediates/IBAForms.build/Debug-iphonesimulator/IBAForms.build/DerivedSources -F/Users/ecancil/Desktop/Language/DerivedData/Language/Build/Products/Debug-iphonesimulator -c /Users/ecancil/Desktop/Language/Language/library/IBAForms_Prefix.pch -o /Users/ecancil/Desktop/Language/DerivedData/Language/Build/PrecompiledHeaders/IBAForms_Prefix-gfwqomyzqomuscgretqkuvrjdglk/IBAForms_Prefix.pch.pth -MMD -MT dependencies -MF /Users/ecancil/Desktop/Language/DerivedData/Language/Build/PrecompiledHeaders/IBAForms_Prefix-gfwqomyzqomuscgretqkuvrjdglk/IBAForms_Prefix.pch.d36"BE1979E9-1BEB-4209-AD2E-C97C4A4E6330-
-
-CProcessPCH /Users/ecancil/Desktop/Language/DerivedData/Language/Index/PrecompiledHeaders/IBAForms_Prefix-figgubjfnfjtoyfcwnsjbkbosocj_ast/IBAForms_Prefix.pch.pth IBAForms_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
