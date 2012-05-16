@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3010ABB915630F890028E728 /* CreateGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 3010ABB815630F890028E728 /* CreateGroup.m */; };
+		3010ABBB156357650028E728 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3010ABBA156357650028E728 /* Default.png */; };
 		302A4CFE1551F3640004AE7A /* _changelog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 302A4B6A1551F3630004AE7A /* _changelog.txt */; };
 		302A4CFF1551F3640004AE7A /* _readme_first.txt in Resources */ = {isa = PBXBuildFile; fileRef = 302A4B6B1551F3630004AE7A /* _readme_first.txt */; };
 		302A4D001551F3640004AE7A /* glyphicons_000_glass.png in Resources */ = {isa = PBXBuildFile; fileRef = 302A4B6E1551F3630004AE7A /* glyphicons_000_glass.png */; };
@@ -803,6 +804,7 @@
 
 /* Begin PBXFileReference section */
 		3010ABB815630F890028E728 /* CreateGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateGroup.m; sourceTree = "<group>"; };
+		3010ABBA156357650028E728 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = asset/Default.png; sourceTree = "<group>"; };
 		302A4B651551E7A90004AE7A /* SaveTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaveTypes.h; sourceTree = "<group>"; };
 		302A4B6A1551F3630004AE7A /* _changelog.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _changelog.txt; sourceTree = "<group>"; };
 		302A4B6B1551F3630004AE7A /* _readme_first.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _readme_first.txt; sourceTree = "<group>"; };
@@ -2632,6 +2634,7 @@
 		307C159D15446B240032CAC9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3010ABBA156357650028E728 /* Default.png */,
 				30325170154F919D00FFD4A8 /* asset */,
 				303C11D4154CDF7800D7422A /* words.sqlite */,
 				307C159E15446B240032CAC9 /* Language-Info.plist */,
@@ -3625,6 +3628,7 @@
 				30CDE642155F81CE00509B87 /* dinpattern-stripe.gif in Resources */,
 				30507F75156033D300266D06 /* camera_white.png in Resources */,
 				30507F77156034F000266D06 /* glyphicons_151_edit_white.png in Resources */,
+				3010ABBB156357650028E728 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3810,6 +3814,7 @@
 		307C15B115446B240032CAC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEPLOYMENT_POSTPROCESSING = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Language/Language-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -3843,6 +3848,7 @@
 		307C15B215446B240032CAC9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEPLOYMENT_POSTPROCESSING = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Language/Language-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;

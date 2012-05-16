@@ -38,7 +38,7 @@
     if([objectAtIndex class] == [Word class] || [objectAtIndex class] == [SQLWord class]){
         //if we get here this is a cached and indexed session so well only get the ID
         Word *actualWord = (Word *)objectAtIndex;
-        word = [WordCache getWordForKey:actualWord.uniqueID];
+        word = actualWord; //[WordCache getWordForKey:actualWord.uniqueID];
         
     }else{
         //else this is a default section and we'll get the actual word

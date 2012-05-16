@@ -103,9 +103,16 @@
 -(void)talliesUpdated{
     [self.tableView reloadData];
     if(previouslySelected){
-        [self.tableView selectRowAtIndexPath:previouslySelected animated:YES scrollPosition:UITableViewScrollPositionNone];
-        //aself.firstShow = NO;
-        [self tableView:self.tableView didSelectRowAtIndexPath:self.previouslySelected];
+        if(previouslySelected.row >= self.visibleItems.count){
+            if(self.visibleItems.count == 0)return;
+            [self.tableView selectRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0] animated:YES scrollPosition:UITableViewScrollPositionNone];
+            //aself.firstShow = NO;
+            [self tableView:self.tableView didSelectRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0]];
+        }else{
+            [self.tableView selectRowAtIndexPath:previouslySelected animated:YES scrollPosition:UITableViewScrollPositionNone];
+            //aself.firstShow = NO;
+            [self tableView:self.tableView didSelectRowAtIndexPath:self.previouslySelected];
+        }
     } 
 }
 
@@ -116,6 +123,9 @@
     if(self.visibleItems.count == 0){
         [self.popNavigationDelegate popStackedViews];
     }else{
+        AppDelegate *appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
+        if(appDelegate.stackedController.viewControllers.count > 1)[appDelegate.stackedController popViewControllerAnimated:YES];
+        return;
         NSIndexPath *indexPath = [NSIndexPath indexPathForRow:0 inSection:0];
         [self.tableView selectRowAtIndexPath:indexPath animated:YES scrollPosition:UITableViewScrollPositionBottom];
         [self tableView:self.tableView didSelectRowAtIndexPath:indexPath];
@@ -229,16 +239,21 @@
   
 }
 
-- (void)viewDidUnload
-{
+-(void)dealloc{
+    self.popNavigationDelegate = nil;
+    
     [[NSNotificationCenter defaultCenter] removeObserver:self];
-    [self setSearchBar:nil];
-    [self setSearchBar:nil];
-    [self setTableView:nil];
-    [self setTableView:nil];
-    [self setSearchBar:nil];
     [[SecondaryListModel getInstance] removeObserver:self forKeyPath:@"menuValues"];
     [[SecondaryListModel getInstance] removeObserver:self forKeyPath:@"activeUserSection"];
+}
+
+- (void)viewDidUnload
+{
+    [self setSearchBar:nil];
+    [self setSearchBar:nil];
+    [self setTableView:nil];
+    [self setTableView:nil];
+    [self setSearchBar:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -344,7 +359,6 @@
     SecondaryListModel *model = [SecondaryListModel getInstance];
     int row = indexPath.row;
     int count = appDelegate.stackedController.viewControllers.count;
-    Word * selectedWord = [self getWordFromCollection:visibleItems ByRow:row];
     if(count == 1){
         wordView = [[WordView alloc] initWithNibName:@"WordView" bundle:nil];
         UINavigationController *navigator = [[UINavigationController alloc] initWithRootViewController:wordView];

@@ -47,6 +47,11 @@
 
 }
 
+-(void)dealloc{
+    [self.textLabel removeObserver:self forKeyPath:@"text"];
+    [self.textLabel removeObserver:self forKeyPath:@"bounds"];
+    [self removeObserver:self forKeyPath:@"superview"];
+}
 
 
 -(void)setupPosition{

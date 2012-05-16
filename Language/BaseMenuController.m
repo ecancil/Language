@@ -32,6 +32,7 @@
 -(void)setupBarOnEdit;
 -(void)setupBarOnFinishEdit;
 -(void)popStackedViews;
+-(void)lazilyLoadSecondaryMenu;
 @property(nonatomic, retain) NSIndexPath *previouslySelected;
 @property(nonatomic, retain) DaoInteractor *menuValuesModel;
 @end
@@ -326,7 +327,6 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
- 
     self.previouslySelected = indexPath;
     SecondaryListModel *model = [SecondaryListModel getInstance];
     int row = indexPath.row;
@@ -336,7 +336,6 @@
         model.menuValues = self.menuValuesModel.defaultWordBank.wordIDs;
         model.activeUserSection = self.menuValuesModel.defaultWordBank;
     }else if(section == 1){
-        model.activeUserSection = nil;
         if(row == 0){
             //these are the default words that ship with the program
             model.menuValues = menuValuesModel.allDefaultWords.copy;
@@ -353,7 +352,7 @@
         if([self.menuValuesModel.allUserCreatedSections count] == 1 && [[self.menuValuesModel.allUserCreatedSections objectAtIndex:0] isKindOfClass:[NSString class]]){
             [self popStackedViews];
             
-            secondaryMenu = nil;
+            //secondaryMenu = nil;
             
             CreateGroup *createGroupScreen = [[CreateGroup alloc] initWithFormDataSource:[[CreateGroupDataSource alloc] initWithModel:[AddSectionModel getInstance]]];
             
@@ -368,22 +367,32 @@
         
         
     }
+    [self lazilyLoadSecondaryMenu];
     
+ }
 
+-(void)lazilyLoadSecondaryMenu{
     if(secondaryMenu != Nil){
         [secondaryMenu setFirstSelected];
     }else{
         secondaryMenu = [[SecondaryMenuController alloc] initWithNibName:@"SecondaryMenuController" bundle:nil];
         secondaryMenu.popNavigationDelegate = self;
         UINavigationController *navigator = [[UINavigationController alloc] initWithRootViewController:secondaryMenu];
-        
         [[appDelegate stackedController] pushViewController:navigator animated:YES];
-        [[appDelegate stackedController] expandStack:1 animated:YES]; 
     }
-    
     [[appDelegate stackedController] collapseStack:1 animated:YES];
-    
- }
+}
+
+-(void)popStackedViews{
+    [self.tableView deselectRowAtIndexPath:[self.tableView indexPathForSelectedRow] animated:YES];
+    //secondaryMenu = nil;
+    AppDelegate *appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
+    while (appDelegate.stackedController.viewControllers.count > 0) {
+        [appDelegate.stackedController popViewControllerAnimated:YES];
+    }
+    [appDelegate.stackedController setLeftInset:50];
+    self.secondaryMenu = nil;
+}
 
 -(BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath{
     if(indexPath.section == 2)return YES;
@@ -401,7 +410,7 @@
     
     [self popStackedViews];
     
-    secondaryMenu = nil;
+    //secondaryMenu = nil;
     
      ChooseCreateScreen *chooseScreen = [[ChooseCreateScreen alloc] initWithNibName:@"ChooseCreateScreen" bundle:nil];
 
@@ -459,12 +468,5 @@
     }
 }
 
--(void)popStackedViews{
-    secondaryMenu = nil;
-    AppDelegate *appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
-    while (appDelegate.stackedController.viewControllers.count > 0) {
-        [appDelegate.stackedController popViewControllerAnimated:YES];
-    }
-    [appDelegate.stackedController setLeftInset:50];
-}
+
 @end
