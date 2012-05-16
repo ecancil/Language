@@ -85,6 +85,11 @@
     
     moDao = [ManagedObjectsDao getInstance];
     
+    AddWordModel *model = [AddWordModel getInstance];
+    if (model.word && model.word.image) {
+        self.theImageView.image = model.word.image;
+    }
+    
     if(self.isEditor)return;
     
     [self.tableView setScrollEnabled:NO];

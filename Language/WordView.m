@@ -22,6 +22,7 @@
 #import "SpecialIdentifiers.h"
 #import "SecondaryListModel.h"
 #import "AppDelegate.h"
+#import "ImagePreview.h"
 
 @interface WordView () 
 -(NSArray *)getActionSheetRows;
@@ -85,17 +86,6 @@
 
 -(BOOL)isInWordbank{
     return [self.daoInteractor wordExistsInWordBank:self.theWord];
-    /*
-    NSArray *wbWords = [[[maDao retrieveDefaultWordBank] words] allObjects];
-    for (int i = 0; i < wbWords.count; i ++) {
-        SQLWord *foundWord = [wbWords objectAtIndex:i];
-        //NSLog(@"%fl %fl", foundWord.uniqueID.doubleValue, theWord.uniqueID.doubleValue);
-        if(foundWord.uniqueID.doubleValue == theWord.uniqueID.doubleValue){
-            return YES;
-        }
-    }
-    return NO;
-     */
 }
 
 -(void)setDataToViews{
@@ -158,6 +148,8 @@
     
     [viewExamplesButton addTarget:self action:@selector(viewExamples) forControlEvents:UIControlEventTouchUpInside];
     
+    [imageButton addTarget:self action:@selector(viewImage) forControlEvents:UIControlEventTouchUpInside];
+    
     [self.NextButton addTarget:self action:@selector(onNext) forControlEvents:UIControlEventTouchUpInside];
     [self.previousButton addTarget:self action:@selector(onPrevious) forControlEvents:UIControlEventTouchUpInside];
     // Do any additional setup after loading the view from its nib.
@@ -178,6 +170,11 @@
     [AddWordModel getInstance].examples = [theWord.examples markupFromHtml];
     AddExamplesToWordPreviewController *preview = [[AddExamplesToWordPreviewController alloc] initWithNibName:@"AddExamplesToWordPreviewController" bundle:nil];
     [self.navigationController pushViewController:preview animated:YES];
+}
+
+-(void)viewImage{
+    ImagePreview *imagePreview = [[ImagePreview alloc] initWithImage:self.theWord.image];
+    [self.navigationController pushViewController:imagePreview animated:YES];
 }
 
 -(void)onNext{

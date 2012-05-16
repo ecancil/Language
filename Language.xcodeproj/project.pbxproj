@@ -731,6 +731,8 @@
 		30848F0F15615D99002DAF10 /* WordCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 30848F0E15615D99002DAF10 /* WordCache.m */; };
 		30848F1215616779002DAF10 /* Section.m in Sources */ = {isa = PBXBuildFile; fileRef = 30848F1115616779002DAF10 /* Section.m */; };
 		30848F1515616AEA002DAF10 /* Word.m in Sources */ = {isa = PBXBuildFile; fileRef = 30848F1415616AE9002DAF10 /* Word.m */; };
+		309130A415637A5500DFD597 /* ImagePreview.m in Sources */ = {isa = PBXBuildFile; fileRef = 309130A215637A5500DFD597 /* ImagePreview.m */; };
+		309130A515637A5500DFD597 /* ImagePreview.xib in Resources */ = {isa = PBXBuildFile; fileRef = 309130A315637A5500DFD597 /* ImagePreview.xib */; };
 		30A583F3155D9BB100439F20 /* StudyRemindersPreferencePane.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A583F2155D9BB100439F20 /* StudyRemindersPreferencePane.m */; };
 		30AD22AC154E189300AADA53 /* PreferencesPane.m in Sources */ = {isa = PBXBuildFile; fileRef = 30AD22AA154E189300AADA53 /* PreferencesPane.m */; };
 		30AD22AD154E189300AADA53 /* PreferencesPane.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30AD22AB154E189300AADA53 /* PreferencesPane.xib */; };
@@ -1612,6 +1614,9 @@
 		30848F1115616779002DAF10 /* Section.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Section.m; sourceTree = "<group>"; };
 		30848F1315616AE9002DAF10 /* Word.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Word.h; sourceTree = "<group>"; };
 		30848F1415616AE9002DAF10 /* Word.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Word.m; sourceTree = "<group>"; };
+		309130A115637A5400DFD597 /* ImagePreview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagePreview.h; sourceTree = "<group>"; };
+		309130A215637A5500DFD597 /* ImagePreview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagePreview.m; sourceTree = "<group>"; };
+		309130A315637A5500DFD597 /* ImagePreview.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImagePreview.xib; sourceTree = "<group>"; };
 		30A583F2155D9BB100439F20 /* StudyRemindersPreferencePane.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudyRemindersPreferencePane.m; sourceTree = "<group>"; };
 		30AD22A9154E189300AADA53 /* PreferencesPane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesPane.h; sourceTree = "<group>"; };
 		30AD22AA154E189300AADA53 /* PreferencesPane.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesPane.m; sourceTree = "<group>"; };
@@ -2259,6 +2264,9 @@
 				303C11CF154CDB8F00D7422A /* CreateWord.xib */,
 				304CE75115580ECE00ED1812 /* CreateWordDataSource.h */,
 				304CE75215580ECE00ED1812 /* CreateWordDataSource.m */,
+				309130A115637A5400DFD597 /* ImagePreview.h */,
+				309130A215637A5500DFD597 /* ImagePreview.m */,
+				309130A315637A5500DFD597 /* ImagePreview.xib */,
 			);
 			name = createword;
 			sourceTree = "<group>";
@@ -3629,6 +3637,7 @@
 				30507F75156033D300266D06 /* camera_white.png in Resources */,
 				30507F77156034F000266D06 /* glyphicons_151_edit_white.png in Resources */,
 				3010ABBB156357650028E728 /* Default.png in Resources */,
+				309130A515637A5500DFD597 /* ImagePreview.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3719,6 +3728,7 @@
 				303F270B1561F1B600349A46 /* FormsBaseViewController.m in Sources */,
 				303F270F1562B10F00349A46 /* FormsBaseDataSource.m in Sources */,
 				3010ABB915630F890028E728 /* CreateGroup.m in Sources */,
+				309130A415637A5500DFD597 /* ImagePreview.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
