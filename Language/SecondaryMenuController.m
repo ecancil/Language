@@ -27,7 +27,10 @@
 
 @interface SecondaryMenuController ()
 -(void)determineData;
+-(void)resetInsetAnimated:(BOOL)animate;
 @property (nonatomic, retain) WordView *wordView;
+@property (nonatomic, retain) NSIndexPath *previouslySelected;
+@property (nonatomic, assign) BOOL *firstShow;
 -(Word *)getWordByRow:(int)row;
 -(void)removeObjectFromArrayByWord:(Word *)word;
 @end
@@ -40,6 +43,8 @@
 @synthesize visibleItems;
 @synthesize popNavigationDelegate;
 @synthesize wordView;
+@synthesize previouslySelected;
+@synthesize firstShow;
 
 
 - (void)didReceiveMemoryWarning
@@ -59,6 +64,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    self.firstShow = YES;
 
     AppDelegate *appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
 
@@ -84,7 +91,7 @@
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(onPrevious:) name:PREVIOUS_PRESSED object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(onNext:) name:NEXT_PRESSED object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(wordAdded:) name:WORD_SAVED object:nil];
-    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(talliesUpdated) name:SHOULD_REFRESH_BASE_LABELS object:nil];
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -92,6 +99,16 @@
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
+
+-(void)talliesUpdated{
+    [self.tableView reloadData];
+    if(previouslySelected){
+        [self.tableView selectRowAtIndexPath:previouslySelected animated:YES scrollPosition:UITableViewScrollPositionNone];
+        //aself.firstShow = NO;
+        [self tableView:self.tableView didSelectRowAtIndexPath:self.previouslySelected];
+    } 
+}
+
 
 
 -(void)setFirstSelected{
@@ -131,10 +148,19 @@
         [self setFirstSelected];
         return;
     }
+    [self resetInsetAnimated:YES];
+    //[self.tableView selectRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0] animated:YES scrollPosition:UITableViewScrollPositionNone];
+    //[self tableView:self.tableView didSelectRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0]];
+     if(!self.firstShow && previouslySelected){
+         [self.tableView selectRowAtIndexPath:previouslySelected animated:YES scrollPosition:UITableViewScrollPositionNone];
+         self.firstShow = NO;
+         [self tableView:self.tableView didSelectRowAtIndexPath:self.previouslySelected];
+     }
+}
+
+-(void)resetInsetAnimated:(BOOL)animate{
     AppDelegate *appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
     [appDelegate.stackedController setLeftInset:50 animated:YES];
-    [self.tableView selectRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0] animated:YES scrollPosition:UITableViewScrollPositionNone];
-    [self tableView:self.tableView didSelectRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0]];
 }
 
 -(void)determineData{
@@ -312,12 +338,13 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    
+    self.previouslySelected = indexPath;
+    [self.searchBar resignFirstResponder];
     AppDelegate *appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
     SecondaryListModel *model = [SecondaryListModel getInstance];
     int row = indexPath.row;
     int count = appDelegate.stackedController.viewControllers.count;
-    SQLWord * selectedWord = [visibleItems objectAtIndex:row];
+    Word * selectedWord = [self getWordFromCollection:visibleItems ByRow:row];
     if(count == 1){
         wordView = [[WordView alloc] initWithNibName:@"WordView" bundle:nil];
         UINavigationController *navigator = [[UINavigationController alloc] initWithRootViewController:wordView];
@@ -356,21 +383,20 @@
 }
 
 - (BOOL)searchDisplayController:(UISearchDisplayController *)controller shouldReloadTableForSearchString:(NSString *)searchString{
-    return YES;
     SecondaryListModel *model = [SecondaryListModel getInstance];
     RomanjiToHiragana *r2h = [[RomanjiToHiragana alloc] init];
     NSString *kana = [r2h romanjiToKana:searchString];
     int i = 0;
     NSMutableArray *arr = [[NSMutableArray alloc] init];
     for (i; i < model.menuValues.count; i ++) {
-        SQLWord *word = (SQLWord *)[model.menuValues objectAtIndex:i];
+        Word *word = [self getWordFromCollection:model.menuValues ByRow:i];
         if([word.language1 rangeOfString:searchString].location != NSNotFound
            || [word.language2 rangeOfString:searchString].location != NSNotFound
            || [word.language2supplemental rangeOfString:searchString].location != NSNotFound
            || [word.language2 rangeOfString:kana].location != NSNotFound
            || [word.language2supplemental rangeOfString:kana].location!= NSNotFound
            || [word.language2supplemental rangeOfString:kana].location != NSNotFound){
-            [arr addObject:word];
+            if(word)[arr addObject:word];
         }
         
     }

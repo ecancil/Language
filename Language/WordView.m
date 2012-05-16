@@ -259,7 +259,7 @@
 }
 
 -(NSArray *)getActionSheetRows{
-    NSArray *allUserSections = self.daoInteractor.allUserCreatedSections;
+    NSArray *allUserSections = [self.daoInteractor getSanitizedUserCreatedSections];
     NSMutableArray *toReturn  = [[NSMutableArray alloc] init];
     int i;
     int j;
@@ -281,7 +281,7 @@
 }
 
 -(Section *)getSectionByTitle:(NSString *)title{
-    NSArray *allUserSections = self.daoInteractor.allUserCreatedSections;
+    NSArray *allUserSections = [self.daoInteractor getSanitizedUserCreatedSections];
     int i;
     for (i = 0; i < allUserSections.count; i ++) {
         Section *section = (Section *)[allUserSections objectAtIndex:i];

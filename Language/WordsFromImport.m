@@ -154,7 +154,7 @@
 }
 
 -(void)updateProgress:(NSNumber *)progress{
-    NSLog(@"Progress %fl", progress.doubleValue);
+    //NSLog(@"Progress %fl", progress.doubleValue);
     [progressView setProgress:(progress.doubleValue) animated:YES];
 }
 

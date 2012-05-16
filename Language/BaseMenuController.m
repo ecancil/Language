@@ -39,19 +39,12 @@
 @implementation BaseMenuController
 @synthesize menuValues;
 @synthesize  wordsDao;
-@synthesize sections;
 @synthesize notificationCenter;
 @synthesize tableView;
-@synthesize nonUserSections;
-@synthesize userSections;
+
 @synthesize managedObjectDao;
 @synthesize appDelegate;
 @synthesize secondaryMenu;
-@synthesize allWordBankWords;
-@synthesize userCreatedwords;
-@synthesize defaultWordBank;
-@synthesize allWords;
-@synthesize allUserWords;
 @synthesize flashcardModel;
 @synthesize previouslySelected;
 @synthesize menuValuesModel;
@@ -70,13 +63,15 @@
 }
 
 -(void)defaultWordsUpdated{
-    if(self.menuValuesModel.completelyInitialized)[self.tableView reloadData];  
+    if(self.menuValuesModel.completelyInitialized){
+        [self.tableView reloadData];  
+    }
 }
 
 -(void)userCreatedWordsUpdated{
     if(self.menuValuesModel.completelyInitialized){
         NSIndexPath *selectedPath = [self.tableView indexPathForSelectedRow];
-        if(selectedPath.section == 1 & selectedPath.row == 1){
+        if(previouslySelected.section == 1 & previouslySelected.row == 1){
             [SecondaryListModel getInstance].menuValues = self.menuValuesModel.allUserCreatedWords.mutableCopy;
         }else{
             [self.tableView reloadData];
@@ -87,7 +82,7 @@
 -(void)wordBankUpdated{
     if(self.menuValuesModel.completelyInitialized){
         NSIndexPath *selectedPath = [self.tableView indexPathForSelectedRow];
-        if(selectedPath.section == 0 & selectedPath.row == 0){
+        if(previouslySelected.section == 0 & previouslySelected.row == 0){
             [SecondaryListModel getInstance].menuValues = self.menuValuesModel.defaultWordBank.wordIDs;
         }else{
             [self.tableView reloadData];
@@ -131,9 +126,6 @@
     
     
     
-    flashcardModel = [FlashcardModel getInstance];
-    
-    
     [self loadPList];
     
     
@@ -149,8 +141,17 @@
     [menuValuesModel addTarget:self andSelector:@selector(wordBankUpdated) forMenuUpdateType:DefaultWordBankUpdate];
     [menuValuesModel addTarget:self andSelector:@selector(userAddedSectionsUpdated) forMenuUpdateType:UserCreatedSectionsUpdate];
     [menuValuesModel doInitialMenuRetrieval];
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(talliesUpdated) name:SHOULD_REFRESH_BASE_LABELS object:nil];
+    
+    flashcardModel = [FlashcardModel getInstance];
+    
 
 
+}
+
+-(void)talliesUpdated{
+    [self.tableView reloadData];
 }
 
 -(void)onSettings:(id)sender{
@@ -279,7 +280,7 @@
     int section = indexPath.section;
     if(section == 0){
         cell.textLabel.text = [NSString stringWithFormat:@"%@ %@%d%@", self.menuValuesModel.defaultWordBank.title, @"(", self.menuValuesModel.defaultWordBank.wordIDs.count, @")"];
-        //[flashcardModel getPercentCorrectFromArrayOfWords:defaultWordBank.words.allObjects withCell:cell];
+        [flashcardModel getPercentCorrectFromArrayOfWords:self.menuValuesModel.defaultWordBank.wordIDs withCell:cell];
         cell.imageView.image = WORDBANK_ASSET;
     }
     if(section == 1){
@@ -287,13 +288,13 @@
             NSString *textValue = (NSString *)[menuValues objectAtIndex:row];
             int total = self.menuValuesModel.allDefaultWords.count;
             cell.textLabel.text = [textValue stringByAppendingString:[NSString stringWithFormat:@" %@%d%@", @"(", total, @")"]]; 
-            //[flashcardModel getPercentCorrectFromArrayOfWords:allWords withCell:cell];
+            [flashcardModel getPercentCorrectFromArrayOfWords:self.menuValuesModel.allDefaultWords withCell:cell];
             cell.imageView.image = DEFAULT_WORDS_ASSET;
         }else if(row == 1){
             NSString *textValue = (NSString *)[menuValues objectAtIndex:row];
             int total = self.menuValuesModel.allUserCreatedWords.count;
             cell.textLabel.text = [textValue stringByAppendingString:[NSString stringWithFormat:@" %@%d%@", @"(", total, @")"]];
-            //[flashcardModel getPercentCorrectFromArrayOfWords:allUserWords withCell:cell];
+            [flashcardModel getPercentCorrectFromArrayOfWords:self.menuValuesModel.allUserCreatedWords withCell:cell];
             cell.imageView.image = USER_ADDED_ASSET; 
         }else{
             SQLSection *section = [self.menuValuesModel getDefaultSectionByIndex:row - 2];
@@ -301,7 +302,7 @@
             int total = section.words.count;
             textValue = [textValue stringByAppendingString:[NSString stringWithFormat:@" %@%d%@", @"(", total, @")"]];
             cell.textLabel.text = textValue;
-            //[flashcardModel getPercentCorrectFromArrayOfWords:nonUserSectionWords withCell:cell];
+            [flashcardModel getPercentCorrectFromArrayOfWords:section.words withCell:cell];
             cell.imageView.image = DEFAULT_WORDS_ASSET; 
         }
     }
@@ -314,7 +315,7 @@
         }else{
             Section *section = (Section *)[self.menuValuesModel getUserCreatedSectionByIndex:row];
             if(section)cell.textLabel.text = section.title;  
-            //[flashcardModel getPercentCorrectFromArrayOfWords:section.words.allObjects withCell:cell];
+            [flashcardModel getPercentCorrectFromArrayOfWords:section.wordIDs withCell:cell];
         }
     }
        [cell showProgress];
@@ -370,7 +371,7 @@
     
 
     if(secondaryMenu != Nil){
-        
+        [secondaryMenu setFirstSelected];
     }else{
         secondaryMenu = [[SecondaryMenuController alloc] initWithNibName:@"SecondaryMenuController" bundle:nil];
         secondaryMenu.popNavigationDelegate = self;

@@ -13,8 +13,11 @@
 #import "NotificationConstants.h"
 #import "NSObject+NSObject_PerformSelectorOnMainThreadMultipleArgs_m.h"
 #import "StyledTableCell.h"
-@interface FlashcardModel ()
+#import "Word.h"
+#import "WordCache.h"
 
+@interface FlashcardModel ()
+-(Word *)getWordFromCollection:(NSArray *)collection ByRow:(int)row;
 -(void)updateTallies;
 -(void)updateTallyDictionary;
 -(void)updateCell:(UITableViewCell *)theCell withValue:(NSNumber *)value;
@@ -83,7 +86,7 @@ static FlashcardModel *sharedInstance = nil;
     int totalFound = 0;
     double numberCorrect = 0;
     for (i = 0; i < arrayOfWords.count; i ++) {
-        SQLWord *word = [arrayOfWords objectAtIndex:i];
+        Word *word = [self getWordFromCollection:arrayOfWords ByRow:i];
         NSString *key = [NSString stringWithFormat:@"%@", word.uniqueID];
         //NSLog(@"looking up %@", key);
         AnswerTally *tally = (AnswerTally *)[self.tallyDictionary objectForKey:key];
@@ -122,6 +125,23 @@ static FlashcardModel *sharedInstance = nil;
     [theCell.textLabel setNeedsDisplay];
     [theCell setNeedsDisplay];
     [theCell setNeedsLayout];
+}
+
+-(Word *)getWordFromCollection:(NSArray *)collection ByRow:(int)row{
+    Word *word;
+    
+    id objectAtIndex = [collection objectAtIndex:row];
+    
+    if([objectAtIndex class] == [Word class] || [objectAtIndex class] == [SQLWord class]){
+        //if we get here this is a cached and indexed session so well only get the ID
+        Word *actualWord = (Word *)objectAtIndex;
+        word = [WordCache getWordForKey:actualWord.uniqueID];
+        
+    }else{
+        //else this is a default section and we'll get the actual word
+        word = [WordCache getWordForKey:(NSNumber *)objectAtIndex];
+    }
+    return word;
 }
 
 @end

@@ -197,6 +197,14 @@ static DaoInteractor *sharedInstance = nil;
     return NO;
 }
 
+-(NSMutableArray *)getSanitizedUserCreatedSections{
+    NSMutableArray *copy = allUserCreatedSections.copy;
+    if(copy.count == 1 && [[copy objectAtIndex:0] isKindOfClass:[NSString class]]){
+        copy = [[NSMutableArray alloc] init];
+    }
+    return copy;
+}
+
 #pragma -
 #pragma local convenience methods
 
@@ -299,7 +307,8 @@ static DaoInteractor *sharedInstance = nil;
 }
 
 -(AnswerTally *)updateOrCreateAnswerTallyByWord:(Word *)theWord wasCorrect:(BOOL)correct{
-    [moDao updateOrCreateAnswerTallyByWord:theWord wasCorrect:correct];
+    AnswerTally *tally = [moDao updateOrCreateAnswerTallyByWord:theWord wasCorrect:correct];
+    return tally;
 }
 
 

@@ -463,6 +463,8 @@ static NSString *BACK_STATE = @"back";
 }
 - (IBAction)onHideKeyboard:(id)sender {
     [self.typedAnswerField resignFirstResponder];
-    self.hideKeyboardBar.alpha = 0;
+    [UIView animateWithDuration:.2 animations:^{
+         self.hideKeyboardBar.alpha = 0;        
+    }];
 }
 @end

@@ -39,6 +39,8 @@ typedef struct{
 @property(nonatomic, retain) NSArray *allDefaultWords;
 @property(nonatomic, retain) NSArray *allDefaultSections;
 @property(nonatomic, retain) NSMutableArray *allUserCreatedWords;
+//this could sometimes have a string in it, it is strictly to be used for the menu.  If you want the sections themselves
+//call -(NSMutableArray *)getSanitizedUserCreatedSections; 
 @property(nonatomic, retain) NSMutableArray *allUserCreatedSections;
 
 //sections
@@ -58,6 +60,7 @@ typedef struct{
 -(BOOL)wordExistsInWordBank:(Word *)word;
 -(BOOL)word:(Word *)word ExistsInUserCreatedSection:(Section *)section;
 -(Section *)getUserCreatedSectionByIndex:(int)index;
+-(NSMutableArray *)getSanitizedUserCreatedSections;
 
 //messaging
 -(void)addTarget:(id)target andSelector:(SEL)selector forMenuUpdateType:(MenuUpdateType)menuUpdateType;

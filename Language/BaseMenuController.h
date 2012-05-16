@@ -35,13 +35,7 @@
 @property (strong, nonatomic) AppDelegate *appDelegate;
 @property (strong, nonatomic) IBOutlet UITableView *tableView;
 @property (strong, nonatomic) IBOutlet ManagedObjectsDao *managedObjectDao;
-@property (strong, nonatomic) IBOutlet NSMutableArray *userSections;
-@property (strong, nonatomic) NSArray *nonUserSections;
-@property (nonatomic, retain) NSArray *allWordBankWords;
-@property (nonatomic, retain) NSArray *userCreatedwords;
-@property (nonatomic, retain) Section *defaultWordBank;
-@property (nonatomic, retain) NSArray *allWords;
-@property (nonatomic, retain) NSArray *allUserWords;
+
 @property(nonatomic, retain) FlashcardModel *flashcardModel;
 
 - (IBAction)onAddGroup:(id)sender;

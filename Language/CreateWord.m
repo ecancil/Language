@@ -15,8 +15,11 @@
 #import "AddWordModel.h"
 #import "CreateWordDataSource.h"
 #import "SpecialIdentifiers.h"
+#import "AppDelegate.h"
+
 
 @interface CreateWord ()
+-(void)resetInset;
 -(void)makePhotoImagePicker;
 -(void)makePhotoTakerImagePicker;
 -(void)setupInputs;
@@ -217,6 +220,7 @@
  */
 - (void)imagePickerController:(UIImagePickerController *)picker 
 didFinishPickingMediaWithInfo:(NSDictionary *)info{
+    [self resetInset];
     [self dismissModalViewControllerAnimated:YES];
     NSString *mediaType = [info objectForKey:UIImagePickerControllerMediaType];
     if([mediaType isEqualToString:(NSString *)kUTTypeImage]){
@@ -242,6 +246,11 @@ didFinishPickingMediaWithInfo:(NSDictionary *)info{
     }
 }
 
+- (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker{
+    [self resetInset];
+    [self dismissModalViewControllerAnimated:YES];
+}
+
 - (UIImage*)imageWithBorderFromImage:(UIImage*)image
 {
     UIGraphicsBeginImageContextWithOptions(image.size, NO, image.scale); {
@@ -251,5 +260,11 @@ didFinishPickingMediaWithInfo:(NSDictionary *)info{
     UIImage *resultImage = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
     return resultImage;
+}
+
+-(void)resetInset{
+    AppDelegate *appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
+    [appDelegate.stackedController setLeftInset:50 animated:YES];
+
 }
 @end

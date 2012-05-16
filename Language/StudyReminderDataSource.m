@@ -71,7 +71,7 @@
 }
 
 -(NSArray *)getActionSheetRows{
-    NSArray *allUserSections = self.daoInteractor.allUserCreatedSections;
+    NSArray *allUserSections = [self.daoInteractor getSanitizedUserCreatedSections];
     NSMutableArray *toReturn  = [[NSMutableArray alloc] init];
     int i;
     for (i = 0; i < allUserSections.count; i ++) {

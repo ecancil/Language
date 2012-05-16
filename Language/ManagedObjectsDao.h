@@ -39,8 +39,8 @@
 -(void)saveWithSaveType:(NSString *)saveType;
 
 //old methods
--(AnswerTally *)updateOrCreateAnswerTallyByWord:(SQLWord *)theWord wasCorrect:(BOOL)correct;
--(AnswerTally *)getAnswerTallyByWord:(SQLWord *)theWord;
+-(AnswerTally *)updateOrCreateAnswerTallyByWord:(Word *)theWord wasCorrect:(BOOL)correct;
+-(AnswerTally *)getAnswerTallyByWord:(Word *)theWord;
 -(NSArray *)retrieveAllAnswerTallies;
 -(void)deleteAllTallies;
 
