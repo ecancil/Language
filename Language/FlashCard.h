@@ -13,6 +13,7 @@
 #import "ManagedObjectsDao.h"
 #import "SingleFlashcardSession.h"
 #import "BaseViewController.h"
+#import "AddedFlashcardDelegate.h"
 
 @interface FlashCard : BaseViewController <CardDelegate, UIGestureRecognizerDelegate>
 @property(nonatomic, retain) SecondaryListModel *model;
@@ -37,4 +38,5 @@
 @property (strong, nonatomic) IBOutlet UIBarButtonItem *hideKeyboardButton;
 - (IBAction)onHideKeyboard:(id)sender;
 @property (strong, nonatomic) IBOutlet UILabel *resultLabel;
+@property(nonatomic, retain) <AddedFlashcardDelegate>id flashcardDelegate;
 @end

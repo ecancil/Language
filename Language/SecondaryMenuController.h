@@ -9,8 +9,9 @@
 #import <UIKit/UIKit.h>
 #import "PopNavigationDelegate.h"
 #import "BaseViewController.h"
+#import "AddedFlashcardDelegate.h"
 
-@interface SecondaryMenuController : BaseViewController <UISearchBarDelegate, UISearchDisplayDelegate, UITableViewDelegate, UITableViewDataSource>{
+@interface SecondaryMenuController : BaseViewController <UISearchBarDelegate, UISearchDisplayDelegate, UITableViewDelegate, UITableViewDataSource , AddedFlashcardDelegate>{
     NSString *state;
     UISearchDisplayController *searchController;
     NSMutableArray *visibleItems;

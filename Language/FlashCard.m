@@ -43,6 +43,7 @@
 @synthesize singleFlashcardSessionModel;
 @synthesize tapRecognizer;
 @synthesize isTypedResponseStyle;
+@synthesize flashcardDelegate;
 
 static NSString *FRONT_STATE = @"front";
 static NSString *BACK_STATE = @"back";
@@ -331,7 +332,8 @@ static NSString *BACK_STATE = @"back";
 }
 
 - (IBAction)onClose:(id)sender {
-    [self dismissModalViewControllerAnimated:YES];
+    //[self dismissModalViewControllerAnimated:YES];
+    [self.flashcardDelegate didFinishFlashcardSession];
 }
 
 
@@ -459,7 +461,8 @@ static NSString *BACK_STATE = @"back";
     [self expandAndHideWithAnimation:NO withSelector:@selector(showNextFlashcard)];
 }
 -(void)onDone{
-    [self dismissModalViewControllerAnimated:YES];
+//    [self dismissModalViewControllerAnimated:YES];
+    [self.flashcardDelegate didFinishFlashcardSession];
 }
 - (IBAction)onHideKeyboard:(id)sender {
     [self.typedAnswerField resignFirstResponder];

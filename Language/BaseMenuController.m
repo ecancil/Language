@@ -65,7 +65,10 @@
 
 -(void)defaultWordsUpdated{
     if(self.menuValuesModel.completelyInitialized){
-        [self.tableView reloadData];  
+        //[self.tableView reloadData];  
+        NSIndexPath *toUpdate = [NSIndexPath indexPathForRow:0 inSection:0];
+        [self.tableView reloadRowsAtIndexPaths:[NSArray arrayWithObject:toUpdate] withRowAnimation:NO];
+        
     }
 }
 
@@ -85,15 +88,15 @@
         NSIndexPath *selectedPath = [self.tableView indexPathForSelectedRow];
         if(previouslySelected.section == 0 & previouslySelected.row == 0){
             [SecondaryListModel getInstance].menuValues = self.menuValuesModel.defaultWordBank.wordIDs;
-        }else{
-            [self.tableView reloadData];
         }
+        [self.tableView reloadRowsAtIndexPaths:[NSArray arrayWithObject:[NSIndexPath indexPathForRow:0 inSection:0]] withRowAnimation:UITableViewRowAnimationNone];
     }
 }
 
 -(void)userAddedSectionsUpdated{
     if(self.menuValuesModel.completelyInitialized){
-        [self.tableView reloadData];
+        //[self.tableView reloadData];
+        [self.tableView reloadSections:[NSIndexSet indexSetWithIndex:2] withRowAnimation:UITableViewRowAnimationNone];
     }
 }
 
@@ -152,7 +155,7 @@
 }
 
 -(void)talliesUpdated{
-    [self.tableView reloadData];
+    //[self.tableView reloadData];
 }
 
 -(void)onSettings:(id)sender{
@@ -392,6 +395,7 @@
     }
     [appDelegate.stackedController setLeftInset:50];
     self.secondaryMenu = nil;
+   // [self.tableView performSelector:@selector(reloadData) withObject:nil afterDelay:1];
 }
 
 -(BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath{

@@ -101,6 +101,7 @@
 }
 
 -(void)talliesUpdated{
+    //return;
     [self.tableView reloadData];
     if(previouslySelected){
         if(previouslySelected.row >= self.visibleItems.count){
@@ -229,6 +230,7 @@
     SecondaryListModel *model = [SecondaryListModel getInstance];
     FlashCard *flashCard = [[FlashCard alloc] initWithFlashcardWords:model.menuValues];
     [appDelegate.stackedController presentModalViewController:flashCard animated:YES];
+    
 }
 
 -(void)popUpStudy{
@@ -459,6 +461,10 @@
         }
         
     }
+}
+
+-(void)didFinishFlashcardSession{
+    [self dismissModalViewControllerAnimated:YES];
 }
 
 @end
