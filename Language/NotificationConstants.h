@@ -14,6 +14,7 @@
 #define GMAIL_LOGIN_SUCCESS @"gmailLoginSuccess"
 #define PREVIOUS_PRESSED @"previousPressed"
 #define NEXT_PRESSED @"nextPressed"
+#define CLONE_WORD @"cloneWord"
 
 
 @interface NotificationConstants : NSObject

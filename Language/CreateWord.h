@@ -28,7 +28,7 @@
 @property (nonatomic, retain) ManagedObjectsDao *moDao;
 @property (strong, nonatomic) IBOutlet UITableView *tableView;
 
-- (id)initEditorWithFormDataSource:(IBAFormDataSource *)formDataSource;
+- (id)initEditorWithFormDataSource:(IBAFormDataSource *)formDataSource andIsEditor:(BOOL)isAnEditor;
 -(void)didAddExample;
 -(void)forceAddSaveButton;
 @end

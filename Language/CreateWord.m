@@ -52,9 +52,9 @@
     return self;
 }
 
-- (id)initEditorWithFormDataSource:(IBAFormDataSource *)formDataSource {
+- (id)initEditorWithFormDataSource:(IBAFormDataSource *)formDataSource andIsEditor:(BOOL)isAnEditor {
     if([self initWithFormDataSource:formDataSource]){
-        isEditor = YES;
+        isEditor = isAnEditor;
     }
 	return self;
 }
@@ -104,6 +104,7 @@
 }
 
 -(void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context{
+    if(isEditor)return;
     CreateWordDataSource *typedDataSource = (CreateWordDataSource *)self.formDataSource;
     if(typedDataSource.shouldShowSaveButton){
         UIBarButtonItem *saveButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemSave target:self action:@selector(save:)];
@@ -154,8 +155,21 @@
     [self.navigationController popToRootViewControllerAnimated:YES];
 }
 
+-(void)viewWillDisappear:(BOOL)animated{
+    [super viewWillDisappear:YES];
+    AddWordModel *model = [AddWordModel getInstance];
+    if(isEditor && model.word){    
+        [model updateWordWithValuesAndImage:imageToAttach];
+    }
+}
+
 - (void)viewDidUnload
 {
+    AddWordModel *model = [AddWordModel getInstance];
+    if(isEditor && model.word){    
+        [model updateWordWithValuesAndImage:imageToAttach];
+    }
+    
     [self setLanguage1Label:nil];
     [self setLanguage2Label:nil];
     [self setLanguage2supplementalLabel:nil];

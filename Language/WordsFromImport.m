@@ -268,7 +268,7 @@
     int row = indexPath.row;
      SQLWord *word = [importModel.words objectAtIndex:row];
     [addWordModel updateValuesWithWord:word];
-    CreateWord *editWord = [[CreateWord alloc] initEditorWithFormDataSource:[[CreateWordDataSource alloc] initWithModel:addWordModel]];
+    CreateWord *editWord = [[CreateWord alloc] initEditorWithFormDataSource:[[CreateWordDataSource alloc] initWithModel:addWordModel] andIsEditor:YES];
     [self.navigationController pushViewController:editWord animated:YES];
 
     

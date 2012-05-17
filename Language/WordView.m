@@ -157,7 +157,7 @@
     if([theWord.specialIdentifier isEqualToString:USER_CREATED] || [theWord.alternateSpecialIdentifier isEqualToString:USER_CREATED]){
         AddWordModel *wordModel = [AddWordModel getInstance];
         [wordModel updateValuesWithWord:theWord];
-        CreateWord *createWord = [[CreateWord alloc] initEditorWithFormDataSource:[[CreateWordDataSource alloc] initWithModel:wordModel]];
+        CreateWord *createWord = [[CreateWord alloc] initEditorWithFormDataSource:[[CreateWordDataSource alloc] initWithModel:wordModel] andIsEditor:NO];
         [self.navigationController pushViewController:createWord animated:YES];
         [createWord forceAddSaveButton];
     }else{
@@ -167,7 +167,7 @@
 }
 
 - (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex{
-    //[self.
+    [[NSNotificationCenter defaultCenter] postNotificationName:CLONE_WORD object:nil userInfo:[NSDictionary dictionaryWithObject:self.theWord forKey:@"word"]];
 }
 
 -(void)viewExamples{
