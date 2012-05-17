@@ -1,5 +1,5 @@
 //
-//  AddedFlashcardDelegate.h
+//  AddedFlashCardDelegate.h
 //  Language
 //
 //  Created by Eric Cancil on 5/16/12.
@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@protocol AddedFlashcardDelegate <NSObject>
--(void)didFinishFlashcardSession;
+@protocol AddedFlashCardDelegate <NSObject>
+
 @end
