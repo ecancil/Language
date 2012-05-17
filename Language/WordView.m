@@ -60,12 +60,7 @@
 }
 
 -(void)adjustEditButton{
-    if([theWord.specialIdentifier isEqualToString:USER_CREATED] || [theWord.alternateSpecialIdentifier isEqualToString:USER_CREATED]){
-        [editButton setAlpha:1];
-        [editButton addTarget:self action:@selector(onEdit) forControlEvents:UIControlEventTouchUpInside];
-    }else{
-        [editButton setAlpha:0];
-    }
+    [editButton addTarget:self action:@selector(onEdit) forControlEvents:UIControlEventTouchUpInside];
 }
 
 -(void)adjustAddToSectionVisibility{
@@ -159,11 +154,20 @@
 }
 
 -(void)onEdit{
-    AddWordModel *wordModel = [AddWordModel getInstance];
-    [wordModel updateValuesWithWord:theWord];
-    CreateWord *createWord = [[CreateWord alloc] initEditorWithFormDataSource:[[CreateWordDataSource alloc] initWithModel:wordModel]];
-    [self.navigationController pushViewController:createWord animated:YES];
-    [createWord forceAddSaveButton];
+    if([theWord.specialIdentifier isEqualToString:USER_CREATED] || [theWord.alternateSpecialIdentifier isEqualToString:USER_CREATED]){
+        AddWordModel *wordModel = [AddWordModel getInstance];
+        [wordModel updateValuesWithWord:theWord];
+        CreateWord *createWord = [[CreateWord alloc] initEditorWithFormDataSource:[[CreateWordDataSource alloc] initWithModel:wordModel]];
+        [self.navigationController pushViewController:createWord animated:YES];
+        [createWord forceAddSaveButton];
+    }else{
+        UIAlertView *cloneAlert = [[UIAlertView alloc] initWithTitle:@"Attention" message:@"Default words cannot be edited, instead you can clone them and they'll be added to user created words" delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:@"Clone ->", nil];
+        [cloneAlert show];
+    }
+}
+
+- (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex{
+    //[self.
 }
 
 -(void)viewExamples{

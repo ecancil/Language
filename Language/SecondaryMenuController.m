@@ -101,7 +101,7 @@
 }
 
 -(void)talliesUpdated{
-    //return;
+    return;
     [self.tableView reloadData];
     if(previouslySelected){
         if(previouslySelected.row >= self.visibleItems.count){
@@ -225,18 +225,18 @@
         [appDelegate.stackedController popViewControllerAnimated:YES];
     }
     [appDelegate.stackedController setLeftInset:50 animated:YES];
-    //[self performSelector:@selector(popUpStudy) withObject:self afterDelay:.5];
-    //FlashCard *flashCard = [[FlashCard alloc] initWithNibName:@"FlashCard" bundle:nil];
+
     SecondaryListModel *model = [SecondaryListModel getInstance];
     FlashCard *flashCard = [[FlashCard alloc] initWithFlashcardWords:model.menuValues];
+    flashCard.delegate = self;
     [appDelegate.stackedController presentModalViewController:flashCard animated:YES];
     
 }
 
 -(void)popUpStudy{
     SecondaryListModel *model = [SecondaryListModel getInstance];
-    //FlashCard *flashCard = [[FlashCard alloc] initWithNibName:@"FlashCard" bundle:nil];
     FlashCard *flashCard = [[FlashCard alloc] initWithFlashcardWords:model.menuValues];
+    flashCard.delegate = self;
     [self presentModalViewController:flashCard animated:YES];
   
 }
@@ -463,8 +463,9 @@
     }
 }
 
--(void)didFinishFlashcardSession{
-    [self dismissModalViewControllerAnimated:YES];
+-(void)didFinishFlashcardSessionWithFlashcard:(FlashCard *)flashcard{
+    [flashcard dismissModalViewControllerAnimated:YES];
+    [self.tableView reloadData];
 }
 
 @end

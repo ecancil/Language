@@ -12,7 +12,6 @@
 #import "UserPreferenceConstants.h"
 #import "FlashcardEnumerations.h"
 #import "UserDefaultUtil.h"
-#import "UserDefaultUtil.h"
 #import "UserPreferenceConstants.h"
 @interface FlashCard ()
 -(void)expandAndHideWithAnimation:(BOOL)animate withSelector:(SEL)selector;
@@ -43,7 +42,7 @@
 @synthesize singleFlashcardSessionModel;
 @synthesize tapRecognizer;
 @synthesize isTypedResponseStyle;
-@synthesize flashcardDelegate;
+@synthesize delegate;
 
 static NSString *FRONT_STATE = @"front";
 static NSString *BACK_STATE = @"back";
@@ -333,7 +332,7 @@ static NSString *BACK_STATE = @"back";
 
 - (IBAction)onClose:(id)sender {
     //[self dismissModalViewControllerAnimated:YES];
-    [self.flashcardDelegate didFinishFlashcardSession];
+    [self.delegate didFinishFlashcardSessionWithFlashcard:self];
 }
 
 
@@ -462,7 +461,7 @@ static NSString *BACK_STATE = @"back";
 }
 -(void)onDone{
 //    [self dismissModalViewControllerAnimated:YES];
-    [self.flashcardDelegate didFinishFlashcardSession];
+    [self.delegate didFinishFlashcardSessionWithFlashcard:self];
 }
 - (IBAction)onHideKeyboard:(id)sender {
     [self.typedAnswerField resignFirstResponder];

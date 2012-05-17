@@ -51,7 +51,7 @@ static FlashcardModel *sharedInstance = nil;
 
 - (void) onSave:(NSNotification *)notification
 {
-    //[self updateTallies];
+    [self updateTallies];
 }
 
 -(void)updateTallies{

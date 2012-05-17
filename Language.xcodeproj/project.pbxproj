@@ -1637,12 +1637,12 @@
 		30B9500C155D777B00C06367 /* StudyReminderModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudyReminderModel.m; sourceTree = "<group>"; };
 		30B9500E155D7E6700C06367 /* LocalPushUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalPushUtil.h; sourceTree = "<group>"; };
 		30B9500F155D7E6700C06367 /* LocalPushUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalPushUtil.m; sourceTree = "<group>"; };
+		30CD56C71564797F005CC4D1 /* AddedFlashCardDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddedFlashCardDelegate.h; sourceTree = "<group>"; };
 		30CDE63A155F7F2800509B87 /* BackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundView.h; sourceTree = "<group>"; };
 		30CDE63B155F7F2800509B87 /* BackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundView.m; sourceTree = "<group>"; };
 		30CDE63D155F7F9600509B87 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
 		30CDE63F155F811D00509B87 /* subliminal.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = subliminal.gif; sourceTree = "<group>"; };
 		30CDE641155F81CE00509B87 /* dinpattern-stripe.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "dinpattern-stripe.gif"; sourceTree = "<group>"; };
-		30D5F525156465E0002AEB67 /* AddedFlashcardDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddedFlashcardDelegate.h; sourceTree = "<group>"; };
 		30DD2AC2155CB5C7006CEFC2 /* GradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientView.h; sourceTree = "<group>"; };
 		30DD2AC3155CB5C7006CEFC2 /* GradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientView.m; sourceTree = "<group>"; };
 		30DD2AC5155D4C61006CEFC2 /* SpecialIdentifiers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpecialIdentifiers.h; sourceTree = "<group>"; };
@@ -2711,7 +2711,7 @@
 				30754AB51545251300D7CEBF /* SecondaryMenuController.h */,
 				30754AB61545251300D7CEBF /* SecondaryMenuController.m */,
 				30754AB71545251300D7CEBF /* SecondaryMenuController.xib */,
-				30D5F525156465E0002AEB67 /* AddedFlashcardDelegate.h */,
+				30CD56C71564797F005CC4D1 /* AddedFlashCardDelegate.h */,
 			);
 			name = secondarymenu;
 			sourceTree = "<group>";

@@ -7,7 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "FlashCard.h"
+@class FlashCard;
 @protocol AddedFlashCardDelegate <NSObject>
-
+@optional
+-(void)didFinishFlashcardSessionWithFlashcard:(FlashCard *)flashcard;
 @end

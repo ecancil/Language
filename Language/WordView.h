@@ -13,7 +13,7 @@
 #import "BaseViewController.h"
 #import "Word.h"
 
-@interface WordView : BaseViewController{
+@interface WordView : BaseViewController <UIAlertViewDelegate>{
     Word *theWord;
     ManagedObjectsDao *maDao;
 }
