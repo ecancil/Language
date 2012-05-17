@@ -28,6 +28,8 @@
 @property (nonatomic, retain) ManagedObjectsDao *moDao;
 @property (strong, nonatomic) IBOutlet UITableView *tableView;
 
+@property (nonatomic, assign) BOOL isClone;
+
 - (id)initEditorWithFormDataSource:(IBAFormDataSource *)formDataSource andIsEditor:(BOOL)isAnEditor;
 -(void)didAddExample;
 -(void)forceAddSaveButton;

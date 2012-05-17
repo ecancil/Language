@@ -161,6 +161,7 @@
     Word *theWord = (Word *)[notification.userInfo objectForKey:@"word"];
     [[AddWordModel getInstance] updateValuesWithWord:theWord];
     CreateWord  *createWord = [[CreateWord alloc] initEditorWithFormDataSource:[[CreateWordDataSource alloc] initWithModel:[AddWordModel getInstance]] andIsEditor:NO];
+    createWord.isClone = YES;
     [self.navigationController pushViewController:createWord animated:YES];
     
 }

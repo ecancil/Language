@@ -55,7 +55,7 @@
     [self.language1Field.textFormFieldCell.textField addTarget:self action:@selector(onChange) forControlEvents:UIControlEventEditingChanged];
     [self.language2Field.textFormFieldCell.textField addTarget:self action:@selector(onChange) forControlEvents:UIControlEventEditingChanged];
     
-    [self performSelector:@selector(onChange)];
+    [self performSelector:@selector(onChange) withObject:nil afterDelay:.2];
 }
 
 -(void)onChange{

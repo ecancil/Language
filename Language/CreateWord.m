@@ -42,6 +42,7 @@
 @synthesize imageToAttach;
 @synthesize isEditor;
 @synthesize isShowingButton;
+@synthesize isClone;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -138,6 +139,11 @@
 
 -(void)save:(id)sender{
     AddWordModel *model = [AddWordModel getInstance];
+    if(isClone){
+        [self.daoInteractor addUserCreatedWordWithLanguage1:[model language1] andLanguage2:[model language2] andlanguage2supplemental:[model language2Supplemental] andExampleSentences:[model examples] andImage:imageToAttach != nil ? imageToAttach : nil createOnly:NO];
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(onSaved:) name:WORD_SAVED object:self.moDao];
+        return;
+    }
     if(model.word && model.word.uniqueID > 0){
         //[moDao updateUserCreatedWordByWord:model.word forDelete:NO];
         [model updateWordWithValuesAndImage:imageToAttach];
@@ -158,7 +164,7 @@
 -(void)viewWillDisappear:(BOOL)animated{
     [super viewWillDisappear:YES];
     AddWordModel *model = [AddWordModel getInstance];
-    if(isEditor && model.word){    
+    if(isEditor && model.word && !isClone){    
         [model updateWordWithValuesAndImage:imageToAttach];
     }
 }
