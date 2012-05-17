@@ -9,9 +9,10 @@
 #import "CreateWordDataSource.h"
 #import "IBATextFormField.h"
 #import "CenteredButtonStyle.h"
+#import "AddWordModel.h"
 
 @interface CreateWordDataSource ()
-
+@property(nonatomic, retain) AddWordModel *addWordModel;
 @end
 
 @implementation CreateWordDataSource
@@ -21,9 +22,11 @@
 @synthesize addExamplesButtonField;
 @synthesize viewDelegate;
 @synthesize shouldShowSaveButton;
+@synthesize addWordModel;
 
 -(id)initWithModel:(id)model{
     self = [super initWithModel:model];
+    addWordModel = model;
     [self displayForm];
     return self;
 }
@@ -52,10 +55,11 @@
     [self.language1Field.textFormFieldCell.textField addTarget:self action:@selector(onChange) forControlEvents:UIControlEventEditingChanged];
     [self.language2Field.textFormFieldCell.textField addTarget:self action:@selector(onChange) forControlEvents:UIControlEventEditingChanged];
     
+    [self performSelector:@selector(onChange)];
 }
 
 -(void)onChange{
-    if(self.language1Field.textFormFieldCell.textField.text.length > 0 && self.language2Field.textFormFieldCell.textField.text.length > 0){
+    if(self.addWordModel.language1.length > 0){// && self.self.addWordModel.language2.length > 0){
         self.shouldShowSaveButton = YES;
     }else{
         self.shouldShowSaveButton = NO;

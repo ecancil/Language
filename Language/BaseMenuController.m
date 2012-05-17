@@ -25,6 +25,9 @@
 #import "SpecialIdentifiers.h"
 #import "AssetConstants.h"
 #import "DaoInteractor.h"
+#import "CreateWord.h"
+#import "CreateWordDataSource.h"
+#import "AddWordModel.h"
 
 
 @interface BaseMenuController ()
@@ -147,11 +150,19 @@
     [menuValuesModel doInitialMenuRetrieval];
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(talliesUpdated) name:SHOULD_REFRESH_BASE_LABELS object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(cloneWord:) name:CLONE_WORD object:nil];
     
     flashcardModel = [FlashcardModel getInstance];
     
+}
 
-
+-(void)cloneWord:(NSNotification *)notification{
+    [self popStackedViews];
+    Word *theWord = (Word *)[notification.userInfo objectForKey:@"word"];
+    [[AddWordModel getInstance] updateValuesWithWord:theWord];
+    CreateWord  *createWord = [[CreateWord alloc] initEditorWithFormDataSource:[[CreateWordDataSource alloc] initWithModel:[AddWordModel getInstance]] andIsEditor:NO];
+    [self.navigationController pushViewController:createWord animated:YES];
+    
 }
 
 -(void)talliesUpdated{

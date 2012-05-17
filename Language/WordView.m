@@ -51,8 +51,8 @@
 
 
 -(void) setTheWord:(Word *)word{
-    [self.navigationController popToRootViewControllerAnimated:YES];
     theWord = word;
+    [self.navigationController popToRootViewControllerAnimated:YES];
     [self setDataToViews];
     [self adjustAddToSectionVisibility];
     [self adjustWordBankButton];
@@ -97,10 +97,6 @@
     if(self.theImage && theWord.image){
         [self.theImage setImage:(UIImage *)theWord.image];
     }
-}
-
--(SQLWord *) getTheWord{
-    return theWord;
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -256,7 +252,7 @@
 
 -(void)viewWillAppear:(BOOL)animated{
     [self.navigationController setNavigationBarHidden:YES animated:YES];
-    [self setTheWord:theWord];
+    //[self setTheWord:theWord];
 }
 
 -(NSArray *)getActionSheetRows{

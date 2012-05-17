@@ -14,8 +14,8 @@
 #import "Word.h"
 
 @interface WordView : BaseViewController <UIAlertViewDelegate>{
-    Word *theWord;
     ManagedObjectsDao *maDao;
+    Word *TheWord;
 }
 @property(nonatomic, retain) Word *theWord;
 
