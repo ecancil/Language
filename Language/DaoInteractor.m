@@ -238,7 +238,7 @@ static DaoInteractor *sharedInstance = nil;
 //this is to keep things consistent - all viewControllers derived from BaseViewController will have access to this
 -(Word *)addUserCreatedWordWithLanguage1:(NSString *)language1 andLanguage2:(NSString *)language2 andlanguage2supplemental:(NSString *)language2supplemental andExampleSentences:(NSString *)exampleSentences andImage:(UIImage *)image createOnly:(BOOL)createOnly{
     Word *word = [moDao addUserCreatedWordWithLanguage1:language1 andLanguage2:language2 andlanguage2supplemental:language2supplemental andExampleSentences:exampleSentences andImage:image createOnly:createOnly];
-    self.allUserCreatedWords = [self.allUserCreatedWords arrayByAddingObject:word].mutableCopy;
+    [self.allUserCreatedWords insertObject:word atIndex:0];
     [WordCache addWordToCacheByKey:word.uniqueID forValue:word];
     [self sendUpdateForMenuUpdateType:UserCreatedWordsUpdate];
     return word;

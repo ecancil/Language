@@ -250,6 +250,7 @@ didFinishPickingMediaWithInfo:(NSDictionary *)info{
     NSString *mediaType = [info objectForKey:UIImagePickerControllerMediaType];
     if([mediaType isEqualToString:(NSString *)kUTTypeImage]){
         UIImage *image = imageToAttach = [info objectForKey:UIImagePickerControllerOriginalImage];
+        image = imageToAttach = [UIImage imageWithData:UIImageJPEGRepresentation(image, .1)];
         if(image){
             
             self.theImageView.layer.masksToBounds = NO;
