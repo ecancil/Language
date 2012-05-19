@@ -131,7 +131,9 @@
             NSString *languageTwoColumnName = NSLocalizedString(LANGUAGE_TWO_COLUMN_NAME, nil);
             NSString *languageTwoSupplementalColumnName = NSLocalizedString(LANGUAGE_TWO_SUPPLEMENTAL_COLUMN_NAME, nil);        
             NSString *examplesColumnName = NSLocalizedString(EXAMPLES_COLUMN_NAME, nil);
-        
+            //NSString *imagesColumnName = NSLocalizedString(IMAGES_COLUMN_NAME, nil);
+
+            
         [[GoogleImportModel getInstance] addWordWithLanguage1:[valueDict valueForKey:languageOneColumnName] language2:[valueDict valueForKey:languageTwoColumnName] langauge2Supplemental:[valueDict valueForKey:languageTwoSupplementalColumnName] examples:[valueDict valueForKey:examplesColumnName]];
             
         }

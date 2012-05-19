@@ -18,5 +18,5 @@
 @property(nonatomic, retain) NSMutableDictionary *tallyDictionary;
 +(FlashcardModel *)getInstance;
 -(void)getPercentCorrectFromArrayOfWords:(NSArray *)arrayOfWords withCell:(UITableViewCell *)target;
--(BOOL)knowsWord: (SQLWord *)theWord;
+-(BOOL)knowsWord: (Word *)theWord;
 @end

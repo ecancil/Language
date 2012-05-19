@@ -43,6 +43,7 @@
     }else{
         //else this is a default section and we'll get the actual word
         word = [WordCache getWordForKey:(NSNumber *)objectAtIndex];
+        //word = objectAtIndex;
     }
     return word;
 }

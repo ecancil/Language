@@ -64,40 +64,39 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
-    self.firstShow = YES;
-
-    AppDelegate *appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
-
-    
-    state = all;
-    
+    [self.tableView setAlpha:0];
     [self.navigationController.navigationBar setBarStyle: UIStatusBarStyleBlackTranslucent];
     [self.searchBar setBarStyle:UIStatusBarStyleBlackTranslucent];
-    [self.tableView setDelegate:self];
-    [self.tableView setDataSource:self];
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        self.firstShow = YES;
+
+        AppDelegate *appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
+
     
-    SecondaryListModel *model = [SecondaryListModel getInstance];
-    [model addObserver:self forKeyPath:@"menuValues" options:NSKeyValueObservingOptionNew context:NULL];
-    [model addObserver:self forKeyPath:@"activeUserSection" options:NSKeyValueObservingOptionNew context:NULL];
-    searchController = [[UISearchDisplayController alloc] initWithSearchBar:searchBar contentsController:self];
+        state = all;
     
-    [searchController setDelegate:self];
-    [searchController setSearchResultsDataSource:self];
-    [searchBar setDelegate:self];
     
-    [self determineData];
+        SecondaryListModel *model = [SecondaryListModel getInstance];
+        [model addObserver:self forKeyPath:@"menuValues" options:NSKeyValueObservingOptionNew context:NULL];
+        //[model addObserver:self forKeyPath:@"activeUserSection" options:NSKeyValueObservingOptionNew context:NULL];
+        searchController = [[UISearchDisplayController alloc] initWithSearchBar:searchBar contentsController:self];
     
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(onPrevious:) name:PREVIOUS_PRESSED object:nil];
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(onNext:) name:NEXT_PRESSED object:nil];
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(wordAdded:) name:WORD_SAVED object:nil];
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(talliesUpdated) name:SHOULD_REFRESH_BASE_LABELS object:nil];
+        [searchController setDelegate:self];
+        [searchController setSearchResultsDataSource:self];
+        [searchBar setDelegate:self];
     
+    
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(onPrevious:) name:PREVIOUS_PRESSED object:nil];
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(onNext:) name:NEXT_PRESSED object:nil];
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(wordAdded:) name:WORD_SAVED object:nil];
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(talliesUpdated) name:SHOULD_REFRESH_BASE_LABELS object:nil];
+    });
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    [self performSelectorOnMainThread:@selector(determineData) withObject:nil waitUntilDone:NO];
 }
 
 -(void)talliesUpdated{
@@ -175,25 +174,49 @@
 }
 
 -(void)determineData{
-    
     visibleItems = [[[SecondaryListModel getInstance] menuValues] mutableCopy];
-    [self.searchController setActive:NO animated:YES];
-    [self.tableView reloadData];
-    Section *activeUserSection = [[SecondaryListModel getInstance] activeUserSection];
-    UIBarButtonItem *closeButton = [[UIBarButtonItem alloc] initWithTitle:@"Close" style:UIBarButtonItemStylePlain target:self action:@selector(onClose:)];
-    UIBarButtonItem *studyButton = [[UIBarButtonItem alloc] initWithImage:FLASHCARD_ASSET style:UIBarButtonItemStylePlain target:self action:@selector(study:)];
-    NSString *si = activeUserSection.specialIdentifier;
-    if(([activeUserSection.specialIdentifier isEqualToString:USER_CREATED] && activeUserSection.wordIDs.count > 0)
-        || ([activeUserSection.specialIdentifier isEqualToString:ALL_USER_CREATED_WORDS])
-        || ([activeUserSection.specialIdentifier isEqualToString:WORD_BANK] && activeUserSection.wordIDs.count > 0)
-        ){
-        UIBarButtonItem *editButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemEdit target:self action:@selector(onEdit:)];
-//        [self.navigationItem setLeftBarButtonItem:editButton animated:YES];
-        [self.navigationItem setLeftBarButtonItems:[NSArray arrayWithObjects:closeButton, editButton, studyButton, nil] animated:YES];
-    }else{
-        [self.navigationItem setLeftBarButtonItems:[NSArray arrayWithObjects: closeButton, studyButton, nil] animated:YES];
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{  
+        [self.searchController setActive:NO animated:YES];
+        Section *activeUserSection = [[SecondaryListModel getInstance] activeUserSection];
+
+        //NSString *si = activeUserSection.specialIdentifier;
+        if(([activeUserSection.specialIdentifier isEqualToString:USER_CREATED] && activeUserSection.wordIDs.count > 0)
+           || ([activeUserSection.specialIdentifier isEqualToString:ALL_USER_CREATED_WORDS])
+           || ([activeUserSection.specialIdentifier isEqualToString:WORD_BANK] && activeUserSection.wordIDs.count > 0)
+           ){
+            [self performSelectorOnMainThread:@selector(setCloseEditStudy) withObject:nil waitUntilDone:NO];
+        }else{
+            [self performSelectorOnMainThread:@selector(setCloseStudy) withObject:nil waitUntilDone:NO];
+        }
+      
+      [self performSelectorOnMainThread:@selector(setupTable) withObject:nil waitUntilDone:NO];  
+  });
+}
+
+-(void)setupTable{
+    if(self.tableView.alpha == 0){
+        [self.tableView setDelegate:self];
+        [self.tableView setDataSource:self];
+        [UIView animateWithDuration:.5 animations:^{
+            [self.tableView setAlpha: 1];
+        }completion:^(BOOL finished) {
+            //
+        }];
     }
-     
+    [self.tableView reloadData];
+}
+
+-(void)setCloseEditStudy{
+    UIBarButtonItem *closeButton = [[UIBarButtonItem alloc] initWithTitle:@"Close" style:UIBarButtonItemStylePlain target:self action:@selector(onClose:)];
+    UIBarButtonItem *editButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemEdit target:self action:@selector(onEdit:)];
+    UIBarButtonItem *studyButton = [[UIBarButtonItem alloc] initWithImage:FLASHCARD_ASSET style:UIBarButtonItemStylePlain target:self action:@selector(study:)]; 
+    [self.navigationItem setLeftBarButtonItems:[NSArray arrayWithObjects:closeButton, editButton, studyButton, nil] animated:YES];
+}
+
+-(void)setCloseStudy{
+    UIBarButtonItem *closeButton = [[UIBarButtonItem alloc] initWithTitle:@"Close" style:UIBarButtonItemStylePlain target:self action:@selector(onClose:)];
+    UIBarButtonItem *studyButton = [[UIBarButtonItem alloc] initWithImage:FLASHCARD_ASSET style:UIBarButtonItemStylePlain target:self action:@selector(study:)]; 
+    [self.navigationItem setLeftBarButtonItems:[NSArray arrayWithObjects: closeButton, studyButton, nil] animated:YES];
 }
 
 -(void)onClose:(id)sender{
@@ -246,7 +269,7 @@
     
     [[NSNotificationCenter defaultCenter] removeObserver:self];
     [[SecondaryListModel getInstance] removeObserver:self forKeyPath:@"menuValues"];
-    [[SecondaryListModel getInstance] removeObserver:self forKeyPath:@"activeUserSection"];
+   // [[SecondaryListModel getInstance] removeObserver:self forKeyPath:@"activeUserSection"];
 }
 
 - (void)viewDidUnload

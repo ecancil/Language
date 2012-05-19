@@ -44,7 +44,7 @@ static FlashcardModel *sharedInstance = nil;
     return sharedInstance;
 }
 
--(BOOL)knowsWord: (SQLWord *)theWord{
+-(BOOL)knowsWord: (Word *)theWord{
     NSString *key = [NSString stringWithFormat:@"%@", theWord.uniqueID];
     return [tallyDictionary objectForKey:key] != nil;
 }

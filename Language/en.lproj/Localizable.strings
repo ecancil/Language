@@ -15,6 +15,7 @@
 "language2ColumName" = "kanji";
 "language2SupplementalColumnName" = "kana";
 "examplesColumnName" = "examples";
+"imagesColumnName" = "images";
 
 //
 "wordBankTitle" = "Word Bank";

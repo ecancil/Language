@@ -19,6 +19,8 @@
 @property(nonatomic, assign) BOOL intialWordBankSection;
 @property(nonatomic, assign) BOOL initialUserCreatedWordSection;
 @property(nonatomic, assign) BOOL initialAllUserCreatedSections;
+@property(nonatomic, assign) BOOL canStartup;
+@property(nonatomic, assign) BOOL didStartup;
 @property(nonatomic, retain) ManagedObjectsDao *moDao;
 
 -(void)sendUpdateForMenuUpdateType:(MenuUpdateType)menuUpdateType;
@@ -45,6 +47,8 @@
 @synthesize intialWordBankSection;
 @synthesize initialUserCreatedWordSection;
 @synthesize initialAllUserCreatedSections;
+@synthesize canStartup;
+@synthesize didStartup;
 
 //done
 @synthesize completelyInitialized;
@@ -64,11 +68,28 @@ static DaoInteractor *sharedInstance = nil;
     if(sharedInstance == nil){
         sharedInstance = [[super alloc] init];
         sharedInstance.allUserCreatedSections = [[NSMutableArray alloc] init];
+        
+        [[NSNotificationCenter defaultCenter] addObserver:sharedInstance selector:@selector(receiveStartupNotification:) name:@"startup_complete" object:nil];
+        
+        [ManagedObjectsDao getInstance];
     }
     return sharedInstance;
 }
 
+- (void) receiveStartupNotification:(NSNotification *) notification
+{
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
+    self.canStartup = YES;
+    if(self.didStartup){
+        [self doInitialMenuRetrieval];
+    }
+}
+
 -(void)doInitialMenuRetrieval{  
+    self.didStartup = YES;
+    if(!canStartup){
+        return;
+    }
     WordsDAOImpl *wordsDao = [[WordsDAOImpl alloc] initWithDatabasePath:@"words.sqlite"];
     moDao = [ManagedObjectsDao getInstance];
     NSArray *allNonUserDefaultWords = [wordsDao retrieveAllContentsFromTable:@"words"];

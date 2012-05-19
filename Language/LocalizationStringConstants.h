@@ -12,6 +12,7 @@
 #define LANGUAGE_TWO_COLUMN_NAME @"language2ColumName"
 #define LANGUAGE_TWO_SUPPLEMENTAL_COLUMN_NAME @"language2SupplementalColumnName"
 #define EXAMPLES_COLUMN_NAME @"examplesColumnName"
+#define IMAGES_COLUMN_NAME @"imagesColumnName"
 #define WORD_BANK_TITLE @"wordBankTitle"
 #define USER_CREATED_WORDS_SECTION_TITLE @"userCreatedWordsSectionTitle"
 #define ALPHABETIZED_LABEL @"alphabetizedLabel"

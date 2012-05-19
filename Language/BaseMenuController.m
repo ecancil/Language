@@ -28,6 +28,7 @@
 #import "CreateWord.h"
 #import "CreateWordDataSource.h"
 #import "AddWordModel.h"
+#import "MBProgressHUD.h"
 
 
 @interface BaseMenuController ()
@@ -38,6 +39,8 @@
 -(void)lazilyLoadSecondaryMenu;
 @property(nonatomic, retain) NSIndexPath *previouslySelected;
 @property(nonatomic, retain) DaoInteractor *menuValuesModel;
+@property(nonatomic, retain) MBProgressHUD *hud;
+- (void)showHud:(BOOL)show;
 @end
 
 @implementation BaseMenuController
@@ -52,6 +55,7 @@
 @synthesize flashcardModel;
 @synthesize previouslySelected;
 @synthesize menuValuesModel;
+@synthesize hud;
 
 
 
@@ -64,6 +68,22 @@
     [super didReceiveMemoryWarning];
     
     // Release any cached data, images, etc that aren't in use.
+}
+
+- (void)showHud:(BOOL)show{
+	if(show){
+        hud = [[MBProgressHUD alloc] initWithView:self.navigationController.view];
+        hud.minShowTime = 0.4;
+        [self.navigationController.view addSubview:hud];
+        hud.labelText = @"Starting up";
+        hud.dimBackground = YES;
+        [hud show:YES];
+    }else{
+
+        [hud hide:YES afterDelay:.5];
+       // hud = nil;
+        
+    }
 }
 
 -(void)defaultWordsUpdated{
@@ -108,8 +128,16 @@
 }
 
 -(void)setupLater{
+    [self showHud:NO];
     [self.tableView reloadData];
-    [self setupBarOnFinishEdit];  
+    [self setupBarOnFinishEdit]; 
+    [self performSelector:@selector(showTableLater) withObject:nil afterDelay:.5];
+}
+
+-(void)showTableLater{
+    [UIView animateWithDuration:.5 animations:^{
+        [self.tableView setAlpha:1];
+    }];  
 }
 
 #pragma mark - View lifecycle
@@ -118,6 +146,9 @@
 {
     
     [super viewDidLoad];
+    
+    [self showHud:YES];
+    [self.tableView setAlpha:0];
     
     
     
@@ -237,7 +268,7 @@
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
     // Return the number of sections.
-    return 3;
+    return self.menuValuesModel.completelyInitialized ? 3 : 0;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
@@ -245,10 +276,10 @@
    
     // Return the number of rows in the section.
     if(section == 0){
-        return 1;
+        return self.menuValuesModel.completelyInitialized ? 1 : 0;
     }else if(section == 1){
     //This is for non user created sections + default words + user created words - comprises default study items
-        return self.menuValuesModel.completelyInitialized ? self.menuValuesModel.allDefaultSections.count + 2 : 2;
+        return self.menuValuesModel.completelyInitialized ? self.menuValuesModel.allDefaultSections.count + 2 : 0 ;
     }else if(section == 2){
         //this is for user add sections
         if(self.menuValuesModel.allUserCreatedSections.count > 0){
@@ -382,12 +413,16 @@
         
         
     }
-    [self lazilyLoadSecondaryMenu];
+    if(model.menuValues.count > 0){
+        [self lazilyLoadSecondaryMenu];
+    }else{
+        [self.tableView deselectRowAtIndexPath:[self.tableView indexPathForSelectedRow] animated:YES];
+    }
     
  }
 
 -(void)lazilyLoadSecondaryMenu{
-    if(secondaryMenu != Nil){
+    if(secondaryMenu != nil){
         [secondaryMenu setFirstSelected];
     }else{
         secondaryMenu = [[SecondaryMenuController alloc] initWithNibName:@"SecondaryMenuController" bundle:nil];

@@ -28,9 +28,19 @@
     self.window.backgroundColor = [UIColor blackColor];
     [self.window makeKeyAndVisible];
     
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(receiveStartupNotification:) name:@"startup_complete" object:nil];
+    [FlashcardModel getInstance];
     
-    [ManagedObjectsDao getInstance];
+    BaseMenuController *baseMenuController = [[BaseMenuController alloc] init];
+    
+    UINavigationController *baseNavigator = [[UINavigationController alloc] initWithRootViewController:baseMenuController];
+    
+    self.stackedController = [[PSStackedViewController alloc] initWithRootViewController:baseNavigator];
+    
+    self.stackedController.defaultShadowAlpha = .6;
+    
+    self.window.rootViewController = self.stackedController;
+    
+
     
     // Override point for customization after application launch.
     // Handle launching from a notification
@@ -63,22 +73,7 @@
     [self.stackedController presentModalViewController:flashCard animated:YES];
 }
 
-- (void) receiveStartupNotification:(NSNotification *) notification
-{
-    
-    [FlashcardModel getInstance];
-    
-    BaseMenuController *baseMenuController = [[BaseMenuController alloc] init];
-    
-    UINavigationController *baseNavigator = [[UINavigationController alloc] initWithRootViewController:baseMenuController];
-    
-    self.stackedController = [[PSStackedViewController alloc] initWithRootViewController:baseNavigator];
-    
-    self.stackedController.defaultShadowAlpha = .6;
-    
-    self.window.rootViewController = self.stackedController;
-    
-}
+
 							
 - (void)applicationWillResignActive:(UIApplication *)application
 {

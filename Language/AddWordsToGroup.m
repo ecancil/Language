@@ -88,7 +88,7 @@
 }
 
 -(void)setWOrdsArrays{
-    allWords = visibleWords = [self.daoInteractor.allUserCreatedSections arrayByAddingObjectsFromArray:self.daoInteractor.allDefaultWords].mutableCopy;
+    allWords = visibleWords = [self.daoInteractor.allUserCreatedWords arrayByAddingObjectsFromArray:self.daoInteractor.allDefaultWords].mutableCopy;
 
 }
 
@@ -183,7 +183,7 @@
     visibleWords = [[NSMutableArray alloc] init];
     int i;
     for (i = 0; i < [allWords count]; i ++) {
-        SQLWord *word = [allWords objectAtIndex:i];
+        SQLWord *word = [self getWordFromCollection:allWords ByRow:i]; //[allWords objectAtIndex:i];
         if(word){
             if([word.language1 rangeOfString:searchString].location != NSNotFound
                || [word.language2 rangeOfString:searchString].location != NSNotFound
@@ -216,7 +216,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     int row = [indexPath row];
-    SQLWord *word = [visibleWords objectAtIndex:row];
+    SQLWord *word =  [self getWordFromCollection:visibleWords ByRow:row]; //[visibleWords objectAtIndex:row];
     [addedWordsTableDelegate addWord:word];
     [self removeAddedWords];
 }
@@ -225,9 +225,9 @@
     int i;
     int j;
     for (i = [visibleWords count] - 1; i > -1; i --) {
-        SQLWord *wordOne = [visibleWords objectAtIndex:i];
+        SQLWord *wordOne = [self getWordFromCollection:visibleWords ByRow:i]; //[visibleWords objectAtIndex:i];
         for (j = 0; j < [[addedWordsTableDelegate addedWords] count]; j ++) {
-            SQLWord *wordTwo = [addedWordsTableDelegate.addedWords objectAtIndex:j];
+            SQLWord *wordTwo = [self getWordFromCollection:addedWordsTableDelegate.addedWords ByRow:j];  //[addedWordsTableDelegate.addedWords objectAtIndex:j];
             if(wordOne == wordTwo){
                 NSLog(@"%d", j);
                 [visibleWords removeObject:wordOne];
