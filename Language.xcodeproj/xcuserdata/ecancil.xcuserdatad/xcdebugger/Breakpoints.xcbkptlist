@@ -4,16 +4,16 @@
    version = "1.0">
    <FileBreakpoints>
       <FileBreakpoint
-         shouldBeEnabled = "No"
+         shouldBeEnabled = "Yes"
          ignoreCount = "0"
          continueAfterRunningActions = "No"
-         filePath = "Language/SecondaryMenuController.m"
-         timestampString = "359095948.389601"
+         filePath = "Language/FlickrResults.m"
+         timestampString = "359149574.793055"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "122"
-         endingLineNumber = "122"
-         landmarkName = "-setFirstSelected"
+         startingLineNumber = "42"
+         endingLineNumber = "42"
+         landmarkName = "-imagesDidLoad:"
          landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>

@@ -16,10 +16,12 @@
 #import "CreateWordDataSource.h"
 #import "SpecialIdentifiers.h"
 #import "AppDelegate.h"
+#import "FlickrResults.h"
 
 
 @interface CreateWord ()
 -(void)resetInset;
+-(void)makeFlickrImagePicker;
 -(void)makePhotoImagePicker;
 -(void)makePhotoTakerImagePicker;
 -(void)setupInputs;
@@ -133,7 +135,8 @@
 
 
 -(void)setupInputs{
-    
+    FlickrResults *flickrResults = [[FlickrResults alloc] init];
+    [self.navigationController pushViewController:flickrResults animated:YES];
 }
 
 
@@ -198,7 +201,7 @@
 - (IBAction)onChooseOrTakePhoto:(id)sender {
     UIActionSheet *actionSheet;
     if([UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera] == YES){
-        actionSheet = [[UIActionSheet alloc] initWithTitle:@"Photo" delegate:self cancelButtonTitle:@"Cancel" destructiveButtonTitle:nil otherButtonTitles:@"Choose photo", @"Take photo", nil];
+        actionSheet = [[UIActionSheet alloc] initWithTitle:@"Photo" delegate:self cancelButtonTitle:@"Cancel" destructiveButtonTitle:nil otherButtonTitles:@"Search Flickr", @"Choose photo", @"Take photo", nil];
     }else{
        actionSheet = [[UIActionSheet alloc] initWithTitle:@"Photo" delegate:self cancelButtonTitle:@"Cancel" destructiveButtonTitle:nil otherButtonTitles:@"Choose photo", nil]; 
     }
@@ -211,12 +214,19 @@
 - (void)actionSheet:(UIActionSheet *)actionSheet didDismissWithButtonIndex:(NSInteger)buttonIndex{
     switch (buttonIndex) {
         case 0:
+            [self makeFlickrImagePicker]
+            break
+        case 1:
             [self makePhotoImagePicker];
             break;
-        case 1:
+        case 2:
            if([UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera] == YES)[self makePhotoTakerImagePicker];
             break;
     }
+}
+
+-(void)makeFlickrImagePicker{
+    
 }
 
 -(void)makePhotoImagePicker{
