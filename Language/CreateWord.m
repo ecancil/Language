@@ -135,8 +135,7 @@
 
 
 -(void)setupInputs{
-    FlickrResults *flickrResults = [[FlickrResults alloc] init];
-    [self.navigationController pushViewController:flickrResults animated:YES];
+    
 }
 
 
@@ -203,7 +202,7 @@
     if([UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera] == YES){
         actionSheet = [[UIActionSheet alloc] initWithTitle:@"Photo" delegate:self cancelButtonTitle:@"Cancel" destructiveButtonTitle:nil otherButtonTitles:@"Search Flickr", @"Choose photo", @"Take photo", nil];
     }else{
-       actionSheet = [[UIActionSheet alloc] initWithTitle:@"Photo" delegate:self cancelButtonTitle:@"Cancel" destructiveButtonTitle:nil otherButtonTitles:@"Choose photo", nil]; 
+       actionSheet = [[UIActionSheet alloc] initWithTitle:@"Photo" delegate:self cancelButtonTitle:@"Cancel" destructiveButtonTitle:nil otherButtonTitles:@"Search Flickr", @"Choose photo", nil]; 
     }
     actionSheet.actionSheetStyle = UIActionSheetStyleBlackTranslucent;
     
@@ -214,8 +213,8 @@
 - (void)actionSheet:(UIActionSheet *)actionSheet didDismissWithButtonIndex:(NSInteger)buttonIndex{
     switch (buttonIndex) {
         case 0:
-            [self makeFlickrImagePicker]
-            break
+            [self makeFlickrImagePicker];
+            break;
         case 1:
             [self makePhotoImagePicker];
             break;
@@ -226,7 +225,8 @@
 }
 
 -(void)makeFlickrImagePicker{
-    
+    FlickrResults *flickrResults = [[FlickrResults alloc] init];
+    [self.navigationController pushViewController:flickrResults animated:YES];
 }
 
 -(void)makePhotoImagePicker{

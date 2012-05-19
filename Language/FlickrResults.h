@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import "FlickrImageSearchResponder.h"
-#import "Three20.h"
-@interface FlickrResults : TTThumbsViewController <TTThumbsViewControllerDelegate, FlickrImageSearchResponder>
 
+@interface FlickrResults : UIViewController <FlickrImageSearchResponder>
+
+@property (strong, nonatomic) IBOutlet UIScrollView *scrollView;
 @end

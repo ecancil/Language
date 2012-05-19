@@ -7,18 +7,17 @@
 //
 
 #import "FlickrResults.h"
-#import "Three20/Three20.h"
 #import "FlickrImageSearchDao.h"
-#import "FlickrPhotoSource.h"
+#import "FlickrPhoto.h"
 
 @interface FlickrResults ()
+-(UIImageView *)getConfiguredImageViewFromPhoto:(FlickrPhoto *)photo;
 @property(nonatomic, retain) FlickrImageSearchDao *flickrDao;
-@property(nonatomic, retain) FlickrPhotoSource *flickrPhotoSource;
 @end
 
 @implementation FlickrResults
+@synthesize scrollView;
 @synthesize flickrDao;
-@synthesize flickrPhotoSource;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -39,7 +38,33 @@
 }
      
 -(void)imagesDidLoad:(NSArray *)images{
-    flickrPhotoSource = [[FlickrPhotoSource alloc] initWithTitle:@"" photos:images];
+    int i = 0;
+    int count = images.count;
+    int const gap = 5;
+    int const thumbWidth = 75;
+    int const thumbHeight = 75;
+    int row = -1;
+    int rowY = 0;
+    for (i; i < count; i ++) {
+        FlickrPhoto *flickrPhoto = (FlickrPhoto *)[images objectAtIndex:i];
+        UIImageView *imageView = [self getConfiguredImageViewFromPhoto:flickrPhoto];
+        int rowIndexer = i % 3;
+        if(rowIndexer == 0){
+            row ++;
+            rowY = (row * gap) + (row * thumbHeight);
+        }
+        imageView.bounds = CGRectMake(gap, rowY, thumbWidth, thumbHeight);
+        [self.view addSubview:imageView];
+        NSLog(@"");
+    }
+}
+
+-(UIImageView *)getConfiguredImageViewFromPhoto:(FlickrPhoto *)photo{
+    NSURL *url = [NSURL URLWithString:photo.thumbnail];
+    NSData *data = [NSData dataWithContentsOfURL:url];
+    UIImage *image = [UIImage imageWithData:data];
+    UIImageView *imageView = [[UIImageView alloc] initWithImage:image];
+    return imageView;
 }
 
 - (void)viewDidUnload
@@ -54,17 +79,6 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
-- (void)thumbsViewController: (TTThumbsViewController*)controller
-              didSelectPhoto: (id<TTPhoto>)photo{
-    
-}
 
-
-
-- (BOOL)thumbsViewController: (TTThumbsViewController*)controller
-       shouldNavigateToPhoto: (id<TTPhoto>)photo{
-    return NO;
-    
-}
 
 @end
