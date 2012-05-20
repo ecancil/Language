@@ -22,6 +22,12 @@
 @synthesize photos;
 @synthesize dataDictionary;
 
+-(void)dealloc{
+    dataDictionary = nil;
+    photos = nil;
+    responder = nil;
+}
+
 -(id)initWithResponder:(id<FlickrImageSearchResponder>)theResponder{
     if([self init]){
         dataDictionary = [[NSMutableDictionary alloc] init];
