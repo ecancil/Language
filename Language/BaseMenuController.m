@@ -152,8 +152,8 @@
     
     [super viewDidLoad];
     
-    FlickrImageSearchDao *flickr = [[FlickrImageSearchDao alloc] init];
-    [flickr searchForImagesByString:@"sandwich, サンドイッチ"];
+    //FlickrImageSearchDao *flickr = [[FlickrImageSearchDao alloc] init];
+    //[flickr searchForImagesByString:@"sandwich, サンドイッチ"];
     
     [self showHud:YES];
     [self.tableView setAlpha:0];

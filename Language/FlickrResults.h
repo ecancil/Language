@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 #import "FlickrImageSearchResponder.h"
+#import "AddWordModel.h"
+#import "BaseViewController.h"
 
-@interface FlickrResults : UIViewController <FlickrImageSearchResponder>
+@interface FlickrResults : BaseViewController <FlickrImageSearchResponder, NSURLConnectionDataDelegate, UIGestureRecognizerDelegate>
 
 @property (strong, nonatomic) IBOutlet UIScrollView *scrollView;
+-(id)initWithModel:(AddWordModel *)theModel;
 @end

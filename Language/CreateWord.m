@@ -225,7 +225,7 @@
 }
 
 -(void)makeFlickrImagePicker{
-    FlickrResults *flickrResults = [[FlickrResults alloc] init];
+    FlickrResults *flickrResults = [[FlickrResults alloc] initWithModel:[AddWordModel getInstance]];
     [self.navigationController pushViewController:flickrResults animated:YES];
 }
 

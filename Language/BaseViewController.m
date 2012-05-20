@@ -12,6 +12,22 @@
 @end
 @implementation BaseViewController
 @synthesize daoInteractor;
+@synthesize hud;
+
+- (void)showHud:(BOOL)show{
+    if(show){
+        hud = [[MBProgressHUD alloc] initWithView:self.view];
+        // hud.minShowTime = 0.0;
+        [self.view addSubview:hud];
+        hud.labelText = @"Loading";
+        hud.dimBackground = NO;
+        [hud show:YES];
+    }else{
+        [hud hide:YES];
+        // hud = nil;
+        
+    }
+}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -62,6 +78,7 @@
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
+    hud = nil;
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation

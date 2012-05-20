@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3010ABB915630F890028E728 /* CreateGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 3010ABB815630F890028E728 /* CreateGroup.m */; };
-		3010ABBB156357650028E728 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3010ABBA156357650028E728 /* Default.png */; };
 		30159B2215673ED500D87AC8 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 30159B1D15673BB100D87AC8 /* MBProgressHUD.m */; };
 		302A4CFE1551F3640004AE7A /* _changelog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 302A4B6A1551F3630004AE7A /* _changelog.txt */; };
 		302A4CFF1551F3640004AE7A /* _readme_first.txt in Resources */ = {isa = PBXBuildFile; fileRef = 302A4B6B1551F3630004AE7A /* _readme_first.txt */; };
@@ -756,6 +755,8 @@
 		30EFB81A1568125900173D6E /* FlickrResults.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EFB8181568125900173D6E /* FlickrResults.m */; };
 		30EFB81B1568125900173D6E /* FlickrResults.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30EFB8191568125900173D6E /* FlickrResults.xib */; };
 		30EFB8A9156814B800173D6E /* Three20.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 30EFB8A8156814B800173D6E /* Three20.bundle */; };
+		30EFBC9F15685BFF00173D6E /* FlickrPhotoViewerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EFBC9D15685BFE00173D6E /* FlickrPhotoViewerViewController.m */; };
+		30EFBCA015685BFF00173D6E /* FlickrPhotoViewerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30EFBC9E15685BFE00173D6E /* FlickrPhotoViewerViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1663,6 +1664,9 @@
 		30EFB8181568125900173D6E /* FlickrResults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrResults.m; sourceTree = "<group>"; };
 		30EFB8191568125900173D6E /* FlickrResults.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FlickrResults.xib; sourceTree = "<group>"; };
 		30EFB8A8156814B800173D6E /* Three20.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Three20.bundle; path = "facebook-three20-089a89c/src/Three20.bundle"; sourceTree = "<group>"; };
+		30EFBC9C15685BFE00173D6E /* FlickrPhotoViewerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrPhotoViewerViewController.h; sourceTree = "<group>"; };
+		30EFBC9D15685BFE00173D6E /* FlickrPhotoViewerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrPhotoViewerViewController.m; sourceTree = "<group>"; };
+		30EFBC9E15685BFE00173D6E /* FlickrPhotoViewerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FlickrPhotoViewerViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2923,6 +2927,9 @@
 				30EFB8171568125900173D6E /* FlickrResults.h */,
 				30EFB8181568125900173D6E /* FlickrResults.m */,
 				30EFB8191568125900173D6E /* FlickrResults.xib */,
+				30EFBC9C15685BFE00173D6E /* FlickrPhotoViewerViewController.h */,
+				30EFBC9D15685BFE00173D6E /* FlickrPhotoViewerViewController.m */,
+				30EFBC9E15685BFE00173D6E /* FlickrPhotoViewerViewController.xib */,
 			);
 			name = flickr;
 			sourceTree = "<group>";
@@ -3682,10 +3689,10 @@
 				30CDE642155F81CE00509B87 /* dinpattern-stripe.gif in Resources */,
 				30507F75156033D300266D06 /* camera_white.png in Resources */,
 				30507F77156034F000266D06 /* glyphicons_151_edit_white.png in Resources */,
-				3010ABBB156357650028E728 /* Default.png in Resources */,
 				309130A515637A5500DFD597 /* ImagePreview.xib in Resources */,
 				30EFB81B1568125900173D6E /* FlickrResults.xib in Resources */,
 				30EFB8A9156814B800173D6E /* Three20.bundle in Resources */,
+				30EFBCA015685BFF00173D6E /* FlickrPhotoViewerViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3781,6 +3788,7 @@
 				30EFB7C515677D7100173D6E /* FlickrImageSearchDao.m in Sources */,
 				30EFB814156800BA00173D6E /* FlickrPhoto.m in Sources */,
 				30EFB81A1568125900173D6E /* FlickrResults.m in Sources */,
+				30EFBC9F15685BFF00173D6E /* FlickrPhotoViewerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

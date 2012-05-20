@@ -15,13 +15,16 @@
 -(FlickrPhoto *)returnFlickrPhotoFromFarmID:(NSString *)farmID andServerID:(NSString *)serverID andID:(NSString *)ID andSecret:(NSString *)secret;
 @property(nonatomic, retain)id<FlickrImageSearchResponder> responder;
 @property(nonatomic, retain) NSMutableArray *photos;
+@property(nonatomic, retain) NSMutableDictionary *dataDictionary;
 @end
 @implementation FlickrImageSearchDao
 @synthesize responder;
 @synthesize photos;
+@synthesize dataDictionary;
 
 -(id)initWithResponder:(id<FlickrImageSearchResponder>)theResponder{
     if([self init]){
+        dataDictionary = [[NSMutableDictionary alloc] init];
         self. photos = [[NSMutableArray alloc] init];
         self.responder  = theResponder;
     }
@@ -29,12 +32,16 @@
 }
 
 -(void)searchForImagesByString:(NSString *)searchString{
-    NSString *url = [NSString stringWithFormat:@"http://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=%@&tags=%@&text=%@&format=rest",KEY, searchString, @""];
+    NSString *url = [NSString stringWithFormat:@"http://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=%@&tags=%@&text=%@&format=rest",KEY, searchString, searchString];
+    
+    url = [url stringByReplacingOccurrencesOfString:@" " withString:@""];
     
     url = [url stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
     
     NSMutableURLRequest *request = [[NSMutableURLRequest alloc] initWithURL:[NSURL URLWithString:url]];
     [request setHTTPMethod:@"POST"];
+    
+    [dataDictionary setObject:[[NSMutableData alloc] init] forKey:request];
     
     [[NSURLConnection alloc] initWithRequest:request delegate:self];
 }
@@ -44,11 +51,17 @@
 }
 
 - (void)connection:(NSURLConnection *)connection didReceiveData:(NSData *)data{
-    NSString *stringData = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding]; 
-    NSXMLParser *parser = [[NSXMLParser alloc] initWithData:data];
+    NSMutableData *imageData = [dataDictionary objectForKey:connection.originalRequest];
+    [imageData appendData:data];
+
+}
+
+-(void)connectionDidFinishLoading:(NSURLConnection *)connection{
+    NSMutableData *imageData = [dataDictionary objectForKey:connection.originalRequest];
+    NSString *stringData = [[NSString alloc] initWithData:imageData encoding:NSUTF8StringEncoding]; 
+    NSXMLParser *parser = [[NSXMLParser alloc] initWithData:imageData];
     [parser setDelegate:self];
     [parser parse];
-
 }
                          
 - (void)parserDidEndDocument:(NSXMLParser *)parser{

@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 #import "DaoInteractor.h"
+#import "MBProgressHUD.h"
 
 @interface BaseViewController : UIViewController
 @property (nonatomic, retain) DaoInteractor *daoInteractor;
+@property (nonatomic, retain) MBProgressHUD *hud;
 -(Word *)getWordFromCollection:(NSArray *)collection ByRow:(int)row;
+- (void)showHud:(BOOL)show;
 @end
