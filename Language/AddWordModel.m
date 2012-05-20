@@ -16,6 +16,8 @@
 @synthesize language2Supplemental = _language2Supplemental;
 @synthesize examples = _examples;
 @synthesize word;
+@synthesize image;
+@synthesize popAgain;
 
 -(void)setLanguage1:(NSString *)language1{
     _language1 = language1;
@@ -47,8 +49,10 @@ static AddWordModel *sharedInstance = nil;
     return sharedInstance;
 }
 -(AddWordModel *)clear{
+    self.image = nil;
+    return;
     self.word = nil;
-    self.language1 = self.language2 = self.language2Supplemental = self.examples = nil;
+    self.language1 = self.language2 = self.language2Supplemental = self.examples = self.image = nil;
     return self;
 }
 
@@ -67,5 +71,6 @@ static AddWordModel *sharedInstance = nil;
     self.word.language2supplemental = self.language2Supplemental;
     self.word.examples = self.examples;
     if(theImage)self.word.image = theImage;
+    if(self.image)self.word.image = image;
 }
 @end

@@ -169,6 +169,14 @@
     // e.g. self.myOutlet = nil;
 }
 
+-(void)viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
+    if([AddWordModel getInstance].popAgain){
+        [AddWordModel getInstance].popAgain = NO;
+        [self.navigationController popViewControllerAnimated:YES];
+    }
+}
+
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     return (interfaceOrientation == UIInterfaceOrientationPortrait);

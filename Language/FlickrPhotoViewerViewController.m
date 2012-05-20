@@ -8,6 +8,7 @@
 
 #import "FlickrPhotoViewerViewController.h"
 #import "FlickrPhoto.h"
+#import "AddWordModel.h"
 
 @interface FlickrPhotoViewerViewController ()
 @property(nonatomic, retain)FlickrPhoto *photo;
@@ -43,6 +44,13 @@
     [self configureImageViewFromPhoto:self.photo];
     [self showHud:YES];
     // Do any additional setup after loading the view from its nib.
+    
+}
+
+-(void)onUse{
+    [AddWordModel getInstance].image = [UIImage imageWithData:self.imageData];
+    [AddWordModel getInstance].popAgain = YES;
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 -(void)configureImageViewFromPhoto:(FlickrPhoto *)photo{
@@ -76,6 +84,9 @@
     [UIView animateWithDuration:.5 animations:^{
         [self.imageView setAlpha:1];
     }];
+    UIBarButtonItem *useButton = [[UIBarButtonItem alloc] initWithTitle:@"Use" style:UIBarButtonItemStyleDone target:self action:@selector(onUse)];
+    
+    [self.navigationItem setRightBarButtonItem:useButton];
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation

@@ -18,6 +18,9 @@
 @property(nonatomic, retain) NSString *language2Supplemental;
 @property(nonatomic, retain) NSString *examples;
 @property (nonatomic, retain) SQLWord *word;
+@property (nonatomic, retain) id image;
+//kinda an ugly hack
+@property (nonatomic, assign) BOOL popAgain;
 
 
 +(AddWordModel *)getInstance;

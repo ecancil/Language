@@ -88,10 +88,6 @@
     
     moDao = [ManagedObjectsDao getInstance];
     
-    AddWordModel *model = [AddWordModel getInstance];
-    if (model.word && model.word.image) {
-        self.theImageView.image = model.word.image;
-    }
     
     if(self.isEditor)return;
     
@@ -168,6 +164,18 @@
     AddWordModel *model = [AddWordModel getInstance];
     if(isEditor && model.word && !isClone){    
         [model updateWordWithValuesAndImage:imageToAttach];
+    }
+    [model clear];
+}
+
+-(void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    AddWordModel *model = [AddWordModel getInstance];
+    if (model.image) {
+        self.theImageView.image = model.image;
+    }else
+    if (model.word && model.word.image) {
+        self.theImageView.image = model.word.image;
     }
 }
 
