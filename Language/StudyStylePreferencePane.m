@@ -12,6 +12,7 @@
 #import "UserPreferenceConstants.h"
 #import "FlashcardEnumerations.h"
 #import "UserDefaultUtil.h"
+#import "LocalizationStringConstants.h"
 @interface StudyStylePreferencePane ()
 @property(nonatomic, retain) StudyStyleModel *model;
 @end
@@ -42,6 +43,8 @@
 {
     [super viewDidLoad];
     
+    self.title = NSLocalizedString(STUDY_STYLE_PREFERENCE_PANE_TITLE, nil);
+    
     self.model = [StudyStyleModel getInstance];
     
     [model addObserver:self forKeyPath:@"alphabetized" options:NSKeyValueObservingOptionNew context:nil];
@@ -58,7 +61,7 @@
     if ([keyPath isEqualToString:@"answerTypeTyped"] && model.answerTypeTyped == YES) {
         int backEnumeration = [UserDefaultUtil getUserValueAsIntegerForKey:CARD_BACK_ENUMERATION];
         if(backEnumeration == OnlyLanguageOne || backEnumeration == OnlyLanguageTwo || backEnumeration == OnlyLanguageTwoSupplemental)return;
-        UIAlertView *typeChangedAlert = [[UIAlertView alloc] initWithTitle:@"Attention" message:@"You must change back view of your card to use this answer type" delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:@"OK ->", nil];
+        UIAlertView *typeChangedAlert = [[UIAlertView alloc] initWithTitle:NSLocalizedString(ATTENTION_LABEL, nil) message:NSLocalizedString(TYPED_ANSWER_ALERT, nil) delegate:self cancelButtonTitle:NSLocalizedString(CANCEL_LABEL, nil) otherButtonTitles:NSLocalizedString(TYPED_ANSWER_ALERT_OK, nil), nil];
         [typeChangedAlert show];
     }
     

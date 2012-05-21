@@ -80,7 +80,7 @@
         hud = [[MBProgressHUD alloc] initWithView:self.navigationController.view];
         hud.minShowTime = 0.4;
         [self.navigationController.view addSubview:hud];
-        hud.labelText = @"Starting up";
+        hud.labelText = NSLocalizedString(HUD_STARTUP_LABEL, nil);
         hud.dimBackground = YES;
         [hud show:YES];
     }else{
@@ -123,6 +123,7 @@
 
 -(void)userAddedSectionsUpdated{
     if(self.menuValuesModel.completelyInitialized){
+        [self setupBarOnFinishEdit];
         //[self.tableView reloadData];
         [self.tableView reloadSections:[NSIndexSet indexSetWithIndex:2] withRowAnimation:UITableViewRowAnimationNone];
     }
@@ -198,11 +199,17 @@
 -(void)cloneWord:(NSNotification *)notification{
     [self popStackedViews];
     Word *theWord = (Word *)[notification.userInfo objectForKey:@"word"];
+   
+    [self performSelector:@selector(cloneWordLater:) withObject:theWord afterDelay:.5];
+    
+}
+
+-(void)cloneWordLater:(Word *)theWord{
     [[AddWordModel getInstance] updateValuesWithWord:theWord];
+    [AddWordModel getInstance].isClone = YES;
     CreateWord  *createWord = [[CreateWord alloc] initEditorWithFormDataSource:[[CreateWordDataSource alloc] initWithModel:[AddWordModel getInstance]] andIsEditor:NO];
     createWord.isClone = YES;
     [self.navigationController pushViewController:createWord animated:YES];
-    
 }
 
 -(void)talliesUpdated{
@@ -307,11 +314,11 @@
 
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section{
     if(section == 0){
-        return @"Word Bank";
+        return NSLocalizedString(WORD_BANK_SECTION_LABEL, nil);
     }else if(section == 1){
-        return @"Default study items";
+        return NSLocalizedString(DEFAULT_ITEMS_SECTION_LABEL, nil);
     }else if(section == 2){
-       return @"User Sections";         
+        return NSLocalizedString(USER_SECTIONS_SECTION_LABEL, nil);
     }
     return nil;
 }
@@ -364,7 +371,8 @@
     if(section == 2){
         cell.imageView.image = USER_ADDED_ASSET;
         if(self.menuValuesModel.allUserCreatedSections.count == 1 && [[self.menuValuesModel.allUserCreatedSections objectAtIndex:0] isKindOfClass:[NSString class]]){
-            cell.textLabel.text = @"No sections - add one";
+            cell.textLabel.text = NSLocalizedString(NO_SECTIONS_LABEL, nil);
+            [self setupBarOnFinishEdit];
             [cell hideProgress];
             return cell;
         }else{
@@ -463,6 +471,9 @@
     [self.menuValuesModel eraseUserCreatedSection:section];
     [[self tableView] deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationFade];
     [self.tableView performSelector:@selector(reloadData) withObject:nil afterDelay:1];
+    NSIndexPath *path = [NSIndexPath indexPathForRow:0 inSection:2];
+    [tableView scrollToRowAtIndexPath:path atScrollPosition:UITableViewScrollPositionNone animated:YES];
+    
 }
 
 - (IBAction)add:(id)sender {

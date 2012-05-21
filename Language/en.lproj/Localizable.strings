@@ -36,3 +36,87 @@
 "language1andLanguage2Supplemental" = "Romanji and Kana";
 "imageOnlyLabel" = "Only Image";
 
+
+
+//base menu section labels
+"wordBankSectionLabel" = "Word Bank";
+"defaultItemsSectionLabel" = "Default Study Items";
+"userSectionsSectionLabel" = "User Added Sections";
+
+"noSectionsLabel" = "No sections - add one";
+
+"hudStartupLabel" = "Starting up";
+
+"chooseCreateAddSection" = "Add Section";
+"chooseCreateAddWord" = "Add Word";
+"chooseCreateEditWord" = "Edit Word";
+"chooseCreateCloneWord" = "Clone Word";
+"chooseCreateImportFromGoogle" = "Import From Google";
+
+//add section data source
+"addSectionTitle" = "Section";
+"addSectionInputTitle" = "Title";
+
+//add word data source
+"addWordTitle" = "Add a word";
+"addLanguageOneInputTitle" = "English";
+"addLanguageTwoInputTitle" = "Kanji";
+"addLanguageTwoSupplementalInputTitle" = "Kana";
+"addExamplesButtonTitle" = "Add Examples";
+
+
+//Preference Pane
+"flashcardSectionTitle" = "Flashcards";
+"flashcardDisplayPreferencePaneTitle" = "Flashcard Display";
+"studyStylePreferencePaneTitle" = "Study Style";
+"googleDocsLoginInfoPreferencePaneTitle" = "Google Docs Login Info";
+"studyRemindersPreferencePaneTitle" = "Study Reminders";
+"resetAnswerStatisticsPreferencePaneTitle" = "Reset Answer Statistics";
+
+
+"okLabel" = "OK";
+"doneLabel" = "Done";
+"editLabel" = "Edit";
+"cancelLabel" = "Cancel";
+"attentionLabel" = "Attention";
+"saveLabel" = "Save";
+
+
+"destroyStatisticsMessage" = "Hitting OK will destroy all progress up to date";
+
+//study reminders
+"createStudyReminderButtonLabel" = "Create Reminder";
+"createStudyReminderMessageTitle" = "Message";
+"createStudyReminderRecurDailyTitle" = "Recur Daily";
+"createStudyReminderSectionTitle" = "Section";
+
+//gmail
+"gmailSectionHeader" = "GMAIL";
+"removeLoginInfoButtonTitle" = "Remove Login";
+"gmailLoginInfoLabel" = "Gmail :";
+"gmailLoginInfoPasswordLabel" = "Password :";
+"gmailLoginInfoVerifyAndSaveLabel" = "Verify and Save";
+
+
+//flashcard display preferences
+
+"tapToLayoutLabel" = "Tap cards to layout";
+
+//Study style preference pane
+
+"cardOrderSectionTitleLabel" = "Card Order";
+"alphabetizedLabel" = "Alphabetized";
+"randomizedLabel" = "Randomized";
+"noSortLabel" = "No Sort";
+"answerTypeSectionTitleLabel" = "Answer Type";
+"normalLabel" = "Normal";
+"typedLabel" = "Typed";
+
+"addWordsToSectionButtonLabel" = "Add Words";
+"addSectionButtonLabel" = "Add Section";
+
+"cannotCloneWordMessage" = "Default words cannot be edited, instead you can clone them and they'll be added to user created words.";
+"cloneButton" = "Clone ->";
+
+"typedAnswerAlert" = "You must change back view of your card to use this answer type";
+"typedAnswerAlertOK" = "OK ->";

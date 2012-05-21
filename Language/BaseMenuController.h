@@ -15,8 +15,9 @@
 #import "Section.h"
 #import "FlashcardModel.h"
 #import "PopNavigationDelegate.h"
+#import "BaseViewController.h"
 
-@interface BaseMenuController : UIViewController <UITableViewDelegate, UITableViewDataSource, PopNavigationDelegate>{
+@interface BaseMenuController : BaseViewController <UITableViewDelegate, UITableViewDataSource, PopNavigationDelegate>{
     NSMutableArray *menuValues;
     WordsDAOImpl *wordsDao;
     ManagedObjectsDao *managedObjectDao;

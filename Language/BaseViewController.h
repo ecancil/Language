@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "DaoInteractor.h"
 #import "MBProgressHUD.h"
+#import "LocalizationStringConstants.h"
 
 @interface BaseViewController : UIViewController
 @property (nonatomic, retain) DaoInteractor *daoInteractor;

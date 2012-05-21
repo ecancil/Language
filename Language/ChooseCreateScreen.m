@@ -58,7 +58,7 @@
     [self.tableView setDataSource:self];
     [self.tableView setDelegate:self];
     
-    self.menuItems = [NSArray arrayWithObjects:@"Add Section", @"Add Word", @"Import from Google", nil];
+    self.menuItems = [NSArray arrayWithObjects:NSLocalizedString(CHOOSE_CREATE_ADD_SECTION, nil) , NSLocalizedString(CHOOSE_CREATE_ADD_WORD, nil), NSLocalizedString(CHOOSE_CREATE_IMPORT_FROM_GOOGLE, nil), nil];
     [self.tableView reloadData];
     // Do any additional setup after loading the view from its nib.
     

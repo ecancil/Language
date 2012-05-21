@@ -8,6 +8,7 @@
 
 #import "CreateGroupDataSource.h"
 #import "AddSectionModel.h"
+#import "LocalizationStringConstants.h"
 @interface CreateGroupDataSource ()
 @property(nonatomic, retain) IBAFormSection *formSection;
 @property(nonatomic, retain) IBATextFormField *sectionName;
@@ -30,9 +31,9 @@
 
 
 -(void)displayForm{   
-    formSection = [self addSectionWithHeaderTitle:@"Section" footerTitle:nil];
+    formSection = [self addSectionWithHeaderTitle:NSLocalizedString(ADD_SECTION_TITLE, nil) footerTitle:nil];
     
-    sectionName = [[IBATextFormField alloc] initWithKeyPath:@"sectionName" title:@"Title"];
+    sectionName = [[IBATextFormField alloc] initWithKeyPath:@"sectionName" title:NSLocalizedString(ADD_SECTION_INPUT_TITLE, nil)];
     
     
     [formSection addFormField:sectionName];

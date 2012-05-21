@@ -18,6 +18,7 @@
 #import "StudyStyleDataSource.h"
 #import "StudyStylePreferencePane.h"
 #import "ManagedObjectsDao.h"
+#import "LocalizationStringConstants.h"
 @implementation PreferencesPane
 @synthesize tableView;
 
@@ -93,23 +94,23 @@
     
     int row = indexPath.row;
     if(row == 0){
-       cell.textLabel.text = @"Flashcard Display"; 
+       cell.textLabel.text = NSLocalizedString(FLASHCARD_DISPLAY_PREFERENCE_PANE_TITLE, nil);
         cell.imageView.image = EDIT_CARD_ASSET;
     }else
         if(row == 1){
-            cell.textLabel.text = @"Study Style";
+            cell.textLabel.text = NSLocalizedString(STUDY_STYLE_PREFERENCE_PANE_TITLE, nil);
             cell.imageView.image = EDIT_CARD_ASSET;
         }else 
             if(row == 2){
-                cell.textLabel.text = @"Google Docs Login Info";
+                cell.textLabel.text = NSLocalizedString(GOOGLE_DOCS_LOGIN_INFO_PREFERENCE_PANE_TITLE, nil);
                 cell.imageView.image = GOOGLE_ASSET;
             }else
                 if(row == 3){
-                    cell.textLabel.text = @"Study Reminders";
+                    cell.textLabel.text = NSLocalizedString(STUDY_REMINDERS_PREFERENCE_PANE_TITLE, nil);
                     cell.imageView.image = NOTIFICATION_ASSET;
                 }else
                     if (row == 4) {
-                        cell.textLabel.text = @"Reset Answer Statistics";
+                        cell.textLabel.text = NSLocalizedString(RESET_ANSWER_STATISTICS_PREFERENCE_PANE_TITLE, nil);
                         cell.imageView.image = RESET_STATISTICS;
                     }
     
@@ -127,7 +128,7 @@
 }
 
 -(NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section{
-    return @"Flashcards";
+    return NSLocalizedString(FLASCHARD_SECTION_TITLE, nil);
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
@@ -149,7 +150,7 @@
                     [self.navigationController pushViewController:reminders animated:YES];
                 }else
                     if(row == 4){
-                        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Attention" message:@"Hitting OK will destroy all progress up to date" delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:@"OK", nil];
+                        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Attention" message:NSLocalizedString(DESTROY_STATISTICS_MESSAGE, nil) delegate:self cancelButtonTitle:NSLocalizedString(CANCEL_LABEL, nil) otherButtonTitles:NSLocalizedString(OK_LABEL, nil), nil];
                         [alert show];
                     }
 }

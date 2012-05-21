@@ -32,6 +32,7 @@
 -(void)setupDisplayLabels;
 @end
 @implementation FlashCardDisplayPane
+@synthesize instructionsLabel;
 @synthesize front;
 @synthesize back;
 @synthesize currentlyEditingCard;
@@ -72,6 +73,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    self.title = NSLocalizedString(FLASHCARD_DISPLAY_PREFERENCE_PANE_TITLE, nil);
+    
+    self.instructionsLabel.text = NSLocalizedString(TAP_TO_LAYOUT_LABEL, nil);
     
     if([[StudyStyleModel getInstance] answerTypeTyped] == YES){
         isTypedAnswer = YES;
@@ -164,6 +169,7 @@
 {
     [self setFront:nil];
     [self setBack:nil];
+    [self setInstructionsLabel:nil];
     [super viewDidUnload];
     
     // Release any retained subviews of the main view.
@@ -225,7 +231,6 @@
 };
     
     ActionStringCancelBlock cancel = ^(ActionSheetStringPicker *picker){
-        NSLog(@"Cancel");
         if(isTypedAnswer && currentlyEditingCard == back && shouldShowPickerOnViewLoad){
             [self performSelector:@selector(showAlertLater) withObject:nil afterDelay:.5];
             [self onDisplayChange:nil];

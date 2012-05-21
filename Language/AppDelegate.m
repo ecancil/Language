@@ -15,14 +15,17 @@
 #import "FlashCard.h"
 @interface AppDelegate ()
 -(void)goToSpecificSectionWithUserInfo:(NSDictionary *)dictionary;
+-(void)uncaughtExceptionHandler:(NSException *)exception;
 @end
 @implementation AppDelegate
 
 @synthesize window = _window;
 @synthesize stackedController = _stackedController;
 
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
  
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor blackColor];
@@ -113,5 +116,6 @@
      See also applicationDidEnterBackground:.
      */
 }
+
 
 @end

@@ -38,7 +38,8 @@
 
 -(void)displayForm{ 
     //cardOrderLabel
-    sortFormSection = [self addSectionWithHeaderTitle:@"Card Order" footerTitle:nil];
+    
+    sortFormSection = [self addSectionWithHeaderTitle:NSLocalizedString(CARD_ORDER_SECTION_TITLE_LABEL, nil) footerTitle:nil];
     
     
     alphCheck = [[IBABooleanFormField alloc] initWithKeyPath:@"alphabetized" title:NSLocalizedString(ALPHABETIZED_LABEL, nil) type:IBABooleanFormFieldTypeCheck];
@@ -54,12 +55,12 @@
     [self.sortFormSection addFormField:notSortedCheck];
     
     
-    answerTypeFormSection = [self addSectionWithHeaderTitle:@"Answer Type" footerTitle:nil];
+    answerTypeFormSection = [self addSectionWithHeaderTitle:NSLocalizedString(ANSWER_TYPE_SECTION_TITLE_LABEL, nil) footerTitle:nil];
     
     
-    normalCheck = [[IBABooleanFormField alloc] initWithKeyPath:@"answerTypeNormal" title:NSLocalizedString(@"Normal", nil) type:IBABooleanFormFieldTypeCheck];
+    normalCheck = [[IBABooleanFormField alloc] initWithKeyPath:@"answerTypeNormal" title:NSLocalizedString(NORMAL_LABEL, nil) type:IBABooleanFormFieldTypeCheck];
     
-    typeCheck = [[IBABooleanFormField alloc] initWithKeyPath:@"answerTypeTyped" title:NSLocalizedString(@"Typed", nil) type:IBABooleanFormFieldTypeCheck];
+    typeCheck = [[IBABooleanFormField alloc] initWithKeyPath:@"answerTypeTyped" title:NSLocalizedString(TYPED_LABEL, nil) type:IBABooleanFormFieldTypeCheck];
     
     [self.answerTypeFormSection addFormField:normalCheck];
     

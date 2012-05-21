@@ -80,6 +80,19 @@
 {
     [super viewDidLoad];
     
+    AddWordModel *model = [AddWordModel getInstance];
+    
+    if(model.word && model.word.uniqueID > 0){
+        self.title = NSLocalizedString(CHOOSE_CREATE_EDIT_WORD, nil);      
+    }else{
+        self.title = NSLocalizedString(CHOOSE_CREATE_ADD_WORD, nil);
+    }
+    
+    if(model.isClone){
+        self.title = NSLocalizedString(CHOOSE_CREATE_CLONE_WORD, nil);
+        model.isClone = NO;
+    }
+    
     [self getTypedDataSource].viewDelegate = self;
     
     [self.navigationController setNavigationBarHidden:NO animated:YES];
@@ -138,8 +151,14 @@
 -(void)save:(id)sender{
     AddWordModel *model = [AddWordModel getInstance];
     if(isClone){
-        [self.daoInteractor addUserCreatedWordWithLanguage1:[model language1] andLanguage2:[model language2] andlanguage2supplemental:[model language2Supplemental] andExampleSentences:[model examples] andImage:imageToAttach != nil ? imageToAttach : nil createOnly:NO];
         [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(onSaved:) name:WORD_SAVED object:self.moDao];
+        id theImage;
+        if(imageToAttach){
+            theImage = imageToAttach;
+        }else{
+            theImage = model.image;
+        }
+        [self.daoInteractor addUserCreatedWordWithLanguage1:[model language1] andLanguage2:[model language2] andlanguage2supplemental:[model language2Supplemental] andExampleSentences:[model examples] andImage:theImage createOnly:NO];
         return;
     }
     if(model.word && model.word.uniqueID > 0){
@@ -148,9 +167,14 @@
         [self.daoInteractor saveWithSaveType:WORD_SAVED];
         [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(onSaved:) name:WORD_SAVED object:self.moDao];
     }else{
-    
-        [self.daoInteractor addUserCreatedWordWithLanguage1:[model language1] andLanguage2:[model language2] andlanguage2supplemental:[model language2Supplemental] andExampleSentences:[model examples] andImage:imageToAttach != nil ? imageToAttach : nil createOnly:NO];
         [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(onSaved:) name:WORD_SAVED object:self.moDao];
+        id theImage;
+        if(imageToAttach){
+            theImage = imageToAttach;
+        }else{
+            theImage = model.image;
+        }
+        [self.daoInteractor addUserCreatedWordWithLanguage1:[model language1] andLanguage2:[model language2] andlanguage2supplemental:[model language2Supplemental] andExampleSentences:[model examples] andImage:theImage createOnly:NO];
     }
 }
 
@@ -207,14 +231,22 @@
 
 - (IBAction)onChooseOrTakePhoto:(id)sender {
     UIActionSheet *actionSheet;
-    if([UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera] == YES){
-        actionSheet = [[UIActionSheet alloc] initWithTitle:@"Photo" delegate:self cancelButtonTitle:@"Cancel" destructiveButtonTitle:nil otherButtonTitles:@"Search Flickr", @"Choose photo", @"Take photo", nil];
-    }else{
-       actionSheet = [[UIActionSheet alloc] initWithTitle:@"Photo" delegate:self cancelButtonTitle:@"Cancel" destructiveButtonTitle:nil otherButtonTitles:@"Search Flickr", @"Choose photo", nil]; 
+    @try {
+        if([UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera] == YES){
+            actionSheet = [[UIActionSheet alloc] initWithTitle:@"Photo" delegate:self cancelButtonTitle:@"Cancel" destructiveButtonTitle:nil otherButtonTitles:@"Search Flickr", @"Choose photo", @"Take photo", nil];
+        }else{
+            actionSheet = [[UIActionSheet alloc] initWithTitle:@"Photo" delegate:self cancelButtonTitle:@"Cancel" destructiveButtonTitle:nil otherButtonTitles:@"Search Flickr", @"Choose photo", nil]; 
+        }
+        actionSheet.actionSheetStyle = UIActionSheetStyleBlackTranslucent;
+        
+        [actionSheet showInView:self.view];
     }
-    actionSheet.actionSheetStyle = UIActionSheetStyleBlackTranslucent;
-    
-    [actionSheet showInView:self.view];
+    @catch (NSException *exception) {
+        NSLog(@"Exception: %@", exception);
+    }
+    @finally {
+        //nothing
+    }
 
 }
 

@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "SQLWord.h"
 #import "Section.h"
+#import "Word.h"
 
 @interface AddWordModel : NSObject
 
@@ -21,10 +22,11 @@
 @property (nonatomic, retain) id image;
 //kinda an ugly hack
 @property (nonatomic, assign) BOOL popAgain;
+@property (nonatomic, assign) BOOL isClone;
 
 
 +(AddWordModel *)getInstance;
 -(AddWordModel *)clear;
--(void)updateValuesWithWord:(SQLWord *)theWord;
+-(void)updateValuesWithWord:(Word *)theWord;
 -(void)updateWordWithValuesAndImage:(UIImage *)theImage;
 @end

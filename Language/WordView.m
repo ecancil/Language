@@ -23,6 +23,7 @@
 #import "SecondaryListModel.h"
 #import "AppDelegate.h"
 #import "ImagePreview.h"
+#import "LocalizationStringConstants.h"
 
 @interface WordView () 
 -(NSArray *)getActionSheetRows;
@@ -157,13 +158,23 @@
         [self.navigationController pushViewController:createWord animated:YES];
         [createWord forceAddSaveButton];
     }else{
-        UIAlertView *cloneAlert = [[UIAlertView alloc] initWithTitle:@"Attention" message:@"Default words cannot be edited, instead you can clone them and they'll be added to user created words" delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:@"Clone ->", nil];
+        UIAlertView *cloneAlert = [[UIAlertView alloc] initWithTitle:@"Attention" message:NSLocalizedString(CANNOT_CLONE_WORD_MESSAGE, NIL) delegate:self cancelButtonTitle:NSLocalizedString(CANCEL_LABEL, nil) otherButtonTitles:NSLocalizedString(CLONE_BUTTON, NIL), nil];
         [cloneAlert show];
     }
 }
 
 - (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex{
-    [[NSNotificationCenter defaultCenter] postNotificationName:CLONE_WORD object:nil userInfo:[NSDictionary dictionaryWithObject:self.theWord forKey:@"word"]];
+    switch (buttonIndex) {
+        case 0:
+            //do nothing
+            break;
+        case 1:
+            [[NSNotificationCenter defaultCenter] postNotificationName:CLONE_WORD object:nil userInfo:[NSDictionary dictionaryWithObject:self.theWord forKey:@"word"]];
+            break;
+            
+        default:
+            break;
+    }
 }
 
 -(void)viewExamples{

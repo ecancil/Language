@@ -3884,10 +3884,12 @@
 		307C15B115446B240032CAC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COPY_PHASE_STRIP = NO;
 				DEPLOYMENT_POSTPROCESSING = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Language/Language-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GENERATE_PROFILING_CODE = YES;
 				HEADER_SEARCH_PATHS = (
 					/usr/include/libxml2,
 					"/Users/ecancil/Desktop/Language/Language/library/headers/IBAForms/**",
@@ -3913,6 +3915,8 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SEPARATE_STRIP = YES;
+				STRIP_INSTALLED_PRODUCT = YES;
 				USER_HEADER_SEARCH_PATHS = "/Users/ecancil/Desktop/Language/Language/library/headers/IBAForms/**";
 				WRAPPER_EXTENSION = app;
 			};
@@ -3921,10 +3925,12 @@
 		307C15B215446B240032CAC9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COPY_PHASE_STRIP = NO;
 				DEPLOYMENT_POSTPROCESSING = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Language/Language-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GENERATE_PROFILING_CODE = YES;
 				HEADER_SEARCH_PATHS = (
 					/usr/include/libxml2,
 					"/Users/ecancil/Desktop/Language/Language/library/headers/IBAForms/**",
@@ -3945,6 +3951,8 @@
 					"\"$(SRCROOT)/../Downloads/facebook-three20-089a89c/Build/Products/Release-iphoneos\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SEPARATE_STRIP = YES;
+				STRIP_INSTALLED_PRODUCT = YES;
 				USER_HEADER_SEARCH_PATHS = "/Users/ecancil/Desktop/Language/Language/library/headers/IBAForms/**";
 				WRAPPER_EXTENSION = app;
 			};

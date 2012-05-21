@@ -12,6 +12,7 @@
 #import "StudyReminderDataSource.h"
 #import "CreateStudyReminder.h"
 #import "AssetConstants.h"
+#import "LocalizationStringConstants.h"
 @interface StudyRemindersPreferencePane ()
 @property (nonatomic, retain) StudyReminderModel *model;
 -(void)determineEdit;
@@ -34,8 +35,8 @@
 }
 
 -(void)determineEdit{
-    UIBarButtonItem *createButton = [[UIBarButtonItem alloc] initWithTitle:@"Create Reminder" style:UIBarButtonItemStylePlain target:self action:@selector(onCreate)];
-    UIBarButtonItem *editItem = [[UIBarButtonItem alloc] initWithTitle:@"Edit" style:UIBarButtonItemStylePlain target:self action:@selector(onEdit)];
+    UIBarButtonItem *createButton = [[UIBarButtonItem alloc] initWithTitle:NSLocalizedString(CREATE_STUDY_REMINDER_BUTTON_LABEL, nil) style:UIBarButtonItemStylePlain target:self action:@selector(onCreate)];
+    UIBarButtonItem *editItem = [[UIBarButtonItem alloc] initWithTitle:NSLocalizedString(EDIT_LABEL, nil) style:UIBarButtonItemStylePlain target:self action:@selector(onEdit)];
     if(model.allNotifications.count > 0){
         [self.navigationItem setRightBarButtonItems:[[NSArray alloc] init]];
         [self.navigationItem setRightBarButtonItems:[NSArray arrayWithObjects:createButton, editItem, nil] animated:YES];
@@ -46,8 +47,8 @@
 }
 
 -(void)onEdit{
-    UIBarButtonItem *createButton = [[UIBarButtonItem alloc] initWithTitle:@"Create Reminder" style:UIBarButtonItemStylePlain target:self action:@selector(onCreate)];
-    UIBarButtonItem *doneItem = [[UIBarButtonItem alloc] initWithTitle:@"Done" style:UIBarButtonItemStylePlain target:self action:@selector(onDone)];
+    UIBarButtonItem *createButton = [[UIBarButtonItem alloc] initWithTitle:NSLocalizedString(CREATE_STUDY_REMINDER_BUTTON_LABEL, nil) style:UIBarButtonItemStylePlain target:self action:@selector(onCreate)];
+    UIBarButtonItem *doneItem = [[UIBarButtonItem alloc] initWithTitle:NSLocalizedString(DONE_LABEL, nil) style:UIBarButtonItemStylePlain target:self action:@selector(onDone)];
         [self.navigationItem setRightBarButtonItems:[NSArray arrayWithObjects:createButton, doneItem, nil] animated:YES];
 
     [self.tableView setEditing:YES animated:YES];

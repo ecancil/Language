@@ -15,6 +15,7 @@
 #import "NotificationConstants.h"
 #import "KeychainUtil.h"
 #import "IBAInputManager.h"
+#import "LocalizationStringConstants.h"
 
 @interface GoogleDocsDisplayPaneDataSource ()
 -(void)displayForm;
@@ -58,13 +59,13 @@
         model.password = password;
     }
     
-    formSection = [self addSectionWithHeaderTitle:@"GMAIL" footerTitle:nil];
+    formSection = [self addSectionWithHeaderTitle:NSLocalizedString(GMAIL_SECTION_HEADER, nil) footerTitle:nil];
     
-    emailTextFormField = [IBATextFormField emailTextFormFieldWithSection:formSection keyPath:@"email" title:@"Gmail :" valueTransformer:nil];
+    emailTextFormField = [IBATextFormField emailTextFormFieldWithSection:formSection keyPath:@"email" title:NSLocalizedString(GMAIL_LOGIN_INFO_LABEL, nil) valueTransformer:nil];
     
     [emailTextFormField setDelegate:self];
     
-    passwordTextFormField = [IBATextFormField passwordTextFormFieldWithSection:formSection keyPath:@"password" title:@"Password :" valueTransformer:nil];
+    passwordTextFormField = [IBATextFormField passwordTextFormFieldWithSection:formSection keyPath:@"password" title:NSLocalizedString(GMAIL_LOGIN_INFO_PASSWORD_LABEL, nil) valueTransformer:nil];
     
     [passwordTextFormField setDelegate:self];
     
@@ -75,7 +76,7 @@
 
 -(void)addVerifyField{
     GoogleLoginModel *model = (GoogleLoginModel *)self.model;
-    self.verifyField = [[IBAButtonFormField alloc] initWithTitle:@"Verify and Save" icon:nil executionBlock:^{
+    self.verifyField = [[IBAButtonFormField alloc] initWithTitle:NSLocalizedString(GMAIL_LOGIN_INFO_VERIFY_AND_SAVE_LABEL, nil) icon:nil executionBlock:^{
         [[IBAInputManager sharedIBAInputManager] setActiveInputRequestor:nil];
         [[NSNotificationCenter defaultCenter] postNotificationName:STARTED_VERIFYING_GMAIL object:self];
         [gDao loginWithName:model.email password:model.password];

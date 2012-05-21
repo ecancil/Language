@@ -18,6 +18,7 @@
 @synthesize word;
 @synthesize image;
 @synthesize popAgain;
+@synthesize isClone;
 
 -(void)setLanguage1:(NSString *)language1{
     _language1 = language1;
@@ -50,13 +51,13 @@ static AddWordModel *sharedInstance = nil;
 }
 -(AddWordModel *)clear{
     self.image = nil;
-    return;
+    return self;
     self.word = nil;
     self.language1 = self.language2 = self.language2Supplemental = self.examples = self.image = nil;
     return self;
 }
 
--(void)updateValuesWithWord:(SQLWord *)theWord{
+-(void)updateValuesWithWord:(Word *)theWord{
     self.word = nil;
     self.language1 = theWord.language1;
     self.language2 = theWord.language2;

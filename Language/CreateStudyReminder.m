@@ -9,6 +9,7 @@
 #import "CreateStudyReminder.h"
 #import "StudyReminderModel.h"
 #import "IBAInputManager.h"
+#import "LocalizationStringConstants.h"
 @interface CreateStudyReminder ()
 @property(nonatomic, retain) StudyReminderModel *model;
 @end
@@ -51,7 +52,7 @@
      
     // Do any additional setup after loading the view from its nib.
     
-    UIBarButtonItem *saveItem = [[UIBarButtonItem alloc] initWithTitle:@"Save" style:UIBarButtonItemStyleDone target:self action:@selector(onSave:)];
+    UIBarButtonItem *saveItem = [[UIBarButtonItem alloc] initWithTitle:NSLocalizedString(SAVE_LABEL, nil) style:UIBarButtonItemStyleDone target:self action:@selector(onSave:)];
     
     [self.navigationItem setRightBarButtonItem:saveItem];
 }

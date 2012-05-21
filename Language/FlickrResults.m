@@ -52,13 +52,13 @@
 
 - (void)viewDidLoad
 {
-    [super viewDidLoad];
-    tokenDictionary = [[NSMutableDictionary alloc] init];
-    imageDataDictionary = [[NSMutableDictionary alloc] init];
-    flickrDao = [[FlickrImageSearchDao alloc] initWithResponder:self];
+    //[super viewDidLoad];
+    self.tokenDictionary = [[NSMutableDictionary alloc] init];
+    self.imageDataDictionary = [[NSMutableDictionary alloc] init];
+    self.flickrDao = [[FlickrImageSearchDao alloc] initWithResponder:self];
     //NSString *searchString = [NSString stringWithFormat:@"%@,%@,%@", model.word ? model.word.language1 : model.word.language1, model.word ? model.word.language2 : model.language2, model.word ? model.word.language2supplemental : model.language2Supplemental];
     NSString *searchString = [NSString stringWithFormat:@"%@", model.word ? model.word.language1 : model.language1];
-    [flickrDao searchForImagesByString:searchString];
+    [self.flickrDao searchForImagesByString:searchString];
     [super showHud:YES];
     // Do any additional setup after loading the view from its nib.
 }
@@ -67,7 +67,7 @@
     [self showHud:NO];
     self.allImages = images;
     int i = 0;
-    int count = images.count;
+    int count = self.allImages.count;
     int const gap = 10;
     int const thumbWidth = 75;
     int const thumbHeight = 75;
@@ -157,9 +157,6 @@
 }
 
 -(void)dealloc{
-    imageDataDictionary = nil;
-    tokenDictionary = nil;
-    allImages = nil;
 }
 
 - (void)viewDidUnload
@@ -167,6 +164,10 @@
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
+    flickrDao = nil;
+    imageDataDictionary = nil;
+    tokenDictionary = nil;
+    allImages = nil;
 }
 
 -(void)viewDidAppear:(BOOL)animated{

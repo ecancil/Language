@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 
-@interface ChooseCreateScreen : UIViewController <UITableViewDelegate, UITableViewDataSource>
+@interface ChooseCreateScreen : BaseViewController <UITableViewDelegate, UITableViewDataSource>
 
 
 @property (strong, nonatomic) IBOutlet UITableView *tableView;

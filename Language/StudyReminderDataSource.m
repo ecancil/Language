@@ -12,6 +12,7 @@
 #import "IBABooleanFormField.h"
 #import "ManagedObjectsDao.h"
 #import "StudyReminderModel.h"
+#import "LocalizationStringConstants.h"
 
 #import <IBAForms/IBAForms.h>
 @interface StudyReminderDataSource ()
@@ -49,11 +50,11 @@
     
     formSection = [self addSectionWithHeaderTitle:@"" footerTitle:nil];
     
-    reminderTitle = [[IBATextFormField alloc] initWithKeyPath:@"reminderTitle" title:@"Message"];
+    reminderTitle = [[IBATextFormField alloc] initWithKeyPath:@"reminderTitle" title:NSLocalizedString(CREATE_STUDY_REMINDER_MESSAGE_TITLE, nil)];
     
     
     
-    recurDaily = [[IBABooleanFormField alloc] initWithKeyPath:@"recurDaily" title:@"Recur Daily" type:IBABooleanFormFieldTypeSwitch];
+    recurDaily = [[IBABooleanFormField alloc] initWithKeyPath:@"recurDaily" title:NSLocalizedString(CREATE_STUDY_REMINDER_RECUR_DAILY_TITLE, nil) type:IBABooleanFormFieldTypeSwitch];
     
     
     [self.formSection addFormField:reminderTitle];
@@ -63,7 +64,7 @@
     
     if([[self getActionSheetRows] count] > 0){
 
-        sectionPickList = [[IBAPickListFormField alloc] initWithKeyPath:@"sectionTitle" title:@"Section" valueTransformer:nil selectionMode:IBAPickListSelectionModeSingle options:[IBAPickListFormOption pickListOptionsForStrings:[self getActionSheetRows]]];
+        sectionPickList = [[IBAPickListFormField alloc] initWithKeyPath:@"sectionTitle" title:NSLocalizedString(CREATE_STUDY_REMINDER_SECTION_TITLE, nil) valueTransformer:nil selectionMode:IBAPickListSelectionModeSingle options:[IBAPickListFormOption pickListOptionsForStrings:[self getActionSheetRows]]];
         [self.sectionPickList setDelegate:self]; 
         [self.formSection addFormField:sectionPickList];
     }

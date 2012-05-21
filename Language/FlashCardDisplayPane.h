@@ -16,5 +16,6 @@
 @property (strong, nonatomic) NSString *currentlyEditingPreference;
 - (void)onDisplayChange:(id)sender;
 -(void)showBackPickerWithTruncatedList;
+@property (strong, nonatomic) IBOutlet UILabel *instructionsLabel;
 
 @end

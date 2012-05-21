@@ -12,6 +12,7 @@
 #import "AddSectionModel.h"
 #import "IBAInputManager.h"
 #import "CreateGroupDataSource.h"
+#import "LocalizationStringConstants.h"
 @interface CreateGroup ()
 @property (nonatomic, retain) AddSectionModel *model;
 @property (nonatomic, assign) BOOL isShowingButtons;
@@ -46,6 +47,8 @@
 {
     [super viewDidLoad];
     
+    self.title = NSLocalizedString(ADD_SECTION_TITLE, nil);
+    
     model = [AddSectionModel getInstance];
     
     [model clear];
@@ -66,13 +69,15 @@
 -(void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context{
     CreateGroupDataSource *typedDataSource = (CreateGroupDataSource *) self.formDataSource;
     if(typedDataSource.shouldShowSaveButton){
-        UIBarButtonItem *addWordsButton = [[UIBarButtonItem alloc] initWithTitle:@"Add words" style:UIBarButtonItemStyleBordered target:self action:@selector(addWords:)];
-        UIBarButtonItem *createGroupButton = [[UIBarButtonItem alloc] initWithTitle:@"Create Group" style:UIBarButtonItemStyleDone target:self action:@selector(create:)];
+        self.title = @"";
+        UIBarButtonItem *addWordsButton = [[UIBarButtonItem alloc] initWithTitle:NSLocalizedString(ADD_WORDS_TO_SECTION_BUTTON_LABEL, nil) style:UIBarButtonItemStyleBordered target:self action:@selector(addWords:)];
+        UIBarButtonItem *createGroupButton = [[UIBarButtonItem alloc] initWithTitle:NSLocalizedString(ADD_SECTION_BUTTON_LABEL, nil) style:UIBarButtonItemStyleDone target:self action:@selector(create:)];
         
         if(!self.isShowingButtons)[self.navigationItem setRightBarButtonItems:[NSArray arrayWithObjects:addWordsButton, createGroupButton, nil] animated:YES];
         self.isShowingButtons = YES;
     }else{
       [self.navigationItem setRightBarButtonItems:[[NSArray alloc] init] animated:YES];
+        self.title = NSLocalizedString(ADD_SECTION_TITLE, nil);
         self.isShowingButtons = NO;
     }
 }
